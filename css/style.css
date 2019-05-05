@@ -713,3 +713,7 @@ nav ul li a:hover {
 .footer_section footer {
     color: #999;
 }
+
+.first_name {
+    color: #34B484 !important;
+}

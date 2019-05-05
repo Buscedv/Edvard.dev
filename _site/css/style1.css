@@ -21,8 +21,12 @@
   letter-spacing: 4.8px;
 }
 
-#first_name {
+.name h3 {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 60px;
     color: #34B484;
+    line-height: 1.5;
+    letter-spacing: 4.8px;
 }
 
 .description {
