@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400|Roboto:300');
+
+$animation_time: 8s;
+$words: 5;
+
+body {
+  -webkit-font-smoothing: antialiased;
+  font-size: 35px;
+  background-color: #FAFCFF;
+}
+
+.header {
+  margin-top: 150px;
+  height: 350px;
+}
+
+.name {
+  border: 1px solid #626972;
+  border-top: transparent;
+  border-left: transparent;
+  border-bottom: transparent;
+  height: 100%;
+  padding-right: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  
+  p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    color: #040122;
+    line-height: 1.5;
+    letter-spacing: 4.8px;
+  }
+}
+
+.description {
+  color: #3E506C;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+  padding-left: 100px;
+}
+
+.oneLiner {
+  font-family: 'Open Sans', sans-serif;
+  display: inline;
+  font-size: 35px;
+  font-weight: 300;
+  align-self: center;
+}
+
+.words {
+  align-self: center;
+  text-indent: 10px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+
+  span {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    position: absolute;
+    opacity: 0;
+    animation: slideWords $animation_time linear infinite;
+
+    &:nth-child(2) {
+      animation-delay: $animation_time/$words;
+    }
+
+    &:nth-child(3) {
+      animation-delay: 2*$animation_time/$words;
+    }
+
+    &:nth-child(4) {
+      animation-delay: 3*$animation_time/$words;
+    }
+
+    &:nth-child(5) {
+      animation-delay: 4*$animation_time/$words;
+    }
+  }
+}
+
+@keyframes slideWords {
+  0%, 20% {
+    opacity: 0;
+  }
+
+  10%, 15% {
+    opacity: 1;
+  }
+}

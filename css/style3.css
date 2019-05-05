@@ -1,0 +1,76 @@
+#portfolio_s {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    height: auto;
+}
+
+#portfolio {
+    height: auto;
+}
+
+#portfolio_s #portfolio-sort {
+    text-align: center;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #999;
+    margin-bottom: 1em;
+}
+
+#portfolio_s #portfolio-sort a {
+    color: #fff;
+    display: inline-block;
+    padding: 3px 9px;
+    text-decoration: none;
+    margin-right: 1em;
+    border-radius: 5px;
+    font-size: 30px;
+    width: auto;
+    border: 1px solid #34B484;
+}
+
+#portfolio_s #portfolio-sort a:hover {
+    border: none;
+    border-bottom: 1px solid #34B484;
+    background-color: #34B484;
+    color: #1f1f1f;
+}
+
+#portfolio-content {
+    overflow: hidden;
+    height: auto;
+}
+
+div.portfolio-item {
+    float: left;
+    margin: 0 3% 1em 0;
+    width: 29%;
+    line-height: auto;
+    text-align: center;
+    padding-bottom: 5px;
+    min-height: 30vh;
+    height: auto;
+}
+
+div[data-cat="python"] {
+    background-color: rgba(3,3,3,0.4);
+    color: #fff;
+}
+
+div[data-cat="shell-script"] {
+    background-color: rgba(3,3,3,0.4);
+    color: #fff;
+}
+
+div[data-cat="app"] {
+    background-color: rgba(3,3,3,0.4);
+    color: #fff;
+}
+
+div[data-cat="web"] {
+    background-color: rgba(3,3,3,0.4);
+    color: #fff;
+}
+
+#portfolio_s a:hover {
+    cursor: pointer;
+}

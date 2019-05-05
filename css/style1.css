@@ -1,0 +1,138 @@
+.header {
+  height: 150px;
+}
+
+.name {
+  border: 1px solid #626972;
+  border-top: transparent;
+  border-left: transparent;
+  border-bottom: transparent;
+  height: 100%;
+  padding-right: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.name p {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 60px;
+  color: #1f1f1f;
+  line-height: 1.5;
+  letter-spacing: 4.8px;
+}
+
+#first_name {
+    color: #34B484;
+}
+
+.description {
+  color: #1f1f1f;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+  padding-left: 100px;
+}
+
+.oneLiner {
+  font-family: 'Helvetica Neue', sans-serif;
+  display: inline;
+  font-size: 35px;
+  font-weight: 300;
+  align-self: center;
+}
+
+.words {
+  align-self: center;
+  text-indent: 10px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.words span {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: 400;
+  position: absolute;
+  opacity: 0;
+  animation: slideWords 8s linear infinite;
+}
+.words span:nth-child(2) {
+  animation-delay: 1.6s;
+}
+.words span:nth-child(3) {
+  animation-delay: 3.2s;
+}
+.words span:nth-child(4) {
+  animation-delay: 4.8s;
+}
+.words span:nth-child(5) {
+  animation-delay: 6.4s;
+}
+
+@keyframes slideWords {
+  0%, 20% {
+    opacity: 0;
+  }
+  10%, 15% {
+    opacity: 1;
+  }
+}
+*:focus{
+    text-decoration: none;
+}
+
+@media screen and (max-width:48em) {
+    .description{
+        display: none;
+    }
+    .name{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        border: none;
+        padding: 0px;
+        display: inline;
+    }
+    .oneLiner{
+        display: none;
+    }
+
+    .about_section {
+        height: auto;
+    }
+
+    .tools_section {
+        height: auto;
+    }
+
+    .tools_side {
+        display: flex;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .descriptions_side {
+        display: flex;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .tools_side ul li {
+        height: auto;
+    }
+
+    .descriptions_side ul li {
+        height: auto;
+    }
+
+    .content {
+        margin-top: 0px;
+    }
+
+    nav {
+        height: 60px;
+    }
+}

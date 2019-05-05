@@ -1,0 +1,56 @@
+<nav class="thenav">
+    <div class="nav_stuff">
+        <div id="mobile_nav_logo">
+            <a href="#top"><img src="logo.png" alt="Logo"></a>
+        </div>
+        <ul>
+            <li><a href="{{ site.url }}#about">About</a></li>
+            <li><a href="{{ site.url }}#portfolio">Portfolio</a></li>
+            <li><a href="{{ site.url }}#contact">Contact</a></li>
+        </ul>
+    </div>
+    <div class="button">
+        <a class="button_a btn-open" style="color: #34B484;"></a>
+    </div>
+</nav>
+
+<div class="overlay">
+    <div class="wrap">
+        <div class="button">
+            <a class="button_b btn-close-h" style="color: #34B484;"></a>
+        </div>
+        <ul class="wrap-nav">
+            <a href="#"><img class="header_logo" src="logo.png" alt="Logo" style="height: auto; max-width: 100px;"></a>
+            <li><a href="{{ site.url }}#about">About</a>
+            <ul>
+                <li><a href="{{ site.url }}#about">About Me</a></li>
+                <li><a href="{{ site.url }}#skills">Skills</a></li>
+                <!--<li><a href="#experience">Experience</a></li>-->
+                <li><a href="{{ site.url }}#tools">Tools</a></li>
+            </ul>
+            </li>
+            <li><a href="{{ site.url }}#portfolio">Portfolio</a>
+            <ul>
+                <div id="portfolio-sort">
+                    <li><a href="{{ site.url }}#portfolio" data-cat="python">Python</a></li>
+                    <li><a href="{{ site.url }}#portfolio" data-cat="app">Apps</a></li>
+                    <li><a href="{{ site.url }}#portfolio" data-cat="shell-script">Shell Script</a></li>
+                </div>
+            </ul>
+            </li>
+            <li><a href="{{ site.url }}#contact">Contact</a>
+            <ul>
+                <li><a href="{{ site.github_link }}" target="blank">GitHub</a></li>
+                <li><a href="{{ site.devrant_link }}" target="blank">DevRant</a></li>
+                <li><a href="{{ site.email_link }}">Email</a></li>
+                <li><a href="{{ site.instagram_link }}" target="blank">Instagram</a></li>
+            </ul>
+            </li>
+        </ul>
+        <div class="social">
+            <p>
+                &copy; Edvard Busck-Nielsen {{ site.year }}<br>
+            </p>
+        </div>
+    </div>
+</div>
