@@ -5,14 +5,7 @@ apt-get autoremove
 apt-get install nginx
 
 # user setup
-sudo adduser \
-   --system \
-   --shell /bin/bash \
-   --gecos 'Git Version Control' \
-   --group \
-   --disabled-password \
-   --home /home/git \
-   git
+adduser git
 usermod -aG sudo git
 rsync --archive --chown=git:git ~/.ssh /home/git
 su git
