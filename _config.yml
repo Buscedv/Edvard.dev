@@ -17,10 +17,7 @@ title: Edvard Busck-Nielsen - Portfolio
 email: edvard1807@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   My name is Edvard Busck-Nielsen and I've had an interest in technology and creating for as long as I can remember.
-  I have been programming for about 6 years and would like to make it my job.
-  I enjoy creating and solving problems because nothing else gives you that special feeling of success!
-  I have thought myself HTML5, Python, Shell Script and Linux, as well as a lot of different tools and programs.
-  There is nothing better than to create something new and experiment with new stuff, I'm constantly growing and I enjoy learning about new things.
+  I have been programming for about 6 years and would like to make it my job in the future. I enjoy creating and solving problems because nothing else gives you that special feeling of success! There is nothing better than to create something new and experiment with new stuff, I'm constantly growing and I enjoy learning about new things. I also like music and playing the drums.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://buscedv.com" # the base hostname & protocol for your site, e.g. http://example.com
 github_link:  https://github.com/Buscedv
