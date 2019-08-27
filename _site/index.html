@@ -15,7 +15,7 @@
 
     <meta name="mobile-web-app-capable" content="yes">
     <meta charset="utf-8">
-    <meta name="description" content="My name is Edvard Busck-Nielsen and I've had an interest in technology and creating for as long as I can remember. I have been programming for about 6 years and would like to make it my job. I enjoy creating and solving problems because nothing else gives you that special feeling of success! I have thought myself HTML5, Python, Shell Script and Linux, as well as a lot of different tools and programs. There is nothing better than to create something new and experiment with new stuff, I'm constantly growing and I enjoy learning about new things.">
+    <meta name="description" content="My name is Edvard Busck-Nielsen and I've had an interest in technology and creating for as long as I can remember. I have been programming for about 6 years and would like to make it my job in the future. I enjoy creating and solving problems because nothing else gives you that special feeling of success! There is nothing better than to create something new and experiment with new stuff, I'm constantly growing and I enjoy learning about new things.">
     <meta name="author" content="Edvard Busck-Nielsen">
     <title>Edvard Busck-Nielsen - Portfolio</title>
 
@@ -117,17 +117,12 @@
             </li>
             <li><a href="http://localhost:4000#portfolio">Portfolio</a>
             <ul>
-                <div id="portfolio-sort">
-                    <li><a href="http://localhost:4000#portfolio" data-cat="python">Python</a></li>
-                    <li><a href="http://localhost:4000#portfolio" data-cat="app">Apps</a></li>
-                    <li><a href="http://localhost:4000#portfolio" data-cat="shell-script">Shell Script</a></li>
-                </div>
             </ul>
             </li>
             <li><a href="http://localhost:4000#contact">Contact</a>
             <ul>
                 <li><a href="https://github.com/Buscedv" target="blank">GitHub</a></li>
-                <li><a href="https://devrant.com/users/buscedv" target="blank">DevRant</a></li>
+                <li><a href="" target="blank">DevRant</a></li>
                 <li><a href="mailto:edvard1807@gmail.com">Email</a></li>
                 <li><a href="https://instagram.com/Buscedv" target="blank">Instagram</a></li>
             </ul>
@@ -153,7 +148,7 @@
             </div>
             <div class="col-sm-6 description">
               <div class="oneLiner">Developer</div>
-              <div class="words"><span>Python</span><span>Apps</span><span>Linux</span><span>GitHub</span><span>Free Software</span></div>
+              <div class="words"><span>Python</span><span>Vue.js</span><span>Linux</span><span>GitHub</span><span>Free Software</span></div>
             </div>
           </div>
           <a class="down_arrow" href="#about"><i class="fas fa-chevron-down"></i></a>
@@ -170,7 +165,7 @@
                 <div class="col-md-6">
                     <h1 id="about_text_title">Hi!</h1>
                     <p id="about_text">
-                        My name is Edvard Busck-Nielsen and I've had an interest in technology and creating for as long as I can remember. I have been programming for about 6 years and would like to make it my job. I enjoy creating and solving problems because nothing else gives you that special feeling of success! I have thought myself HTML5, Python, Shell Script and Linux, as well as a lot of different tools and programs. There is nothing better than to create something new and experiment with new stuff, I'm constantly growing and I enjoy learning about new things.
+                        My name is Edvard Busck-Nielsen and I've had an interest in technology and creating for as long as I can remember. I have been programming for about 6 years and would like to make it my job in the future. I enjoy creating and solving problems because nothing else gives you that special feeling of success! There is nothing better than to create something new and experiment with new stuff, I'm constantly growing and I enjoy learning about new things.
                     </p>
                 </div>
             </div>
@@ -202,8 +197,8 @@
                 </div>
                 
                 <div class="skill">
-                    <a id="jekyll_btn"><i class="fas fa-vial"></i></a>
-                    <span class="tooltiptext">Jekyll </span>
+                    <a id="vue_btn"><i class="fab fa-vuejs"></i></a>
+                    <span class="tooltiptext">Vue.js </span>
                 </div>
                 
             </div>
@@ -279,12 +274,12 @@
             </div>
             
             <!-- MODAL -->
-            <div id="jekyllModal" class="modal">
+            <div id="vueModal" class="modal">
                 <!-- Modal content -->
                 <div class="modal-content">
                     <div class="modal-header">
-                        <a class="btn-close jekyll_close modal_x" style="color: #34B484;"></a>
-                        <h2>Jekyll</h2>
+                        <a class="btn-close vue_close modal_x" style="color: #34B484;"></a>
+                        <h2>Vue.js</h2>
                     </div>
                     <div class="modal-footer">
                         <h3>Skill</h3>
@@ -330,17 +325,8 @@
                 <div id="portfolio-sort" class="portfolio-sort-btns">
                     <a id="all">All</a>
                     <a data-cat="python">Python</a>
-                    <a data-cat="shell-script">Shell Script</a>
-                    <a data-cat="app">Apps</a>
                 </div>
                 <div id="portfolio-content">
-                    
-                    <div class="portfolio-item col-md-6" data-cat="app">
-                        <h1 class="portfolio_item_title">Bullet Journal Companion</h1>
-                        <p class="portfolio_item_description">The Bullet Journal Companion is the ultimate app for your bullet journal and bridges the analog and the digital world.</p>
-                        <br>
-                        <a class="portfolio_item_btn" href="https://bulletjournal.ml" target="blank"><i class="fa fa-link"></i></a>
-                    </div>
                     
                     <div class="portfolio-item col-md-6" data-cat="python">
                         <h1 class="portfolio_item_title">Enkelt Programming Language</h1>
@@ -357,38 +343,10 @@
                     </div>
                     
                     <div class="portfolio-item col-md-6" data-cat="python">
-                        <h1 class="portfolio_item_title">Kelly</h1>
-                        <p class="portfolio_item_description">A basic proof of concept programming language written in Python.</p>
-                        <br>
-                        <a class="portfolio_item_btn" href="https://kellycode.ml" target="blank"><i class="fa fa-link"></i></a>
-                    </div>
-                    
-                    <div class="portfolio-item col-md-6" data-cat="python">
-                        <h1 class="portfolio_item_title">MicroLog</h1>
-                        <p class="portfolio_item_description">A simple terminal work/time log focused on speed, usability and flexibility.</p>
-                        <br>
-                        <a class="portfolio_item_btn" href="https://micrologger.ml" target="blank"><i class="fa fa-link"></i></a>
-                    </div>
-                    
-                    <div class="portfolio-item col-md-6" data-cat="app">
-                        <h1 class="portfolio_item_title">Oclock</h1>
-                        <p class="portfolio_item_description">A Pomodoro timer that uses a dark and distraction-free UI so that you can comfortably put your phone on your desk while working.</p>
-                        <br>
-                        <a class="portfolio_item_btn" href="https://oclockapp.ml" target="blank"><i class="fa fa-link"></i></a>
-                    </div>
-                    
-                    <div class="portfolio-item col-md-6" data-cat="python">
                         <h1 class="portfolio_item_title">PyEpoch</h1>
                         <p class="portfolio_item_description">A Python module that can convert timezones, set time and calculate seconds since the UNIX epoch.</p>
                         <br>
                         <a class="portfolio_item_btn" href="https://buscedv.github.io/PyEpoch/" target="blank"><i class="fa fa-link"></i></a>
-                    </div>
-                    
-                    <div class="portfolio-item col-md-6" data-cat="shell-script">
-                        <h1 class="portfolio_item_title">The Onyx Bash Project</h1>
-                        <p class="portfolio_item_description">A collection of tools/programs that run in the Linux terminal environment and are completly text-based.</p>
-                        <br>
-                        <a class="portfolio_item_btn" href="http://onyxbash.ml" target="blank"><i class="fa fa-link"></i></a>
                     </div>
                     
                 </div>
@@ -396,17 +354,6 @@
             </div>
             <div id="mobile_portfolio">
                 <ul>
-                    
-                    <li>
-                        <div>
-                            <h1 class="portfolio_item_title">Bullet Journal Companion</h1>
-                            <p class="portfolio_item_description">The Bullet Journal Companion is the ultimate app for your bullet journal and bridges the analog and the digital world.</p>
-                            <br>
-                            <a class="portfolio_item_btn" href="https://bulletjournal.ml" target="blank"><i class="fa fa-link"></i></a>
-                            <br>
-                            <br>
-                        </div>
-                    </li>
                     
                     <li>
                         <div>
@@ -432,54 +379,10 @@
                     
                     <li>
                         <div>
-                            <h1 class="portfolio_item_title">Kelly</h1>
-                            <p class="portfolio_item_description">A basic proof of concept programming language written in Python.</p>
-                            <br>
-                            <a class="portfolio_item_btn" href="https://kellycode.ml" target="blank"><i class="fa fa-link"></i></a>
-                            <br>
-                            <br>
-                        </div>
-                    </li>
-                    
-                    <li>
-                        <div>
-                            <h1 class="portfolio_item_title">MicroLog</h1>
-                            <p class="portfolio_item_description">A simple terminal work/time log focused on speed, usability and flexibility.</p>
-                            <br>
-                            <a class="portfolio_item_btn" href="https://micrologger.ml" target="blank"><i class="fa fa-link"></i></a>
-                            <br>
-                            <br>
-                        </div>
-                    </li>
-                    
-                    <li>
-                        <div>
-                            <h1 class="portfolio_item_title">Oclock</h1>
-                            <p class="portfolio_item_description">A Pomodoro timer that uses a dark and distraction-free UI so that you can comfortably put your phone on your desk while working.</p>
-                            <br>
-                            <a class="portfolio_item_btn" href="https://oclockapp.ml" target="blank"><i class="fa fa-link"></i></a>
-                            <br>
-                            <br>
-                        </div>
-                    </li>
-                    
-                    <li>
-                        <div>
                             <h1 class="portfolio_item_title">PyEpoch</h1>
                             <p class="portfolio_item_description">A Python module that can convert timezones, set time and calculate seconds since the UNIX epoch.</p>
                             <br>
                             <a class="portfolio_item_btn" href="https://buscedv.github.io/PyEpoch/" target="blank"><i class="fa fa-link"></i></a>
-                            <br>
-                            <br>
-                        </div>
-                    </li>
-                    
-                    <li>
-                        <div>
-                            <h1 class="portfolio_item_title">The Onyx Bash Project</h1>
-                            <p class="portfolio_item_description">A collection of tools/programs that run in the Linux terminal environment and are completly text-based.</p>
-                            <br>
-                            <a class="portfolio_item_btn" href="http://onyxbash.ml" target="blank"><i class="fa fa-link"></i></a>
                             <br>
                             <br>
                         </div>
@@ -516,6 +419,12 @@
                                         <li>
                                             <i class="fa fa-envelope">
                                             </i> edvard1807@gmail.com
+                                        </li>
+                                    </a>
+                                    <a href="https://linkedin.com/in/edvard-busck-nielsen/">
+                                        <li>
+                                            <i class="fab fa-linkedin">
+                                            </i> Edvard Busck-Nielsen
                                         </li>
                                     </a>
                                 </div>
@@ -555,11 +464,13 @@
         &copy; Edvard Busck-Nielsen 2019
         <br>
         <div class="footer_links" style="display:inline;">
-            <a href="https://buscedv.github.io/privacy.html" target="blank">Privacy Policy</a>
+            <a href="https://edvard.io/privacy.html" target="blank">Privacy Policy</a>
             -
             <a href="mailto:edvard1807@gmail.com" target="blank">Contact</a>
             -
             <a href="https://github.com/Buscedv" target="blank">GitHub</a>
+            -
+            <a href="https://linkedin.com/in/edvard-busck-nielsen/" target="blank">LinkedIn</a>
         </div>
     </footer>
 </div>
@@ -707,13 +618,13 @@
     </script>
     <script>
         // Get the modal
-        var jmodal = document.getElementById('jekyllModal');
+        var jmodal = document.getElementById('vueModal');
 
         // Get the button that opens the modal
-        var jbtn = document.getElementById("jekyll_btn");
+        var jbtn = document.getElementById("vue_btn");
 
         // Get the <span> element that closes the modal
-        var jspan = document.getElementsByClassName("jekyll_close")[0];
+        var jspan = document.getElementsByClassName("vue_close")[0];
 
         // When the user clicks the button, open the modal
         jbtn.onclick = function() {

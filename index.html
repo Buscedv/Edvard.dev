@@ -14,7 +14,7 @@ layout: default
             </div>
             <div class="col-sm-6 description">
               <div class="oneLiner">Developer</div>
-              <div class="words"><span>Python</span><span>Apps</span><span>Linux</span><span>GitHub</span><span>Free Software</span></div>
+              <div class="words"><span>Python</span><span>Vue.js</span><span>Linux</span><span>GitHub</span><span>Free Software</span></div>
             </div>
           </div>
           <a class="down_arrow" href="#about"><i class="fas fa-chevron-down"></i></a>
@@ -96,8 +96,6 @@ layout: default
                 <div id="portfolio-sort" class="portfolio-sort-btns">
                     <a id="all">All</a>
                     <a data-cat="python">Python</a>
-                    <a data-cat="shell-script">Shell Script</a>
-                    <a data-cat="app">Apps</a>
                 </div>
                 <div id="portfolio-content">
                     {% for project in site.portfolio %}
@@ -156,6 +154,12 @@ layout: default
                                         <li>
                                             <i class="fa fa-envelope">
                                             </i> {{ site.email }}
+                                        </li>
+                                    </a>
+                                    <a href="{{ site.linkedin_link }}">
+                                        <li>
+                                            <i class="fab fa-linkedin">
+                                            </i> Edvard Busck-Nielsen
                                         </li>
                                     </a>
                                 </div>
