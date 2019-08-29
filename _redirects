@@ -2,4 +2,4 @@
 # These rules will change if you change your site’s custom domains or HTTPS settings
 
 # Redirect default Netlify subdomain to primary domain
-http://buscedv.netlify.com/* http://buscedv.com/:splat 301!
+https://buscedv.netlify.com/* https://edvard.io/:splat 301!
