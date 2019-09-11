@@ -7,8 +7,8 @@
   "dir": "rtl",
   "lang": "en-US",
   "orientation": "portrait-primary",
-  "theme_color": "#34B484",
-  "description": "Edvard Busck-Nielsen's official website.",
+  "theme_color": "#008357",
+  "description": "Edvard Busck-Nielsen's portfolio",
   "icons": [{
     "src": "logo.png",
     "sizes": "192x192",
