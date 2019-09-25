@@ -46,12 +46,16 @@ nav {
 	overflow:hidden;
     background-color: #fff;
     z-index: 1;
+	animation-duration: 1s;
+	animation-name: fadeIn;
 }
 nav ul {
 	text-align:center;
 }
 nav ul li {
 	display:inline-block;
+	animation-duration: 1.1s;
+	animation-name: slideIn;
 }
 nav ul li a {
 	color:#1f1f1f;
@@ -59,7 +63,6 @@ nav ul li a {
 	padding:1em 3em;
 	text-decoration:none;
 	border-bottom:2px solid #fff;
-	transition-property:all .2s linear 0s;
 	-moz-transition:all .2s linear 0s;
 	-webkit-transition:all .2s linear 0s;
 	-o-transition:all .2s linear 0s;
@@ -73,7 +76,7 @@ nav ul li a:hover {
 .button {
 	display:inline;
 	position:fixed;
-	right:50px;
+	right: 10px;
 	top:6px;
 	z-index:999;
 	font-size:30px;
@@ -232,12 +235,12 @@ nav ul li a:hover {
 
 /* Add Animation */
 @-webkit-keyframes slideIn {
-  from {bottom: -300px; opacity: 0}
+  from {bottom: -100px; opacity: 0}
   to {bottom: 0; opacity: 1}
 }
 
 @keyframes slideIn {
-  from {bottom: -300px; opacity: 0}
+  from {bottom: -100px; opacity: 0}
   to {bottom: 0; opacity: 1}
 }
 
@@ -270,6 +273,8 @@ nav ul li a:hover {
 	width: 100%;
 	padding: 110px;
 	text-align: center;
+	animation-duration: 0.8s;
+	animation-name: slideIn;
 }
 
 #top img {
@@ -286,6 +291,13 @@ nav ul li a:hover {
 #top h1 {
 	font-size: 3em;
 	padding: 20px;
+	animation-duration: 1s;
+	animation-name: fadeIn;
+}
+
+#top h2 {
+	animation-duration: 1.5s;
+	animation-name: fadeIn;
 }
 
 #about {
@@ -473,10 +485,14 @@ nav ul li a:hover {
 }
 
 footer {
-	background-color: #1f1f1f;
 	text-align: center;
+}
+
+footer p {
+	background-color: #1f1f1f;
 	color: #eee;
-	padding: 10px;
+	padding: 20px;
+	margin: 0;
 }
 
 @media screen and (max-width:1100px) {
@@ -523,11 +539,7 @@ footer {
 
     nav ul {
         max-height: 60px;
-        background-color: #1f1f1f;
-    }
-
-    nav {
-        color: #fff;
+		background-color: rgba(0, 0, 0, 0);
     }
 
     #mobile_nav_logo img {
