@@ -27,7 +27,7 @@ nav ul {
 	list-style:none;
     position: fixed;
 	margin: 0 auto;
-	width: auto;
+	max-width: 100%;
     left: 0;
     right: 0;
     background-color: #fff;
@@ -76,7 +76,7 @@ nav ul li a:hover {
 .button {
 	display:inline;
 	position:fixed;
-	right: 20px;
+	right: 10px;
 	top:6px;
 	z-index:999;
 	font-size:30px;
@@ -323,7 +323,6 @@ nav ul li a:hover {
 #about img {
 	max-height: 20em;
 	margin: 10px;
-	border: 1px solid #333;
 	border-radius: 10px;
 }
 
@@ -539,13 +538,16 @@ footer p {
 
     nav ul {
         max-height: 60px;
-		background-color: rgba(0, 0, 0, 0);
+		padding-bottom: 5px;
     }
 
     #mobile_nav_logo img {
         max-height: 55px;
         width: auto;
         padding-bottom: 5px;
+		position: absolute;
+		top: 6px;
+		left: 0;
     }
 	.social {
 		color:#c1c1c1;
