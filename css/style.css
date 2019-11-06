@@ -309,6 +309,7 @@ nav ul li a:hover {
 	color: #fff;
 	padding: 50px;
 	text-align: center;
+	border-radius: 10px;
 }
 
 #about h2 {
@@ -376,6 +377,7 @@ nav ul li a:hover {
 	color: #fff;
 	padding: 20px;
 	margin-top: 20px;
+	border-radius: 10px;
 }
 
 .accomplish-card h3 {
@@ -405,6 +407,7 @@ nav ul li a:hover {
 	color: #fff;
 	padding: 50px;
 	text-align: center;
+	border-radius: 10px;
 }
 
 #portfolio h2 {
@@ -425,6 +428,7 @@ nav ul li a:hover {
 	background-color: #0f0f0f;
 	min-height: 250px;
 	min-width: 300px;
+	border-radius: 10px;
 }
 
 .portfolio-item p {
@@ -450,8 +454,8 @@ nav ul li a:hover {
 }
 
 #contact {
-	min-height: 60vh;
-	padding: 50px;
+	min-height: 10vh;
+	padding: 30px;
 }
 
 #contact h2 {
@@ -459,8 +463,8 @@ nav ul li a:hover {
 }
 
 #contact-content {
-	margin: 100px;
-	padding: 100px;
+	margin: 50px;
+	padding: 20px;
 }
 
 #contact-social-area {
@@ -476,7 +480,7 @@ nav ul li a:hover {
 
 #contact-social-area .btn {
 	display: block;
-	margin: 30px;
+	margin: 20px;
 	padding: 10px;
 	font-size: 1.5em;
 }
