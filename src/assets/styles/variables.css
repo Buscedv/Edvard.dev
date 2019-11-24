@@ -1,0 +1,15 @@
+:root {
+    --lighterGray: #555;
+    --darkGray: #1f1f1f;
+    --darkGrayHover: #0f0f0f;
+    --lighter: #aaa;
+    --lightest: #eee;
+    --accent: #008357;
+    --accentHover: #007246;
+    --accent-dark: #2c2922;
+    --accent-brown: #554127;
+    --accent-light: #7a6f4a;
+    --darkest: #0f0f0f;
+    --darkestHover: #000;
+    --whiteBg: #fff;
+}
