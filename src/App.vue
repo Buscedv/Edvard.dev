@@ -35,9 +35,12 @@
                 loaded: false,
             }
         },
-        mounted: function() {
+        created: function() {
           this.loaded = true;
         },
+        destroyed: function() {
+            this.loaded = false;
+        }
     }
 </script>
 

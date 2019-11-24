@@ -1,6 +1,6 @@
 <template>
     <header class="section">
-        <img id="logo" src="../assets/logo.png">
+        <img id="logo" src="../assets/logo.png" alt="Edvard Busck-Nielsen">
         <h1><mark>Edvard</mark> Busck-Nielsen</h1>
         <h2>Portfolio</h2>
     </header>
@@ -28,7 +28,7 @@
     h1 {
         color: var(--darkGray);
         animation-name: fadeIn;
-        animation-duration: .11s;
+        animation-duration: .1s;
     }
     h1 mark {
         background-color: var(--whiteBg);
@@ -38,7 +38,7 @@
         margin-top: 10px;
         color: var(--accent);
         animation-name: fadeIn;
-        animation-duration: .11s;
+        animation-duration: .1s;
     }
     
     @keyframes fadeIn {

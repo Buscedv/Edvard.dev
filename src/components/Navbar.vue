@@ -2,7 +2,7 @@
     <nav>
         <div class="row">
             <div class="col-md-2 col-sm-1">
-                <a href="#"><img class="navbar-img" src="../favicon.png" alt="Edvard Busck-Nielsen"></a>
+                <a href="#"><img class="navbar-img" src="../../favicon.png" alt="Edvard Busck-Nielsen"></a>
             </div>
             <div class="col-md-8 col-sm-10 justify-content-center" id="nav">
                 <div class="row">
@@ -37,7 +37,7 @@
         z-index: 99;
         border-bottom: 1px solid var(--lightest);
         animation-name: slideIn;
-        animation-duration: 0.1s;
+        animation-duration: 0.02s;
     }
     
     #nav {
