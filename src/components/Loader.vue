@@ -1,7 +1,7 @@
 <template>
     <div id="container">
         <div id="loader"></div>
-        <img src="../assets/logo.jp2" alt="Edvard Busck-Nielsen">
+        <img src="../assets/favicon.png" alt="Edvard Busck-Nielsen">
     </div>
 </template>
 

@@ -2,7 +2,7 @@
     "name": "Edvard Busck-Nielsen",
     "short_name": "Edvard.io",
     "start_url": "/",
-    "display": "minimal-ui",
+    "display": "fullscreen",
     
     "theme_color": "#008357",
     "background_color": "#fff",
