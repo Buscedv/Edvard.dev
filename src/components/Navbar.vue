@@ -2,7 +2,7 @@
     <nav>
         <div class="row">
             <div class="col-md-2 col-sm-1">
-                <a href="#"><img class="navbar-img" src="../../favicon.png" alt="Edvard Busck-Nielsen"></a>
+                <a href="#"><img class="navbar-img" src="../assets/favicon.png" alt="Edvard Busck-Nielsen"></a>
             </div>
             <div class="col-md-8 col-sm-10 justify-content-center" id="nav">
                 <div class="row">
