@@ -2,16 +2,16 @@
     <nav>
         <div class="row">
             <div class="col-3">
-                <a href="#"><font-awesome-icon icon="home"/></a>
+                <a href="#" aria-label="Home"><font-awesome-icon icon="home"/></a>
             </div>
             <div class="col-3">
-                <a href="#about"><font-awesome-icon icon="user"/></a>
+                <a href="#about" aria-label="About"><font-awesome-icon icon="user"/></a>
             </div>
             <div class="col-3">
-                <a href="#portfolio"><font-awesome-icon icon="cube"/></a>
+                <a href="#portfolio" aria-label="Portfolio"><font-awesome-icon icon="cube"/></a>
             </div>
             <div class="col-3">
-                <a href="#contact"><font-awesome-icon icon="envelope"/></a>
+                <a href="#contact" aria-label="Contact"><font-awesome-icon icon="envelope"/></a>
             </div>
         </div>
     </nav>
