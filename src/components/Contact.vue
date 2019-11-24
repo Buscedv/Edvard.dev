@@ -2,8 +2,8 @@
     <div id="contact">
         <h2 class="text-center">Contact</h2>
         <div id="btns">
-            <a class="btn btn-primary" href="https://github.com/Buscedv" target="_blank" rel="noopener"><font-awesome-icon :icon="['fab', 'github']"/><mark> @Buscedv</mark></a>
-            <a class="btn btn-primary" href="https://linkedin.com/in/edvard-busck-nielsen" target="_blank" rel="noopener"><font-awesome-icon :icon="['fab', 'linkedin']"/><mark>Edvard Busck-Nielsen</mark></a>
+            <a class="btn btn-primary" href="https://github.com/Buscedv" target="_blank" rel="noopener" aria-label="Personal GitHub profile"><font-awesome-icon :icon="['fab', 'github']"/><mark> @Buscedv</mark></a>
+            <a class="btn btn-primary" href="https://linkedin.com/in/edvard-busck-nielsen" target="_blank" rel="noopener" aria-label="Professional Linkedin page"><font-awesome-icon :icon="['fab', 'linkedin']"/><mark>Edvard Busck-Nielsen</mark></a>
             <a class="btn btn-primary" href="mailto:edvard1807@gmail.com"><font-awesome-icon icon="envelope"/><mark>edvard1807@gmail.com</mark></a>
         </div>
     </div>
