@@ -3,7 +3,7 @@
         <h2 class="text-center">About Me</h2>
         <div class="row">
             <div class="col-md-6 col-sm-12">
-                <img src="../assets/logo.png" alt="Edvard Busck-Nielsen" id="about-img">
+                <img src="../assets/logo.jp2" alt="Edvard Busck-Nielsen" id="about-img">
             </div>
             <div class="col-md-6 col-sm-12">
                 <p id="about-text">

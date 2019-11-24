@@ -1,6 +1,6 @@
 <template>
     <header class="section">
-        <img id="logo" src="../assets/logo.png" alt="Edvard Busck-Nielsen">
+        <img id="logo" src="../assets/logo.jp2" alt="Edvard Busck-Nielsen">
         <h1><mark>Edvard</mark> Busck-Nielsen</h1>
         <h2>Portfolio</h2>
     </header>
