@@ -75,11 +75,11 @@
     
     .portfolio-card {
         background-color: var(--darkest);
-        padding: 20px;
+        padding: 25px;
         border-radius: 20px;
         text-align: center;
         min-height: 25em;
-        margin: 10px;
+        margin: 5px;
     }
     
     .portfolio-card h3 {
@@ -98,10 +98,6 @@
         .portfolio-content {
             padding: 2px;
             width: 100%;
-        }
-        
-        .portfolio-card {
-            padding: 5px;
         }
         
         .portfolio-card h3 {
