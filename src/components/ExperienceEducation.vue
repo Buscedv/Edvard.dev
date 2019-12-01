@@ -6,7 +6,7 @@
                 <div class="edu-exp-card">
                     <div class="edu-exp-card-inner">
                         <h3>Summer Intern</h3>
-                        <h4>Supermetric Oy</h4>
+                        <h4>Supermetrics Oy</h4>
                         <h5>June 2019 - July 2019</h5>
                         <p>
                             Assisted in product development. Worked on internal tools for the CS (customer support) team.
@@ -18,7 +18,7 @@
                 <div class="edu-exp-card">
                     <div class="edu-exp-card-inner">
                         <h3>Assisting In Product Development</h3>
-                        <h4>Supermetric Oy</h4>
+                        <h4>Supermetrics Oy</h4>
                         <h5>February 2019 - April 2019</h5>
                         <p>
                             Gathered API documentation
@@ -28,7 +28,7 @@
                 <div class="edu-exp-card">
                     <div class="edu-exp-card-inner">
                         <h3>Trainee</h3>
-                        <h4>Supermetric Oy</h4>
+                        <h4>Supermetrics Oy</h4>
                         <h5>November 2018</h5>
                         <p>
                             TET/PRAO (work experience program) for 2 weeks.
@@ -96,7 +96,7 @@
         background-color: var(--darkGray);
         border-radius: 20px;
         min-height: 300px;
-        padding: 10px;
+        padding: 20px;
     }
     
     .edu-exp-card-inner h3 {
