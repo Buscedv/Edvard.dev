@@ -46,9 +46,9 @@
         100% {opacity: 100%}
     }
     
-    @media screen and (max-height: 730px) {
+    @media screen and (max-height: 760px) {
         header {
-            padding-top: 10px;
+            padding-top: 90px;
         }
         
         #logo {
