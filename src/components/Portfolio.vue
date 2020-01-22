@@ -41,9 +41,9 @@
             </div>
             <div class="col-md-4 col-sm-12">
                 <div class="portfolio-card">
-                    <h3>Emilianaskoog.fi</h3>
-                    <p class="text-left">Personal website design for Emiliana Skoog.</p>
-                    <a href="https://emilianaskoog.fi" target="_blank" rel="noopener" class="btn btn-primary">Website</a>
+                    <h3>Berlinerfunk.fi</h3>
+                    <p class="text-left">Website design for the funk/jazz/rock band Berlinerfunk.</p>
+                    <a href="https://berlinerfunk.fi" target="_blank" rel="noopener" class="btn btn-primary">Website</a>
                 </div>
             </div>
         </div>
