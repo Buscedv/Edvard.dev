@@ -70,7 +70,7 @@
     
     h2 {
         font-size: 3em !important;
-        color: var(--accent)
+        color: var(--accent);
     }
     
     h3 {

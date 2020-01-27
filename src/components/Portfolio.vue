@@ -75,11 +75,12 @@
     
     .portfolio-card {
         background-color: var(--darkest);
-        padding: 25px;
+        padding: 30px;
         border-radius: 20px;
         text-align: center;
         min-height: 25em;
         margin: 5px;
+        border: 3px solid var(--darkest);
     }
     
     .portfolio-card h3 {
