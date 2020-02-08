@@ -1,9 +1,11 @@
 <template>
     <header class="section">
-        <div id="header-inner">
-            <img id="logo" src="../assets/logo.png" alt="Edvard Busck-Nielsen">
-            <h1><mark>Edvard</mark> Busck-Nielsen</h1>
-            <h2>Portfolio</h2>
+        <div id="header-inner" class="row">
+            <div class="col-12">
+                <img id="logo" src="../assets/logo.png" alt="Edvard Busck-Nielsen">
+                <h1><mark>Edvard</mark> Busck-Nielsen</h1>
+                <h2>Portfolio</h2>
+            </div>
         </div>
     </header>
 </template>
@@ -18,7 +20,6 @@
 <style scoped>
     header {
         text-align: center;
-        padding: 20px;
         width: 100%;
         height: 100vh;
         display: flex;
@@ -26,14 +27,12 @@
     }
     
     #header-inner {
-        height: 50vh;
         margin-left: auto;
         margin-right: auto;
     }
     
     #logo {
         height: 15em;
-        margin-bottom: 40px;
     }
     h1 {
         color: var(--darkGray);
