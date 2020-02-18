@@ -7,7 +7,7 @@
             </div>
             <div class="col-md-6 col-sm-12">
                 <p id="about-text">
-                    I have been programming for about 6 years and would like to make it my job in the future. I enjoy creating and solving problems because nothing else gives you that special feeling of success! There is nothing better than to create something new and experiment with new stuff, I'm constantly growing and I enjoy learning about new things.
+                    I have been programming for about 6 years and would like to make it my job in the future. I enjoy creating new things & solving problems because nothing else gives you that special feeling of success! There is nothing better than to create something new and experiment with new stuff, I'm constantly growing and I enjoy learning about new things.
                 </p>
             </div>
         </div>
