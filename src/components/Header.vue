@@ -1,17 +1,15 @@
 <template>
-    <header class="section">
-        <div id="header-inner" class="row">
-            <div class="col-12">
-                <img id="logo" src="../assets/logo.png" alt="Edvard Busck-Nielsen">
-                <h1><mark>Edvard</mark> Busck-Nielsen</h1>
-                <h2>Portfolio</h2>
+    <header>
+        <div class="header">
+            <div class="header-inner">
+                <img src="../assets/logo.png" alt="Edvard Busck-Nielsen">
+                <h1><mark>Edvard</mark> Busck-Nielsen <mark>Portfolio</mark></h1>
             </div>
         </div>
     </header>
 </template>
 
 <script>
-    // Vue
     export default {
         name: 'Header',
     }
@@ -19,46 +17,50 @@
 
 <style scoped>
     header {
-        text-align: center;
         width: 100%;
         height: 100vh;
+    }
+    
+    .header {
+        width: 100%;
+        height: 90%;
+        padding: 150px;
+        text-align: center;
         display: flex;
         align-items: center;
     }
     
-    #header-inner {
-        margin-left: auto;
-        margin-right: auto;
+    .header-inner {
+        width: 100%;
     }
     
-    #logo {
-        height: 15em;
+    img {
+        height: 200px;
     }
+    
     h1 {
-        color: var(--darkGray);
-        animation-name: fadeIn;
-        animation-duration: .1s;
+        color: var(--dark);
+        font-size: 4em;
+        padding: 20px;
     }
+    
     h1 mark {
-        background-color: var(--whiteBg);
         color: var(--accent);
+        background: none;
     }
-    h2 {
-        margin-top: 10px;
-        color: var(--accent);
-        animation-name: fadeIn;
-        animation-duration: .1s;
-    }
+
+    @media screen and (max-width: 757px) {
+        .header {
+            padding: 10px;
+        }
     
-    @keyframes fadeIn {
-        0% {opacity: 0.1%}
-        100% {opacity: 100%}
-    }
+        img {
+            height: 130px;
+        }
     
-    @media screen and (max-height: 760px) {
-        #logo {
-            height: 11em;
-            margin-bottom: 30px;
+        h1 {
+            padding: 10px;
+            font-size: 3em;
         }
     }
 </style>
