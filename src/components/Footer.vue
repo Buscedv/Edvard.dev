@@ -7,10 +7,11 @@
 <script>
     export default {
         name: 'Footer',
-        copyright: '',
-        created: function () {
-            this.copyright = '2019';
-        },
+        computed: {
+            copyright: function () {
+                return new Date().getFullYear();
+            }
+        }
     }
 </script>
 
@@ -18,7 +19,7 @@
     footer {
         width: 100%;
         height: 50px;
-        background-color: var(--darkGray);
+        background-color: var(--dark-grey);
         text-align: center;
         padding: 2px;
         display: flex;
@@ -28,7 +29,7 @@
     p {
         margin-top: auto;
         margin-bottom: auto;
-        color: var(--lighter);
+        color: var(--light-grey);
         font-size: 1em !important;
     }
 </style>

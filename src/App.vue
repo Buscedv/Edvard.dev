@@ -3,8 +3,7 @@
        <div class="justify-content-center">
            <Loader v-if="!loaded"></Loader>
            <div v-else>
-               <navbar id="navbar"></navbar>
-               <MobileNavbar id="mobile"></MobileNavbar>
+               <Navbar></Navbar>
                <Header></Header>
                <about></about>
                <experience-education></experience-education>
@@ -25,11 +24,10 @@
     import Portfolio from "./components/Portfolio";
     import Contact from "./components/Contact";
     import Footer from "./components/Footer";
-    import MobileNavbar from "./components/MobileNavbar";
     
     export default {
         name: 'app',
-        components: {MobileNavbar, Contact, Portfolio, ExperienceEducation, About, Loader, Header, Navbar, Footer},
+        components: {Contact, Portfolio, ExperienceEducation, About, Loader, Header, Navbar, Footer},
         data: function () {
             return {
                 loaded: false,
@@ -56,11 +54,11 @@
     }
     
     #app {
-        background-color: var(--whiteBg);
+        background-color: var(--white);
     }
     
     h1, h2, h3, h4, h5, h6 {
-        color: var(--darkGray);
+        color: var(--dark-grey);
         margin: 10px;
     }
     
@@ -97,10 +95,6 @@
         font-size: 1.5em !important;
     }
     
-    #mobile {
-        display: none;
-    }
-    
     .btn-primary {
         background-color: var(--accent) !important;
         outline-color: var(--accent) !important;
@@ -108,15 +102,6 @@
     }
     
     .btn-primary:hover {
-        background-color: var(--accentHover) !important;
-    }
-
-    @media screen and (max-width: 575px) {
-        #navbar {
-            display: none;
-        }
-        #mobile {
-            display: block;
-        }
+        background-color: var(--accent-hover) !important;
     }
 </style>

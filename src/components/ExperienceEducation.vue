@@ -65,7 +65,7 @@
     #experience-education {
         width: 100%;
         min-height: 100vh;
-        background-color: var(--whiteBg);
+        background-color: var(--white);
         padding: 20px;
         padding-top: 8em;
     }
@@ -84,7 +84,7 @@
     .edu-exp-card {
         padding: 10px;
         width: 55%;
-        border-left: 5px solid var(--darkGray);
+        border-left: 5px solid var(--dark-grey);
         border-radius: 4px;
         margin-right: 50px;
         margin-top: 10px;
@@ -93,7 +93,7 @@
     }
     
     .edu-exp-card-inner {
-        background-color: var(--darkGray);
+        background-color: var(--dark-grey);
         border-radius: 20px;
         min-height: 300px;
         padding: 20px;
@@ -105,24 +105,24 @@
     }
     
     .edu-exp-card-inner h4 {
-        color: var(--lighter);
+        color: var(--light-grey);
         font-size: 1.1em !important;
     }
     
     .edu-exp-card-inner h5 {
-        color: var(--lighterGray);
+        color: var(--grey);
         font-size: 0.9em !important;
     }
     
     .edu-exp-card-inner p {
-        color: var(--lightest);
+        color: var(--dark-white);
         margin-left: 9px;
         margin-top: 20px;
         font-size: 1.2em !important;
     }
     
     .edu-exp-card-inner:hover {
-        background-color: var(--darkGrayHover);
+        background-color: var(--dark-hover);
     }
     
     @media screen and (max-width: 1100px) {

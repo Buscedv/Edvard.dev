@@ -22,10 +22,10 @@
         top: 0;
         left: 0;
         z-index: 99;
-        background-color: var(--whiteBg);
+        background-color: var(--white);
     }
     #loader {
-        border: 5px solid var(--darkGray);
+        border: 5px solid var(--dark-grey);
         border-top: 5px solid var(--accent);
         border-radius: 50%;
         width: 80px;

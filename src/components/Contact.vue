@@ -18,7 +18,7 @@
 <style scoped>
     #contact {
         min-height: 60vh;
-        background-color: var(--whiteBg);
+        background-color: var(--white);
         width: 100%;
         padding: 20px;
         padding-top: 4em;

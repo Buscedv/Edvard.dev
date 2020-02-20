@@ -88,7 +88,7 @@
     }
     
     .skill {
-        color: var(--lighter);
+        color: var(--light-grey);
         padding: 10px;
     }
     
@@ -106,7 +106,7 @@
     }
     
     .skill-text {
-        color: var(--lighter);
+        color: var(--light-grey);
         background-color: rgba(0, 0, 0, 0.6);
         padding: 5px;
         border-radius: 20px;

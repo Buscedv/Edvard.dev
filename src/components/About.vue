@@ -27,13 +27,13 @@
 <style scoped>
     #about {
         min-height: 100vh;
-        background-color: var(--darkGray);
+        background-color: var(--dark-grey);
         width: 100%;
         padding: 20px;
         padding-top: 8em;
     }
     p {
-        color: var(--lightest)
+        color: var(--dark-white)
     }
     .row {
         width: 80%;

@@ -60,7 +60,7 @@
     #portfolio {
         width: 100%;
         min-height: 100vh;
-        background-color: var(--darkGray);
+        background-color: var(--dark-grey);
         padding: 20px;
         padding-top: 8em;
     }
@@ -74,13 +74,13 @@
     }
     
     .portfolio-card {
-        background-color: var(--darkest);
+        background-color: var(--dark-hover);
         padding: 30px;
         border-radius: 20px;
         text-align: center;
         min-height: 25em;
         margin: 5px;
-        border: 3px solid var(--darkest);
+        border: 3px solid var(--dark-hover);
     }
     
     .portfolio-card h3 {
@@ -88,11 +88,11 @@
     }
     
     .portfolio-card p {
-        color: var(--lighter);
+        color: var(--light-grey);
     }
     
     .portfolio-card:hover {
-        background-color: var(--darkestHover);
+        background-color: var(--black);
     }
     
     @media screen and (max-width: 1500px) {
