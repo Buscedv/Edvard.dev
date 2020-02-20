@@ -5,6 +5,16 @@
                 <h2 class="text-center">Experience</h2>
                 <div class="edu-exp-card">
                     <div class="edu-exp-card-inner">
+                        <h3>Trainee</h3>
+                        <h4>KSF Media Ab</h4>
+                        <h5>February 2020 - Current</h5>
+                        <p>
+                            Internship as part of my vocational education (vocational qualification in information and communications technology), software development.
+                        </p>
+                    </div>
+                </div>
+                <div class="edu-exp-card">
+                    <div class="edu-exp-card-inner">
                         <h3>Summer Intern</h3>
                         <h4>Supermetrics Oy</h4>
                         <h5>June 2019 - July 2019</h5>
