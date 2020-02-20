@@ -32,18 +32,22 @@
         padding: 20px;
         padding-top: 8em;
     }
+    
     p {
         color: var(--dark-white)
     }
+    
     .row {
         width: 80%;
         margin-left: auto;
         margin-right: auto;
         margin-top: 10em;
     }
+    
     #about-img {
         height: 18em;
     }
+    
     #about-text {
         margin-top: 2em;
     }
