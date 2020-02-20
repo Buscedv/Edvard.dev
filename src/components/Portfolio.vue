@@ -2,48 +2,41 @@
     <div id="portfolio">
         <h2 class="text-center">Portfolio</h2>
         <div class="row portfolio-content">
-            <div class="col-md-4 col-sm-12">
+            <div class="col-lg-4 col-md-6 col-sm-12">
                 <div class="portfolio-card">
                     <h3>Enkelt</h3>
-                    <p class="text-left">A transpiled programming language written in Python. Enkelt is the worlds first swedish programming language. Enkelt's syntax is one hundred percent swedish. Enkelt is designed to be used in programming education.</p>
+                    <p class="text-left">A transpiled programming language written in Python. Enkelt is the worlds first swedish programming language. Enkelt is designed to be used in programming education.</p>
                     <a href="https://enkelt.io" target="_blank" rel="noopener" class="btn btn-primary">Website</a>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-12">
+            <div class="col-lg-4 col-md-6 col-sm-12">
                 <div class="portfolio-card">
-                    <h3>Huffman Compression</h3>
-                    <p class="text-left">A script that compresses text using huffman coding. Written in Python</p>
-                    <a href="https://github.com/Buscedv/Huffman" target="_blank" rel="noopener" class="btn btn-primary">GitHub</a>
+                    <h3>Berlinerfunk.fi</h3>
+                    <p class="text-left">Website design for the funk/jazz/rock band Berlinerfunk.</p>
+                    <a href="https://berlinerfunk.fi" target="_blank" rel="noopener" class="btn btn-primary">Website</a>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-12">
-                <div class="portfolio-card">
-                    <h3>Quicksort</h3>
-                    <p class="text-left">A basic quicksort implementation written in Python.</p>
-                    <a href="https://github.com/Buscedv/Quicksort" target="_blank" rel="noopener" class="btn btn-primary">GitHub</a>
-                </div>
-            </div>
-        </div>
-        <div class="row portfolio-content">
-            <div class="col-md-4 col-sm-12">
-                <div class="portfolio-card">
-                    <h3>Bootstrap Wiki Template</h3>
-                    <p class="text-left">A wiki website template created with HTML5 & Bootstrap.</p>
-                    <a href="https://github.com/Buscedv/BootstrapWikiTemplate" target="_blank" rel="noopener" class="btn btn-primary">GitHub</a>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-12">
+            <div class="col-lg-4 col-md-6 col-sm-12">
                 <div class="portfolio-card">
                     <h3>PyEpoch</h3>
                     <p class="text-left">A Python module that can convert timezones, set time and calculate seconds since the UNIX epoch.</p>
                     <a href="https://buscedv.github.io/PyEpoch/" target="_blank" rel="noopener" class="btn btn-primary">Website</a>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-12">
+        </div>
+        <div class="row portfolio-content">
+            <div class="col-lg-4 col-md-6 col-sm-12">
                 <div class="portfolio-card">
-                    <h3>Berlinerfunk.fi</h3>
-                    <p class="text-left">Website design for the funk/jazz/rock band Berlinerfunk.</p>
-                    <a href="https://berlinerfunk.fi" target="_blank" rel="noopener" class="btn btn-primary">Website</a>
+                    <h3>Huffman Compression</h3>
+                    <p class="text-left">A script that compresses text using huffman coding. Written in Python</p>
+                    <a href="https://github.com/Buscedv/Huffman" target="_blank" rel="noopener" class="btn btn-primary">GitHub</a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="portfolio-card">
+                    <h3>Quicksort</h3>
+                    <p class="text-left">A basic quicksort implementation written in Python.</p>
+                    <a href="https://github.com/Buscedv/Quicksort" target="_blank" rel="noopener" class="btn btn-primary">GitHub</a>
                 </div>
             </div>
         </div>
