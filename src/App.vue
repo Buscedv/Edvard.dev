@@ -1,16 +1,13 @@
 <template>
     <div id="app">
        <div class="justify-content-center">
-           <Loader v-if="!loaded"></Loader>
-           <div v-else>
-               <Navbar></Navbar>
-               <Header></Header>
-               <about></about>
-               <experience-education></experience-education>
-               <portfolio></portfolio>
-               <contact></contact>
-               <Footer></Footer>
-           </div>
+           <Navbar></Navbar>
+           <Header></Header>
+           <about></about>
+           <experience-education></experience-education>
+           <portfolio></portfolio>
+           <contact></contact>
+           <Footer></Footer>
        </div>
     </div>
 </template>
@@ -18,7 +15,6 @@
 <script>
     import Navbar from "./components/Navbar";
     import Header from "./components/Header";
-    import Loader from "./components/Loader";
     import About from "./components/About";
     import ExperienceEducation from "./components/ExperienceEducation";
     import Portfolio from "./components/Portfolio";
@@ -27,18 +23,7 @@
     
     export default {
         name: 'app',
-        components: {Contact, Portfolio, ExperienceEducation, About, Loader, Header, Navbar, Footer},
-        data: function () {
-            return {
-                loaded: false,
-            }
-        },
-        created: function() {
-          this.loaded = true;
-        },
-        destroyed: function() {
-            this.loaded = false;
-        }
+        components: {Contact, Portfolio, ExperienceEducation, About, Header, Navbar, Footer},
     }
 </script>
 
