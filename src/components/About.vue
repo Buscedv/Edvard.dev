@@ -1,15 +1,11 @@
 <template>
     <div id="about" class="section">
-        <h2 class="text-center">About Me</h2>
-        <div class="row">
-            <div class="col-md-6 col-sm-12">
-                <img src="../assets/logo.png" alt="Edvard Busck-Nielsen" id="about-img">
-            </div>
-            <div class="col-md-6 col-sm-12">
-                <p id="about-text">
-                    I have been programming for about 6 years and would like to make it my job in the future. I enjoy creating new things & solving problems because nothing else gives you that special feeling of success! There is nothing better than to create something new and experiment with new stuff, I'm constantly growing and I enjoy learning about new things.
-                </p>
-            </div>
+        <div id="about-inner">
+            <h2 class="text-center">About Me</h2>
+            <img src="../assets/logo.png" alt="Edvard Busck-Nielsen" id="about-img">
+            <p id="about-text">
+                I have been programming for about 6 years and would like to make it my job in the future. I enjoy creating new things & solving problems because nothing else gives you that special feeling of success! There is nothing better than to create something new and experiment with new stuff, I'm constantly growing and I enjoy learning about new things.
+            </p>
         </div>
         <skills></skills>
     </div>
@@ -37,23 +33,30 @@
         color: var(--dark-white)
     }
     
-    .row {
-        width: 80%;
+    #about-inner {
+        width: 70%;
         margin-left: auto;
         margin-right: auto;
         margin-top: 10em;
+        background-color: rgba(0, 0, 0, 0.1);
+        text-align: center;
+        padding: 25px;
+        border-radius: 10px;
     }
     
     #about-img {
         height: 18em;
+        margin-top: 20px;
+        margin-bottom: 12px;
     }
     
     #about-text {
         margin-top: 2em;
+        text-align: left;
     }
     
     @media screen and (max-width: 550px) {
-        .row {
+        #about-inner {
             width: 99%;
         }
     }
