@@ -21,7 +21,7 @@
         background-color: var(--white);
         width: 100%;
         padding: 20px;
-        padding-top: 1em;
+        padding-top: 2em;
     }
 
     #btns {

@@ -28,7 +28,7 @@
         background-color: var(--dark-grey);
         width: 100%;
         padding: 20px;
-        padding-top: 1em;
+        padding-top: 2em;
     }
     
     p {

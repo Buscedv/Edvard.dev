@@ -7,7 +7,7 @@
                 </div>
                 <div class="col-md-8 col-sm-10 justify-content-center" id="nav">
                     <div class="row">
-                        <a class="col navbar-item" href="#home">Home</a>
+                        <a class="col navbar-item" href="#">Home</a>
                         <a class="col navbar-item" href="#about">About</a>
                         <a class="col navbar-item" href="#portfolio">Portfolio</a>
                         <a class="col navbar-item" href="#contact">Contact</a>

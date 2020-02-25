@@ -62,7 +62,7 @@
         min-height: 100vh;
         background-color: var(--dark-grey);
         padding: 20px;
-        padding-top: 1em;
+        padding-top: 8em;
     }
     
     .portfolio-content {
@@ -104,6 +104,12 @@
         .portfolio-card h3 {
             font-size: 2em !important;
             margin-bottom: 10px;
+        }
+    }
+
+    @media screen and (max-width: 575px) {
+        #portfolio {
+            padding-top: 2em;
         }
     }
     
