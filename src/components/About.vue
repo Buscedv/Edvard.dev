@@ -28,7 +28,7 @@
         background-color: var(--dark-grey);
         width: 100%;
         padding: 20px;
-        padding-top: 8em;
+        padding-top: 1em;
     }
     
     p {
@@ -39,10 +39,10 @@
         width: 70%;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 10em;
+        margin-top: 4em;
         background-color: rgba(0, 0, 0, 0.1);
         text-align: center;
-        padding: 25px;
+        padding: 30px;
         border-radius: 10px;
     }
     
