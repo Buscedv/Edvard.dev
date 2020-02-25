@@ -8,15 +8,17 @@
             </p>
         </div>
         <skills></skills>
+        <tools></tools>
     </div>
 </template>
 
 <script>
     import Skills from "./Skills";
+    import Tools from "./Tools";
     
     export default {
         name: 'About',
-        components: {Skills},
+        components: {Tools, Skills},
     }
 </script>
 
