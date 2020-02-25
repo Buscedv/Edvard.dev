@@ -18,9 +18,9 @@
             </div>
             <div class="col-lg-4 col-md-6 col-sm-12">
                 <div class="portfolio-card">
-                    <h3>PyEpoch</h3>
-                    <p class="text-left">A Python module that can convert timezones, set time and calculate seconds since the UNIX epoch.</p>
-                    <a href="https://buscedv.github.io/PyEpoch/" target="_blank" rel="noopener" class="btn btn-primary">Website</a>
+                    <h3>Emilianaskoog.fi</h3>
+                    <p class="text-left">Personal website design.</p>
+                    <a href="https://emilianaskoog.fi" target="_blank" rel="noopener" class="btn btn-primary">Website</a>
                 </div>
             </div>
         </div>
@@ -34,16 +34,16 @@
             </div>
             <div class="col-lg-4 col-md-6 col-sm-12">
                 <div class="portfolio-card">
-                    <h3>Quicksort</h3>
-                    <p class="text-left">A basic quicksort implementation written in Python.</p>
-                    <a href="https://github.com/Buscedv/Quicksort" target="_blank" rel="noopener" class="btn btn-primary">GitHub</a>
+                    <h3>PyEpoch</h3>
+                    <p class="text-left">A Python module that can convert timezones, set time and calculate seconds since the UNIX epoch.</p>
+                    <a href="https://buscedv.github.io/PyEpoch/" target="_blank" rel="noopener" class="btn btn-primary">Website</a>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-12">
                 <div class="portfolio-card">
-                    <h3>Emilianaskoog.fi</h3>
-                    <p class="text-left">Personal website design.</p>
-                    <a href="https://emilianaskoog.fi" target="_blank" rel="noopener" class="btn btn-primary">Website</a>
+                    <h3>Quicksort</h3>
+                    <p class="text-left">A basic quicksort implementation written in Python.</p>
+                    <a href="https://github.com/Buscedv/Quicksort" target="_blank" rel="noopener" class="btn btn-primary">GitHub</a>
                 </div>
             </div>
         </div>
