@@ -1,50 +1,28 @@
 <template>
     <div id="tools" class="section">
         <h2>What I Use</h2>
-        <div class="inner">
-            <div id="table" class="row">
-                <div class="col-12 row">
-                    <div class="col-6 tool tool-h">
-                        <p>IDE</p>
-                    </div>
-                    <div class="col-6 tool">
-                        <p>Jetbrains</p>
-                    </div>
-                </div>
-                <div class="col-12 row">
-                    <div class="col-6 tool tool-h">
-                        <p>Text Editor</p>
-                    </div>
-                    <div class="col-6 tool">
-                        <p>Sublime Text</p>
-                    </div>
-                </div>
-                <div class="col-12 row">
-                    <div class="col-6 tool tool-h">
-                        <p>OS</p>
-                    </div>
-                    <div class="col-6 tool">
-                        <p>OSX, GNU/Linux</p>
-                    </div>
-                </div>
-                <div class="col-12 row">
-                    <div class="col-6 tool tool-h">
-                        <p>SCM</p>
-                    </div>
-                    <div class="col-6 tool">
-                        <p>Git & GitHub</p>
-                    </div>
-                </div>
-                <div class="col-12 row">
-                    <div class="col-6 tool tool-h">
-                        <p>Shell</p>
-                    </div>
-                    <div class="col-6 tool">
-                        <p>ZSH</p>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <table>
+            <tr>
+                <th>IDE</th>
+                <td>Jetbrains</td>
+            </tr>
+            <tr>
+                <th>Text Editor</th>
+                <td>Sublime Text</td>
+            </tr>
+            <tr>
+                <th>OS</th>
+                <td>OSX, GNU/Linux</td>
+            </tr>
+            <tr>
+                <th>SCM</th>
+                <td>Git & GitHub</td>
+            </tr>
+            <tr>
+                <th>Shell</th>
+                <td>ZSH</td>
+            </tr>
+        </table>
     </div>
 </template>
 
@@ -61,41 +39,33 @@
         text-align: center;
     }
     
-    h2 {
-        margin-bottom: 0.5em;
-    }
-    
-    .inner {
-        width: 70%;
+    table {
+        width: 80%;
+        padding: 10px;
         margin-left: auto;
         margin-right: auto;
-        padding: 20px;
+        margin-top: 2em;
+        margin-bottom: 2em;
     }
     
-    #table {
-        margin-left: auto;
-        margin-right: auto;
-    }
-    
-    .tool {
+    th, td {
         border: 1px solid var(--dark-border);
-        color: var(--light-grey);
-        padding: 12px;
-        text-align: center;
+        width: 50%;
+        padding: 15px;
+        font-size: 1.7em;
     }
     
-    .tool p {
-        margin-top: auto;
-        margin-bottom: auto;
-    }
-    
-    .tool-h {
+    th {
         font-weight: bold;
         color: var(--accent);
     }
+    
+    td {
+        color: var(--light-grey);
+    }
 
-    @media screen and (max-width: 750px) {
-        .inner {
+    @media screen and (max-width: 575px) {
+        table {
             width: 100%;
         }
     }
