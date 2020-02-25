@@ -74,7 +74,7 @@
 
 <style scoped>
     #skills {
-        padding-top: 8em;
+        padding-top: 4em;
         width: 100%;
     }
     

@@ -62,7 +62,7 @@
         min-height: 100vh;
         background-color: var(--dark-grey);
         padding: 20px;
-        padding-top: 8em;
+        padding-top: 1em;
     }
     
     .portfolio-content {
