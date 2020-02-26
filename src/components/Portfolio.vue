@@ -1,58 +1,80 @@
 <template>
     <div id="portfolio">
         <h2 class="text-center">Portfolio</h2>
-        <div class="row portfolio-content">
-            <div class="col-lg-4 col-md-6 col-sm-12">
+        <b-row class="portfolio-content" v-for="groupedPortfolioItem in groupedPortfolioItems" :key="groupedPortfolioItems.indexOf(groupedPortfolioItem)">
+            <b-col lg="4" md="6" sm="12" v-for="portfolioItem in groupedPortfolioItem" :key="groupedPortfolioItem.indexOf(portfolioItem)">
                 <div class="portfolio-card">
-                    <h3>Enkelt</h3>
-                    <p class="text-left">A transpiled programming language written in Python. Enkelt is the worlds first swedish programming language. Enkelt is designed to be used in programming education.</p>
-                    <a href="https://enkelt.io" target="_blank" rel="noopener" class="btn btn-primary">Website</a>
+                    <h3 v-text="portfolioItem.title"></h3>
+                    <p class="text-left" v-text="portfolioItem.description"></p>
+                    <a :href="portfolioItem.link" target="_blank" rel="noopener" class="btn btn-primary">Learn More</a>
                 </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12">
-                <div class="portfolio-card">
-                    <h3>Berlinerfunk.fi</h3>
-                    <p class="text-left">Website design for the funk/jazz/rock band Berlinerfunk.</p>
-                    <a href="https://berlinerfunk.fi" target="_blank" rel="noopener" class="btn btn-primary">Website</a>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12">
-                <div class="portfolio-card">
-                    <h3>Emilianaskoog.fi</h3>
-                    <p class="text-left">Personal website design.</p>
-                    <a href="https://emilianaskoog.fi" target="_blank" rel="noopener" class="btn btn-primary">Website</a>
-                </div>
-            </div>
-        </div>
-        <div class="row portfolio-content">
-            <div class="col-lg-4 col-md-6 col-sm-12">
-                <div class="portfolio-card">
-                    <h3>Huffman Compression</h3>
-                    <p class="text-left">A script that compresses text using huffman coding. Written in Python</p>
-                    <a href="https://github.com/Buscedv/Huffman" target="_blank" rel="noopener" class="btn btn-primary">GitHub</a>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12">
-                <div class="portfolio-card">
-                    <h3>PyEpoch</h3>
-                    <p class="text-left">A Python module that can convert timezones, set time and calculate seconds since the UNIX epoch.</p>
-                    <a href="https://buscedv.github.io/PyEpoch/" target="_blank" rel="noopener" class="btn btn-primary">Website</a>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12">
-                <div class="portfolio-card">
-                    <h3>Quicksort</h3>
-                    <p class="text-left">A basic quicksort implementation written in Python.</p>
-                    <a href="https://github.com/Buscedv/Quicksort" target="_blank" rel="noopener" class="btn btn-primary">GitHub</a>
-                </div>
-            </div>
-        </div>
+            </b-col>
+        </b-row>
     </div>
 </template>
 
 <script>
     export default {
         name: 'Portfolio',
+        data: function () {
+            return {
+                portfolioItems: [
+                    {
+                        title: 'Enkelt',
+                        description: 'A transpiled programming language written in Python. Enkelt is the worlds first swedish programming language. Enkelt is designed to be used in programming education.',
+                        link: 'https://enkelt.io',
+                    },
+                    {
+                        title: 'Berlinerfunk.fi',
+                        description: 'Website design for the funk/jazz/rock band Berlinerfunk.',
+                        link: 'https://berlinerfunk.fi',
+                    },
+                    {
+                        title: 'Emilianaskoog.fi',
+                        description: 'Personal website design.',
+                        link: 'https://emilianaskoog.fi',
+                    },
+                    {
+                        title: 'Huffman Compression',
+                        description: 'A script that compresses text using huffman coding. Written in Python',
+                        link: 'https://github.com/Buscedv/Huffman',
+                    },
+                    {
+                        title: 'PyEpoch',
+                        description: 'A Python module that can convert timezones, set time and calculate seconds since the UNIX epoch.',
+                        link: 'https://buscedv.github.io/PyEpoch/',
+                    },
+                    {
+                        title: 'Quicksort',
+                        description: 'A basic quicksort implementation written in Python.',
+                        link: 'https://github.com/Buscedv/Quicksort',
+                    },
+                ]
+            }
+        },
+        computed: {
+            groupedPortfolioItems: function () {
+                const chunkSize = 3;
+                
+                let chunked = [];
+    
+                let i;
+                let portfolioItemCounter = 0;
+                
+                for (i = 0; i < Math.round(this.portfolioItems.length/chunkSize); i++) {
+                    chunked.push([])
+                }
+                
+                for (i = 0; i < chunked.length; i++) {
+                    while (chunked[i].length !== chunkSize || portfolioItemCounter === this.portfolioItems.length-1) {
+                        chunked[i].push(this.portfolioItems[portfolioItemCounter]);
+                        portfolioItemCounter++;
+                    }
+                }
+                
+                return chunked;
+            }
+        }
     }
 </script>
 
