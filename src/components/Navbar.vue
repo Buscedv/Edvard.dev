@@ -118,7 +118,7 @@
         transition: .2s;
     }
     
-    #mobile-navbar a *:hover {
+    #mobile-navbar a:hover * {
         color: var(--accent);
     }
     
