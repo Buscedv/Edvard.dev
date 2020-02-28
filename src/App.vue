@@ -22,7 +22,7 @@
     import Footer from "./components/Footer";
     
     export default {
-        name: "app",
+        name: 'app',
         components: {Contact, Portfolio, ExperienceEducation, About, Header, Navbar, Footer},
     }
 </script>

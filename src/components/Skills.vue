@@ -1,55 +1,13 @@
 <template>
     <div id="skills">
         <b-row>
-            <b-col md="3" sm="4" xs="12" class="skill" @mouseover="showSkillText('vuejs')" @mouseleave="hideSkillText('vuejs')">
-                <font-awesome-icon :icon="['fab', 'vuejs']" :size="skillSize"/>
+            <b-col v-for="(skill, index) in skills" :key="index" md="3" sm="4" xs="12" class="skill" @mouseover="showSkillText(skill.title)" @mouseleave="hideSkillText(skill.title)">
+                <font-awesome-icon :icon="['fab', skill.title]" :size="skillSize"/>
                 <div class="skill-text-container">
-                    <p id="vuejs-skill" class="skill-text">Intermediate to advanced</p>
+                    <p :id="skill.title+'-skill'" class="skill-text" v-text="skill.level"></p>
                 </div>
             </b-col>
-            <b-col md="3" sm="4" xs="12" class="skill" @mouseover="showSkillText('git')" @mouseleave="hideSkillText('git')">
-                <font-awesome-icon :icon="['fab', 'git']" :size="skillSize"/>
-                <div class="skill-text-container">
-                    <p id="git-skill" class="skill-text">Intermediate</p>
-                </div>
-            </b-col>
-            <b-col md="3" sm="4" xs="12" class="skill" @mouseover="showSkillText('python')" @mouseleave="hideSkillText('python')">
-                <font-awesome-icon :icon="['fab', 'python']" :size="skillSize"/>
-                <div class="skill-text-container">
-                    <p id="python-skill" class="skill-text">Intermediate</p>
-                </div>
-            </b-col>
-            <b-col md="3" sm="4" xs="12" class="skill" @mouseover="showSkillText('js')" @mouseleave="hideSkillText('js')">
-                <font-awesome-icon :icon="['fab', 'js']" :size="skillSize"/>
-                <div class="skill-text-container">
-                    <p id="js-skill" class="skill-text">Intermediate to advanced</p>
-                </div>
-            </b-col>
-            <b-col md="3" sm="4" xs="12" class="skill" @mouseover="showSkillText('html5')" @mouseleave="hideSkillText('html5')">
-                <font-awesome-icon :icon="['fab', 'html5']" :size="skillSize"/>
-                <div class="skill-text-container">
-                    <p id="html5-skill" class="skill-text">Advanced</p>
-                </div>
-            </b-col>
-                <b-col md="3" sm="4" xs="12" class="skill" @mouseover="showSkillText('css3')" @mouseleave="hideSkillText('css3')">
-                <font-awesome-icon :icon="['fab', 'css3']" :size="skillSize"/>
-                <div class="skill-text-container">
-                    <p id="css3-skill" class="skill-text">Advanced</p>
-                </div>
-                </b-col>
-            <b-col md="3" sm="4" xs="12" class="skill" @mouseover="showSkillText('php')" @mouseleave="hideSkillText('php')">
-                <font-awesome-icon :icon="['fab', 'php']" :size="skillSize"/>
-                <div class="skill-text-container">
-                    <p id="php-skill" class="skill-text">Beginner</p>
-                </div>
-            </b-col>
-            <b-col md="3" sm="4" xs="12" class="skill" @mouseover="showSkillText('linux')" @mouseleave="hideSkillText('linux')">
-                <font-awesome-icon :icon="['fab', 'linux']" :size="skillSize"/>
-                <div class="skill-text-container">
-                    <p id="linux-skill" class="skill-text">Intermediate</p>
-                </div>
-            </b-col>
-        </b-row>>
+        </b-row>
     </div>
 </template>
 
@@ -59,6 +17,40 @@
         data: function() {
             return {
                 skillSize: '9x',
+                skills: [
+                    {
+                        title: 'vuejs',
+                        level: 'Intermediate',
+                    },
+                    {
+                        title: 'git',
+                        level: 'Intermediate',
+                    },
+                    {
+                        title: 'js',
+                        level: 'Intermediate to Advanced',
+                    },
+                    {
+                        title: 'python',
+                        level: 'Intermediate',
+                    },
+                    {
+                        title: 'html5',
+                        level: 'Advanced',
+                    },
+                    {
+                        title: 'css3',
+                        level: 'Advanced',
+                    },
+                    {
+                        title: 'php',
+                        level: 'Beginner',
+                    },
+                    {
+                        title: 'linux',
+                        level: 'Intermediate',
+                    },
+                ]
             }
         },
         methods: {
