@@ -34,7 +34,7 @@
 
 <style scoped>
     #tools {
-        padding-top: 2em;
+        padding-top: 6em;
         width: 100%;
         text-align: center;
     }
