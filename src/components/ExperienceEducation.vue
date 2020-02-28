@@ -1,7 +1,7 @@
 <template>
     <div id="experience-education">
-        <div class="row" id="content">
-            <div class="col-md-6 col-sm-12" id="experience">
+        <b-row id="content">
+            <b-col md="6" sm="12" id="experience">
                 <h2 class="text-center">Experience</h2>
                 <div class="edu-exp-card">
                     <div class="edu-exp-card-inner">
@@ -49,8 +49,8 @@
                         </p>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-6 col-sm-12" id="education">
+            </b-col>
+            <b-col md="6" sm="12" id="education">
                 <h2 class="text-center">Education</h2>
                 <div class="edu-exp-card">
                     <div class="edu-exp-card-inner">
@@ -60,8 +60,8 @@
                         <p>Vocational qualification in Information and Communications Technology. Studying software development.</p>
                     </div>
                 </div>
-            </div>
-        </div>
+            </b-col>
+        </b-row>
     </div>
 </template>
 

@@ -1,55 +1,55 @@
 <template>
     <div id="skills">
-        <div class="row">
-            <div class="col-md-3 col-sm-4 col-xs-3 skill" @mouseover="showSkillText('vuejs')" @mouseleave="hideSkillText('vuejs')">
+        <b-row>
+            <b-col md="3" sm="4" xs="12" class="skill" @mouseover="showSkillText('vuejs')" @mouseleave="hideSkillText('vuejs')">
                 <font-awesome-icon :icon="['fab', 'vuejs']" :size="skillSize"/>
                 <div class="skill-text-container">
                     <p id="vuejs-skill" class="skill-text">Intermediate to advanced</p>
                 </div>
-            </div>
-            <div class="col-md-3 col-sm-4 col-xs-3 skill" @mouseover="showSkillText('git')" @mouseleave="hideSkillText('git')">
+            </b-col>
+            <b-col md="3" sm="4" xs="12" class="skill" @mouseover="showSkillText('git')" @mouseleave="hideSkillText('git')">
                 <font-awesome-icon :icon="['fab', 'git']" :size="skillSize"/>
                 <div class="skill-text-container">
                     <p id="git-skill" class="skill-text">Intermediate</p>
                 </div>
-            </div>
-            <div class="col-md-3 col-sm-4 col-xs-3 skill" @mouseover="showSkillText('python')" @mouseleave="hideSkillText('python')">
+            </b-col>
+            <b-col md="3" sm="4" xs="12" class="skill" @mouseover="showSkillText('python')" @mouseleave="hideSkillText('python')">
                 <font-awesome-icon :icon="['fab', 'python']" :size="skillSize"/>
                 <div class="skill-text-container">
                     <p id="python-skill" class="skill-text">Intermediate</p>
                 </div>
-            </div>
-            <div class="col-md-3 col-sm-4 col-xs-3 skill" @mouseover="showSkillText('js')" @mouseleave="hideSkillText('js')">
+            </b-col>
+            <b-col md="3" sm="4" xs="12" class="skill" @mouseover="showSkillText('js')" @mouseleave="hideSkillText('js')">
                 <font-awesome-icon :icon="['fab', 'js']" :size="skillSize"/>
                 <div class="skill-text-container">
                     <p id="js-skill" class="skill-text">Intermediate to advanced</p>
                 </div>
-            </div>
-            <div class="col-md-3 col-sm-4 col-xs-3 skill" @mouseover="showSkillText('html5')" @mouseleave="hideSkillText('html5')">
+            </b-col>
+            <b-col md="3" sm="4" xs="12" class="skill" @mouseover="showSkillText('html5')" @mouseleave="hideSkillText('html5')">
                 <font-awesome-icon :icon="['fab', 'html5']" :size="skillSize"/>
                 <div class="skill-text-container">
                     <p id="html5-skill" class="skill-text">Advanced</p>
                 </div>
-            </div>
-            <div class="col-md-3 col-sm-4 col-xs-3 skill" @mouseover="showSkillText('css3')" @mouseleave="hideSkillText('css3')">
+            </b-col>
+                <b-col md="3" sm="4" xs="12" class="skill" @mouseover="showSkillText('css3')" @mouseleave="hideSkillText('css3')">
                 <font-awesome-icon :icon="['fab', 'css3']" :size="skillSize"/>
                 <div class="skill-text-container">
                     <p id="css3-skill" class="skill-text">Advanced</p>
                 </div>
-            </div>
-            <div class="col-md-3 col-sm-4 col-xs-3 skill" @mouseover="showSkillText('php')" @mouseleave="hideSkillText('php')">
+                </b-col>
+            <b-col md="3" sm="4" xs="12" class="skill" @mouseover="showSkillText('php')" @mouseleave="hideSkillText('php')">
                 <font-awesome-icon :icon="['fab', 'php']" :size="skillSize"/>
                 <div class="skill-text-container">
                     <p id="php-skill" class="skill-text">Beginner</p>
                 </div>
-            </div>
-            <div class="col-md-3 col-sm-4 col-xs-3 skill" @mouseover="showSkillText('linux')" @mouseleave="hideSkillText('linux')">
+            </b-col>
+            <b-col md="3" sm="4" xs="12" class="skill" @mouseover="showSkillText('linux')" @mouseleave="hideSkillText('linux')">
                 <font-awesome-icon :icon="['fab', 'linux']" :size="skillSize"/>
                 <div class="skill-text-container">
                     <p id="linux-skill" class="skill-text">Intermediate</p>
                 </div>
-            </div>
-        </div>
+            </b-col>
+        </b-row>>
     </div>
 </template>
 
