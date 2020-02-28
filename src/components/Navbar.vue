@@ -113,6 +113,17 @@
         top: 20%;
         height: 80%;
         border-bottom: 2px solid var(--accent);
+        overflow-y: scroll;
+    }
+
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    #overlay-inner::-webkit-scrollbar {
+        display: none;
+    }
+
+    /* Hide scrollbar for IE and Edge */
+    #overlay-inner {
+        -ms-overflow-style: none;
     }
     
     #overlay-inner img {
