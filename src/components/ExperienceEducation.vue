@@ -3,61 +3,23 @@
         <b-row id="content">
             <b-col md="6" sm="12" id="experience">
                 <h2 class="text-center">Experience</h2>
-                <div class="edu-exp-card">
+                <div class="edu-exp-card" v-for="(exp, index) in experience" :key="index">
                     <div class="edu-exp-card-inner">
-                        <h3>Trainee</h3>
-                        <h4>KSF Media Ab</h4>
-                        <h5>February 2020 - Current</h5>
-                        <p>
-                            Internship as part of my vocational education (vocational qualification in information and communications technology), software development.
-                        </p>
-                    </div>
-                </div>
-                <div class="edu-exp-card">
-                    <div class="edu-exp-card-inner">
-                        <h3>Summer Intern</h3>
-                        <h4>Supermetrics Oy</h4>
-                        <h5>June 2019 - July 2019</h5>
-                        <p>
-                            Assisted in product development. Worked on internal tools for the CS (customer support) team.
-    
-                            Vue.js, Bootstrap, PHP & Git
-                        </p>
-                    </div>
-                </div>
-                <div class="edu-exp-card">
-                    <div class="edu-exp-card-inner">
-                        <h3>Assisting In Product Development</h3>
-                        <h4>Supermetrics Oy</h4>
-                        <h5>February 2019 - April 2019</h5>
-                        <p>
-                            Gathered API documentation
-                        </p>
-                    </div>
-                </div>
-                <div class="edu-exp-card">
-                    <div class="edu-exp-card-inner">
-                        <h3>Trainee</h3>
-                        <h4>Supermetrics Oy</h4>
-                        <h5>November 2018</h5>
-                        <p>
-                            TET/PRAO (work experience program) for 2 weeks.
-    
-                            - Python programming, API integrations, documentation and Google Dialogflow work.
-    
-                            Graded: 3/3, "Quick to start working, works well independently, managed to do more than planned, shown interest in learning new"
-                        </p>
+                        <h3 v-text="exp.title"></h3>
+                        <h4 v-text="exp.location"></h4>
+                        <h5 v-text="(exp.end !== '') ? exp.start + ' - ' + exp.end : exp.start"></h5>
+                        <p v-html="exp.description"></p>
                     </div>
                 </div>
             </b-col>
             <b-col md="6" sm="12" id="education">
                 <h2 class="text-center">Education</h2>
-                <div class="edu-exp-card">
+                <div class="edu-exp-card" v-for="(exp, index) in education" :key="index">
                     <div class="edu-exp-card-inner">
-                        <h3>Vocational School</h3>
-                        <h4>Prakticum</h4>
-                        <h5>August 2019 - Current</h5>
-                        <p>Vocational qualification in Information and Communications Technology. Studying software development.</p>
+                        <h3 v-text="exp.title"></h3>
+                        <h4 v-text="exp.location"></h4>
+                        <h5 v-text="(exp.end !== '') ? exp.start + ' - ' + exp.end : exp.start"></h5>
+                        <p v-html="exp.description"></p>
                     </div>
                 </div>
             </b-col>
@@ -68,6 +30,49 @@
 <script>
     export default {
         name: 'ExperienceEducation',
+        data: function() {
+            return {
+                experience: [
+                    {
+                        title: "Trainee",
+                        location: "KSF Media Ab",
+                        start: "February 2020",
+                        end: "April 2020 (current)",
+                        description: "Internship as part of my vocational education (vocational qualification in information and communications technology), software development."
+                    },
+                    {
+                        title: "Summer Intern",
+                        location: "Supermetrics Oy",
+                        start: "June 2019",
+                        end: "July 2019",
+                        description: "Assisted in product development. Worked on internal tools for the CS (customer support) team.<br/><br/>Vue.js, Bootstrap, PHP & Git"
+                    },
+                    {
+                        title: "Assisting In Product Development",
+                        location: "Supermetrics Oy",
+                        start: "February 2019",
+                        end: "April 2019",
+                        description: "Gathered API documentation"
+                    },
+                    {
+                        title: "Trainee",
+                        location: "Supermetrics Oy",
+                        start: "November 2018",
+                        end: "",
+                        description: 'TET/PRAO (work experience program) for 2 weeks.<br/><br/> - Python programming, API integrations, documentation and Google Dialogflow work.<br/><br/>Graded: 3/3, "Quick to start working, works well independently, managed to do more than planned, shown interest in learning new"',
+                    },
+                ],
+                education: [
+                    {
+                        title: 'Vocational School',
+                        location: 'Prakticum',
+                        start: 'August 2019',
+                        end: 'Current',
+                        description: 'Vocational qualification in Information and Communications Technology. Studying software development.',
+                    },
+                ]
+            }
+        },
     }
 </script>
 

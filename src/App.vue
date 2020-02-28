@@ -3,10 +3,10 @@
        <div class="justify-content-center">
            <Navbar></Navbar>
            <Header></Header>
-           <about></about>
-           <experience-education></experience-education>
-           <portfolio></portfolio>
-           <contact></contact>
+           <About></About>
+           <Experience-education></Experience-education>
+           <Portfolio></Portfolio>
+           <Contact></Contact>
            <Footer></Footer>
        </div>
     </div>
@@ -22,20 +22,20 @@
     import Footer from "./components/Footer";
     
     export default {
-        name: 'app',
+        name: "app",
         components: {Contact, Portfolio, ExperienceEducation, About, Header, Navbar, Footer},
     }
 </script>
 
 <style>
-    @import './assets/styles/variables.css';
+    @import "./assets/styles/variables.css";
     
     html {
         scroll-behavior: smooth;
     }
     
     body {
-        font-family: 'Verdana', sans-serif !important;
+        font-family: "Verdana", sans-serif !important;
     }
     
     #app {
