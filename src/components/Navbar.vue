@@ -174,7 +174,7 @@
     }
     
     .navbar-item {
-        color: var(--dark);
+        color: var(--dark-grey-text);
         font-size: 1.5em;
     }
     
@@ -186,7 +186,7 @@
     
     .navbar-img-icon {
         height: 2.5em;
-        color: var(--dark-grey);
+        color: var(--dark-grey-text);
     }
     
     .navbar-img-icon:hover {
@@ -227,7 +227,7 @@
     }
     
     #mobile-navbar a * {
-        color: var(--dark);
+        color: var(--dark-grey);
         font-size: 1.3em;
         transition: .2s;
     }

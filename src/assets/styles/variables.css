@@ -2,6 +2,7 @@
     --black: #000;
     --dark-hover: #0f0f0f;
     --dark-grey: #1f1f1f;
+    --dark-grey-text: #1f1f1f;
     --dark-border: #4f4f4f;
     --grey: #555;
     --light-grey: #aaa;
@@ -15,4 +16,12 @@
     --accent-dark: #2c2922;
     --accent-brown: #554127;
     --accent-light: #7a6f4a;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --white-bg: #111;
+        --dark-grey-text: #bbb;
+        --light-border: #222;
+    }
 }

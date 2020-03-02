@@ -40,7 +40,7 @@
     }
     
     h1 {
-        color: var(--dark-grey);
+        color: var(--dark-grey-text);
         font-size: 4em;
         padding: 20px;
     }
