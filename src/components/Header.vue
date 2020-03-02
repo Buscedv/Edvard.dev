@@ -60,7 +60,36 @@
     
         h1 {
             padding: 10px;
-            font-size: 3em;
+            font-size: 3em !important;
+        }
+    }
+
+    @media screen and (max-height: 650px) {
+        header {
+            height: 100vh;
+            padding: 20px;
+        }
+    
+        img {
+            height: 130px;
+        }
+        
+        h1 {
+            font-size: 2.7em !important;
+        }
+    }
+
+    @media screen and (max-height: 500px) {
+        header {
+            padding: 0;
+        }
+        
+        img {
+            height: 100px;
+        }
+        
+        h1 {
+            font-size: 2em !important;
         }
     }
 </style>

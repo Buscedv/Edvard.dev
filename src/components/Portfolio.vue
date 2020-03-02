@@ -136,6 +136,19 @@
     }
     
     @media screen and (max-width: 350px) {
+        #portfolio {
+            padding-left: 0;
+            padding-right: 0;
+        }
+        
+        .portfolio-content {
+            padding: 0;
+        }
+        
+        .portfolio-card {
+            padding: 10px;
+        }
+        
         .portfolio-card h3 {
             font-size: 1.2em !important;
         }

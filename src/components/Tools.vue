@@ -69,4 +69,10 @@
             width: 100%;
         }
     }
+    
+    @media screen and (max-width: 330px) {
+        * {
+            display: none;
+        }
+    }
 </style>
