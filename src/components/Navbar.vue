@@ -214,8 +214,8 @@
         height: 50px;
         border-top: 1px solid var(--light-border);
         padding: 10px;
-        background-color: white;
         z-index: 100;
+        background-color: var(--white-bg);
     }
     
     .mobile-navbar-row {
@@ -227,7 +227,7 @@
     }
     
     #mobile-navbar a * {
-        color: var(--dark-grey);
+        color: var(--dark-grey-text);
         font-size: 1.3em;
         transition: .2s;
     }
@@ -237,7 +237,7 @@
     }
     
     /* MEDIA */
-    @media screen and (max-width: 575px) {
+    @media screen and (max-width: 575px), screen and (max-height: 450px){
         #navbar {
             visibility: hidden;
         }
