@@ -19,6 +19,7 @@
     header {
         width: 100%;
         height: 100vh;
+        background-color: var(--white-bg);
     }
     
     .header {
@@ -39,7 +40,7 @@
     }
     
     h1 {
-        color: var(--dark);
+        color: var(--dark-grey);
         font-size: 4em;
         padding: 20px;
     }

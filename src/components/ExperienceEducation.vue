@@ -80,7 +80,7 @@
     #experience-education {
         width: 100%;
         min-height: 100vh;
-        background-color: var(--white);
+        background-color: var(--white-bg);
         padding: 20px;
         padding-top: 8em;
     }

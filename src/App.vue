@@ -39,7 +39,7 @@
     }
     
     #app {
-        background-color: var(--white);
+        background-color: var(--white-bg);
     }
     
     h1, h2, h3, h4, h5, h6 {

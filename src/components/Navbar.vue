@@ -160,7 +160,7 @@
         margin-right: auto;
         text-align: center;
         position: fixed;
-        background-color: var(--white);
+        background-color: var(--white-bg);
         top: 0;
         z-index: 100;
         border-bottom: 1px solid var(--light-border);
