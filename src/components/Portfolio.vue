@@ -21,7 +21,7 @@
                 portfolioItems: [
                     {
                         title: 'Enkelt',
-                        description: 'A transpiled programming language written in Python. Enkelt is the worlds first swedish programming language. Enkelt is designed to be used in programming education.',
+                        description: 'A transpiled programming language written in Python. Enkelt is the worlds first programming language that uses a swedish syntax. Enkelt is designed to be used in programming education.',
                         link: 'https://enkelt.io',
                     },
                     {
