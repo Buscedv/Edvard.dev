@@ -1,15 +1,17 @@
 <template>
     <div id="portfolio">
         <h2 class="text-center">Portfolio</h2>
-        <b-row class="portfolio-content" v-for="groupedPortfolioItem in groupedPortfolioItems" :key="groupedPortfolioItems.indexOf(groupedPortfolioItem)">
-            <b-col lg="4" md="6" sm="12" v-for="portfolioItem in groupedPortfolioItem" :key="groupedPortfolioItem.indexOf(portfolioItem)">
-                <div class="portfolio-card">
-                    <h3 v-text="portfolioItem.title"></h3>
-                    <p class="text-left" v-text="portfolioItem.description"></p>
-                    <a :href="portfolioItem.link" target="_blank" rel="noopener" class="btn btn-primary">Learn More</a>
-                </div>
-            </b-col>
-        </b-row>
+        <b-container fluid>
+            <b-row class="portfolio-content" v-for="groupedPortfolioItem in groupedPortfolioItems" :key="groupedPortfolioItems.indexOf(groupedPortfolioItem)">
+                <b-col lg="4" md="6" sm="12" v-for="portfolioItem in groupedPortfolioItem" :key="groupedPortfolioItem.indexOf(portfolioItem)">
+                    <div class="portfolio-card">
+                        <h3 v-text="portfolioItem.title"></h3>
+                        <p class="text-left" v-text="portfolioItem.description"></p>
+                        <a :href="portfolioItem.link" target="_blank" rel="noopener" class="btn btn-primary">Learn More</a>
+                    </div>
+                </b-col>
+            </b-row>
+        </b-container>
     </div>
 </template>
 
@@ -21,7 +23,7 @@
                 portfolioItems: [
                     {
                         title: 'Enkelt',
-                        description: 'A transpiled programming language written in Python. Enkelt is the worlds first programming language that uses a swedish syntax. Enkelt is designed to be used in programming education.',
+                        description: 'The worlds first programming language that uses a swedish syntax.',
                         link: 'https://enkelt.io',
                     },
                     {
@@ -31,17 +33,17 @@
                     },
                     {
                         title: 'Emilianaskoog.fi',
-                        description: 'Personal website design.',
+                        description: 'A personal website design. Built with Vue.js, and deployed with Netlify',
                         link: 'https://emilianaskoog.fi',
                     },
                     {
-                        title: 'Huffman Compression',
-                        description: 'A script that compresses text using huffman coding. Written in Python',
+                        title: 'Huffman Coding',
+                        description: 'An demonstration on how huffman compression works. Written in Python.',
                         link: 'https://github.com/Buscedv/Huffman',
                     },
                     {
                         title: 'PyEpoch',
-                        description: 'A Python module that can convert timezones, set time and calculate seconds since the UNIX epoch.',
+                        description: 'A Python module for working with timezones & the Unix epoch.',
                         link: 'https://buscedv.github.io/PyEpoch/',
                     },
                     {
@@ -86,7 +88,7 @@
         padding: 20px;
         padding-top: 8em;
     }
-    
+
     .portfolio-content {
         width: 90%;
         margin-left: auto;
@@ -94,35 +96,34 @@
         padding: 20px;
         margin-top: 2em;
     }
-    
+
     .portfolio-card {
         background-color: var(--dark-hover);
         padding: 30px;
         border-radius: 20px;
         text-align: center;
-        min-height: 25em;
         margin: 5px;
         border: 3px solid var(--dark-hover);
     }
-    
+
     .portfolio-card h3 {
         color: var(--accent);
     }
-    
+
     .portfolio-card p {
         color: var(--light-grey);
     }
-    
+
     .portfolio-card:hover {
         background-color: var(--black);
     }
-    
+
     @media screen and (max-width: 1500px) {
         .portfolio-content {
             padding: 2px;
             width: 100%;
         }
-        
+
         .portfolio-card h3 {
             font-size: 2em !important;
             margin-bottom: 10px;
@@ -134,25 +135,25 @@
             padding-top: 2em;
         }
     }
-    
+
     @media screen and (max-width: 350px) {
         #portfolio {
             padding-left: 0;
             padding-right: 0;
         }
-        
+
         .portfolio-content {
             padding: 0;
         }
-        
+
         .portfolio-card {
             padding: 10px;
         }
-        
+
         .portfolio-card h3 {
             font-size: 1.2em !important;
         }
-        
+
         .portfolio-card p {
             font-size: 0.8em;
         }
