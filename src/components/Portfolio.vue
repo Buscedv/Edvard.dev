@@ -37,6 +37,11 @@
                         link: 'https://emilianaskoog.fi',
                     },
                     {
+                        title: 'Abnex',
+                        description: 'Abnormal Expressions (abnex) is an alternative to Regular Expressions (regex).',
+                        link: 'https://github.com/Buscedv/abnormal-expressions',
+                    },
+                    {
                         title: 'Huffman Coding',
                         description: 'An demonstration on how huffman compression works. Written in Python.',
                         link: 'https://github.com/Buscedv/Huffman',
@@ -45,11 +50,6 @@
                         title: 'PyEpoch',
                         description: 'A Python module for working with timezones & the Unix epoch.',
                         link: 'https://buscedv.github.io/PyEpoch/',
-                    },
-                    {
-                        title: 'Quicksort',
-                        description: 'A basic quicksort implementation written in Python.',
-                        link: 'https://github.com/Buscedv/Quicksort',
                     },
                 ]
             }
