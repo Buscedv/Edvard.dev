@@ -34,10 +34,17 @@
             return {
                 experience: [
                     {
+                        title: "Light Entrepreneur",
+                        location: "Self-Employed",
+                        start: "April 2020",
+                        end: "Current",
+                        description: "Freelancing as a light entrepreneur."
+                    },
+                    {
                         title: "Trainee",
                         location: "KSF Media Ab",
                         start: "February 2020",
-                        end: "April 2020 (current)",
+                        end: "April 2020",
                         description: "Internship as part of my vocational education (vocational qualification in information and communications technology), software development."
                     },
                     {
