@@ -40,10 +40,8 @@
         margin-left: auto;
         margin-right: auto;
         margin-top: 4em;
-        background-color: rgba(0, 0, 0, 0.1);
         text-align: center;
         padding: 30px;
-        border-radius: 10px;
     }
     
     #about-img {

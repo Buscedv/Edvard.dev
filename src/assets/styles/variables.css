@@ -21,7 +21,7 @@
 @media (prefers-color-scheme: dark) {
     :root {
         --white-bg: #111;
-        --dark-grey-text: #ababab;
+        --dark-grey-text: #ccc;
         --light-border: #222;
     }
 }

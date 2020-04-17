@@ -23,19 +23,17 @@
         </div>
         
         <nav id="navbar">
-            <b-row>
+            <b-row id="inner-navbar">
                 <b-col md="2" sm="1">
-                    <a href="#">
-                        <img class="navbar-img-icon" src="../assets/logo.png" alt="Edvard Busck-Nielsen">
-                    </a>
+                    <a href="#"><img class="navbar-img-icon" src="../assets/logo.png" alt="Edvard Busck-Nielsen"></a>
                 </b-col>
                 <b-col md="8" sm="10" class="justify-content-center" id="nav">
                     <b-row>
                         <a v-for="(navbarItem, index) in navbarItems" :key="index" class="col navbar-item" :href="navbarItem.link" v-text="navbarItem.title"></a>
                     </b-row>
                 </b-col>
-                <b-col md="2" sm="1">
-                    <a @click="toggleOverlay">
+                <b-col md="2" sm="1" class="navbar-img-icon-btn-holder">
+                    <a @click="toggleOverlay" class="navbar-img-icon-btn">
                         <font-awesome-icon class="navbar-img-icon" :icon="['fas', menuIcon]" />
                     </a>
                 </b-col>
@@ -166,6 +164,14 @@
         border-bottom: 1px solid var(--light-border);
         animation-name: slideIn;
         animation-duration: 0.02s;
+        display: flex;
+        align-items: center;
+    }
+
+    #inner-navbar {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
     }
     
     #nav {
@@ -193,6 +199,19 @@
         cursor: pointer;
         color: var(--accent);
     }
+
+    .navbar-img-icon-btn-holder {
+        display: flex;
+        align-items: center;
+    }
+
+    .navbar-img-icon-btn {
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        align-items: center;
+    }
+
     
     @keyframes slideIn {
         0% {

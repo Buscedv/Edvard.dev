@@ -33,9 +33,17 @@
     html {
         scroll-behavior: smooth;
     }
+
+    *::-webkit-scrollbar {
+        display: none;
+    }
+
+    * {
+        -ms-overflow-style: none;
+    }
     
     body {
-        font-family: "Verdana", sans-serif !important;
+        font-family: "Lato", sans-serif !important;
     }
     
     #app {
