@@ -30,9 +30,14 @@
         padding: 20px;
         padding-top: 2em;
     }
+
+    h2 {
+        text-align: left !important;
+        margin-bottom: 40px;
+    }
     
     p {
-        color: var(--dark-white)
+        color: var(--dark-white);
     }
     
     #about-inner {

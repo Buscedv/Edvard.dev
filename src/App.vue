@@ -53,6 +53,7 @@
     h1, h2, h3, h4, h5, h6 {
         color: var(--dark-grey);
         margin: 10px;
+        font-family: 'Open Sans', 'Lato', sans-serif;
     }
     
     h1 {
@@ -60,7 +61,7 @@
     }
     
     h2 {
-        font-size: 3em !important;
+        font-size: 3.3em !important;
         color: var(--accent);
     }
     

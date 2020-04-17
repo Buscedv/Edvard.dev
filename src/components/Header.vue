@@ -77,7 +77,7 @@
 
     /* Media for WIDTH */
 
-    @media screen and (max-width: 900px) {
+    @media screen and (max-width: 980px) {
         header {
             width: 100%;
             padding-left: 100px;
@@ -105,7 +105,7 @@
         }
     }
 
-    @media screen and (max-width: 620px) {
+    @media screen and (max-width: 710px) {
         header {
             padding-left: 0;
             padding-right: 0;
@@ -121,7 +121,7 @@
         }
     }
 
-    @media screen and (max-width: 560px) {
+    @media screen and (max-width: 700px) {
         h1 {
             font-size: 4em !important;
         }
