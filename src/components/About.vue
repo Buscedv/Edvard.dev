@@ -1,11 +1,18 @@
 <template>
     <div id="about" class="section">
-        <div id="about-inner">
-            <h2 class="text-center">About Me</h2>
-            <img src="../assets/logo.png" alt="Edvard Busck-Nielsen" id="about-img">
-            <p id="about-text">
-                I have been programming for about 6 years and would like to make it my job in the future. I enjoy creating new things & solving problems because nothing else gives you that special feeling of success! There is nothing better than to create something new and experiment with new stuff, I'm constantly growing and I enjoy learning about new things.
-            </p>
+        <div id="about-inner" class="row">
+            <div class="col-md-6 col-sm-12">
+                <h2 class="text-center">About</h2>
+                <h2 class="text-center" id="me">Me</h2>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <img src="../assets/logo.png" alt="Edvard Busck-Nielsen" id="about-img">
+            </div>
+            <div class="col-12">
+                <p id="about-text">
+                    I have been programming for about 6 years and would like to make it my job in the future. I enjoy creating new things & solving problems because nothing else gives you that special feeling of success! There is nothing better than to create something new and experiment with new stuff, I'm constantly growing and I enjoy learning about new things.
+                </p>
+            </div>
         </div>
         <Skills></Skills>
         <Tools></Tools>
@@ -33,7 +40,13 @@
 
     h2 {
         text-align: left !important;
-        margin-bottom: 40px;
+        margin: 0;
+        padding: 0;
+        font-size: 5em !important;
+    }
+
+    #me {
+        color: var(--white) !important;
     }
     
     p {
@@ -45,7 +58,6 @@
         margin-left: auto;
         margin-right: auto;
         margin-top: 4em;
-        text-align: center;
         padding: 30px;
     }
     
@@ -58,11 +70,16 @@
     #about-text {
         margin-top: 2em;
         text-align: left;
+        padding: 10px;
     }
     
     @media screen and (max-width: 550px) {
         #about-inner {
             width: 99%;
+        }
+
+        #about-img {
+            display: none;
         }
     }
     
