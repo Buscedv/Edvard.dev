@@ -54,11 +54,11 @@
     }
     
     #about-inner {
-        width: 70%;
+        width: 80%;
         margin-left: auto;
         margin-right: auto;
         margin-top: 4em;
-        padding: 30px;
+        padding: 20px;
     }
     
     #about-img {
@@ -74,8 +74,12 @@
     }
     
     @media screen and (max-width: 550px) {
+        #about {
+            padding: 5px;
+        }
         #about-inner {
-            width: 99%;
+            width: 100%;
+            padding: 5px;
         }
 
         #about-img {

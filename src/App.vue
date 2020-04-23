@@ -63,7 +63,6 @@
     h2 {
         font-size: 3.3em !important;
         color: var(--accent);
-        font-weight: bolder !important;
     }
     
     h3 {

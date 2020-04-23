@@ -59,8 +59,7 @@
     
     h1 {
         color: var(--dark-grey-text);
-        font-family: 'Open Sans', sans-serif !important;
-        font-weight: bolder;
+        font-weight: bolder !important;
         font-size: 5.5em !important;
         margin: 0;
     }

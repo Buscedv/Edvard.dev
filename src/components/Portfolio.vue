@@ -47,9 +47,9 @@
                         link: 'https://github.com/Buscedv/Huffman',
                     },
                     {
-                        title: 'PyEpoch',
-                        description: 'A Python module for working with timezones & the Unix epoch.',
-                        link: 'https://buscedv.github.io/PyEpoch/',
+                        title: 'Tasks',
+                        description: 'A tasks/to-do list web-app using Firebase Authentication & Firestore.',
+                        link: 'https://tasks.edvard.io',
                     },
                 ]
             }
