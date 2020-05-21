@@ -29,7 +29,7 @@
                 </b-col>
                 <b-col md="8" sm="10" class="justify-content-center" id="nav">
                     <b-row>
-                        <a v-for="(navbarItem, index) in navbarItems" :key="index" class="col navbar-item" :href="navbarItem.link" v-text="navbarItem.title"></a>
+                        <a v-for="(navbarItem, index) in navbarItems" :key="index" class="col navbar-link" :href="navbarItem.link" v-text="navbarItem.title"></a>
                     </b-row>
                 </b-col>
                 <b-col md="2" sm="1" class="navbar-img-icon-btn-holder">
@@ -179,12 +179,12 @@
         margin-bottom: auto;
     }
     
-    .navbar-item {
+    .navbar-link {
         color: var(--dark-grey-text);
         font-size: 1.5em;
     }
     
-    .navbar-item:hover {
+    .navbar-link:hover {
         cursor: pointer;
         color: var(--accent)!important;
         text-decoration: none;
