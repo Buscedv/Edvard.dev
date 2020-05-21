@@ -1,0 +1,252 @@
+<template>
+	<div id="app" class="container-fluid">
+		<a href="#" id="to-top"><font-awesome-icon :icon="['fas', 'chevron-up']"/></a>
+
+		<main>
+			<Navbar id="navbar"></Navbar>
+			<MobileNavbar id="mobile-navbar"></MobileNavbar>
+			<div class="row">
+				<div class="col-xs-12">
+					<Header></Header>
+				</div>
+				<div class="col-xs-12">
+					<About></About>
+				</div>
+				<div class="col-xs-12">
+					<Portfolio></Portfolio>
+				</div>
+				<div class="col-xs-12">
+					<Contact></Contact>
+				</div>
+				<div class="col-xs-12">
+					<Footer></Footer>
+				</div>
+			</div>
+		</main>
+	</div>
+</template>
+
+<script>
+	import Header from "./components/Header";
+	import Navbar from "./components/Navbar";
+	import MobileNavbar from "./components/MobileNavbar";
+	import About from "./components/About";
+	import Portfolio from "./components/Portfolio";
+	import Contact from "./components/Contact";
+	import Footer from "./components/Footer";
+	export default {
+		name: 'App',
+		components: {Footer, Contact, Portfolio, About, MobileNavbar, Navbar, Header},
+	}
+</script>
+
+<style>
+	:root {
+		--accent: #006E46;
+		--accent-hover: #13503F;
+
+		--secondary: #2D4234;
+		--secondary-hover: #5A6462;
+
+		--dark: #263238;
+		--light: #BAB9BA;
+		--black: #0C111A;
+		--white: #E9F2F2;
+	}
+
+	html {
+		scroll-behavior: smooth;
+	}
+
+
+	* {
+		margin: 0;
+		padding: 0;
+	}
+
+	html, body {
+		padding: 0;
+		margin: 0;
+	}
+
+	#app {
+		background-color: var(--black);
+	}
+
+	main {
+		padding-left: 1vw;
+		padding-right: 1vw;
+	}
+
+	h1 {
+		font-family: 'Roboto', 'Jost', sans-serif;
+		line-height: 1;
+		letter-spacing: 2px;
+	}
+
+	h2 {
+		font-family: 'Roboto', 'Jost', sans-serif;
+		color: var(--accent);
+		margin-top: 8vh;
+	}
+
+	h3 {
+		font-family: 'Roboto', 'Jost', sans-serif;
+		color: var(--accent);
+	}
+
+	h2 mark, h3, mark {
+		color: var(--light);
+		background: none;
+	}
+
+	a, p {
+		font-family: 'Jost', 'Roboto', sans-serif;
+	}
+
+	p {
+		letter-spacing: 0.1px;
+	}
+
+	/* Navbar */
+	#mobile-navbar {
+		visibility: hidden;
+	}
+
+	@media screen and (max-width: 710px) {
+		#mobile-navbar {
+			visibility: visible;
+		}
+
+		#navbar {
+			visibility: hidden;
+		}
+	}
+
+	.section {
+		min-height: 100vh;
+		display: flex;
+		align-items: center;
+		margin-left: auto;
+		margin-right: auto;
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+	}
+
+	.inner {
+		width: 100%;
+		margin-left: auto !important;
+		margin-right: auto !important;
+	}
+
+	.section h2 {
+		font-size: 3.5vw;
+	}
+
+	.section p {
+		padding-top: 3vh;
+		font-size: 1.7vw;
+		color: var(--light);
+	}
+
+	.section h3 {
+		font-size: 2.4vw;
+		padding-bottom: 5px;
+	}
+
+	.section .button {
+		font-size: 1vw;
+		-webkit-appearance: button;
+		-webkit-writing-mode: horizontal-tb !important;
+		text-rendering: auto;
+		letter-spacing: normal;
+		word-spacing: normal;
+		text-transform: none;
+		text-indent: 0;
+		text-shadow: none;
+		display: inline-block;
+		text-align: center;
+		align-items: flex-start;
+		cursor: default;
+		box-sizing: border-box;
+		margin: 0;
+
+		padding-left: 2vw;
+		padding-right: 2vw;
+		padding-top: 1vh;
+		padding-bottom: 1vh;
+		background-color: var(--accent);
+		color: var(--dark);
+		border: none;
+		border-radius: 2px;
+		margin-top: 2vh;
+		text-decoration: none;
+	}
+
+	.line {
+		width: 6vw;
+		height: 0.3vh;
+		background-color: var(--secondary);
+		margin: 0;
+		padding: 0;
+	}
+
+	#to-top {
+		position: fixed;
+		bottom: 10px;
+		right: 20px;
+		z-index: 98;
+		color: var(--secondary-hover);
+		font-size: 1.5vw;
+	}
+
+	#to-top:hover {
+		cursor: pointer;
+		color: var(--accent);
+	}
+
+	@media screen and (max-width: 900px) {
+		main {
+			padding-left: 0;
+			padding-right: 0;
+		}
+
+		.section h2 {
+			font-size: 8vw !important;
+		}
+
+		.section p {
+			font-size: 5vw !important;
+		}
+
+		.section h3 {
+			font-size: 5.5vw !important;
+		}
+
+		.section .button {
+			font-size: 4vw !important;
+		}
+	}
+
+	@media screen and (max-width: 400px) {
+		.section h2 {
+			font-size: 9vw !important;
+			margin-left: auto !important;
+			margin-right: auto !important;
+		}
+
+		.section p {
+			font-size: 6.3vw !important;
+			margin-left: auto !important;
+			margin-right: auto !important;
+		}
+
+		.section h3 {
+			font-size: 6.5vw !important;
+		}
+
+		.section .button {
+			font-size: 3vw !important;
+		}
+	}
+</style>
