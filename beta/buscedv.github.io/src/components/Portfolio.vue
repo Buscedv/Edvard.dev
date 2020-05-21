@@ -2,32 +2,32 @@
 	<div class="section container-fluid" id="portfolio">
 		<div class="row inner">
 			<div class="col-xs-12">
-				<h2>Portfolio<mark>.</mark></h2>
-				<div class="line"></div>
+				<h2 data-aos="fade-in">Portfolio<mark>.</mark></h2>
+				<div data-aos="flip-left" data-aos-delay="100" class="line"></div>
 
 				<div class="row" id="portfolio-items">
-					<div class="col-md-3 col-sm-6 col-xs-12 portfolio-item">
+					<div class="col-md-3 col-sm-6 col-xs-12 portfolio-item" data-aos="fade-in" data-aos-delay="50">
 						<div class="portfolio-item-inner">
 							<h3>Enkelt</h3>
 							<p>The worlds first programming language that uses a swedish syntax.</p>
 							<a class="button" href="https://enkelt.io" target="_blank">Learn more</a>
 						</div>
 					</div>
-					<div class="col-md-3 col-sm-6 col-xs-12 portfolio-item">
+					<div class="col-md-3 col-sm-6 col-xs-12 portfolio-item" data-aos="fade-in" data-aos-delay="100">
 						<div class="portfolio-item-inner">
 							<h3>Berlinerfunk.fi</h3>
 							<p>Website design for the funk/jazz/rock band Berlinerfunk.</p>
 							<a class="button" href="https://berlinerfunk.fi" target="_blank">Visit</a>
 						</div>
 					</div>
-					<div class="col-md-3 col-sm-6 col-xs-12 portfolio-item">
+					<div class="col-md-3 col-sm-6 col-xs-12 portfolio-item" data-aos="fade-in" data-aos-delay="150">
 						<div class="portfolio-item-inner">
 							<h3>Abnex</h3>
 							<p>Abnormal Expressions, an alternative to Regular Expressions (regex).</p>
 							<a class="button" href="https://github.com/Buscedv/Abnex" target="_blank">Learn more</a>
 						</div>
 					</div>
-					<div class="col-md-3 col-sm-6 col-xs-12 portfolio-item">
+					<div class="col-md-3 col-sm-6 col-xs-12 portfolio-item" data-aos="fade-in" data-aos-delay="200">
 						<div class="portfolio-item-inner">
 							<h3>Tasks</h3>
 							<p>A tasks/to-do list web-app using Firebase Authentication & Firestore.</p>

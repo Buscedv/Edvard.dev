@@ -4,7 +4,7 @@
 			<p>Resume</p>
 			<font-awesome-icon :icon="['fas', chevron]"/>
 		</div>
-		<div id="resume-content" v-if="resume">
+		<div data-aos="fade-in" data-aos-duration="500" id="resume-content" v-if="resume">
 			<div class="row">
 				<div class="col-md-6 col-xs-12">
 					<h3>Experience</h3>

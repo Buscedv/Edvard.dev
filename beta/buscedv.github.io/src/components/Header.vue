@@ -1,7 +1,7 @@
 <template>
 	<header class="row">
 			<div class="col-xs-12">
-				<h1><mark>Edvard</mark> <br/> Busck-Nielsen <br/> <mark>Portfolio</mark>.</h1>
+				<h1 data-aos="fade-in" data-aos-duration="900" data-aos-delay="50"><mark>Edvard</mark> <br/> Busck-Nielsen <br/> <mark>Portfolio</mark>.</h1>
 			</div>
 	</header>
 </template>

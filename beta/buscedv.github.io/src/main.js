@@ -18,8 +18,15 @@ Vue.component('font-awesome-icon', FontAwesomeIcon)
 // Balloon.css
 import 'balloon-css/balloon.min.css';
 
+// AOS
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
 Vue.config.productionTip = false
 
 new Vue({
 	render: h => h(App),
+	mounted() {
+		AOS.init();
+	},
 }).$mount('#app')

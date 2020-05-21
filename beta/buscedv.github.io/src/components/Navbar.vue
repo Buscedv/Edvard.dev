@@ -1,5 +1,5 @@
 <template>
-	<nav class="row" id="nav">
+	<nav data-aos="slide-down" class="row" id="nav">
 		<div class="col-xs-12" id="navbar-inner">
 			<div class="row">
 				<div class="col-xs-3 navbar-item">

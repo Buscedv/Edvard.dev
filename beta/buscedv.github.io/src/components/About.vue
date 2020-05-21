@@ -3,8 +3,8 @@
 		<div class="row inner">
 			<div id="main" class="col-md-6 col-sm-12">
 				<div id="inner-main">
-					<h2>About Me<mark>.</mark></h2>
-					<div class="line"></div>
+					<h2 data-aos="fade-in">About Me<mark>.</mark></h2>
+					<div data-aos="flip-left" data-aos-delay="100" class="line"></div>
 					<p>
 						I enjoy learning about new things and finding solutions to different types of problems.
 						I'm constantly growing and I try to always have something to work on, both project-wise and my skills as a developer.
@@ -16,28 +16,28 @@
 			<div id="skills" class="col-md-6 col-sm-12">
 				<div id="skills-inner">
 					<div class="row">
-						<div class="col-xs-3 skill" data-balloon-blunt aria-label="Vue.js" data-balloon-pos="down">
+						<div class="col-xs-3 skill" data-balloon-blunt aria-label="Vue.js" data-balloon-pos="down" data-aos="fade-in" data-aos-delay="50">
 							<i class="fab fa-vuejs"></i>
 						</div>
-						<div class="col-xs-3 skill" data-balloon-blunt aria-label="Python" data-balloon-pos="down">
+						<div class="col-xs-3 skill" data-balloon-blunt aria-label="Python" data-balloon-pos="down" data-aos="fade-in" data-aos-delay="50">
 							<i class="fab fa-python"></i>
 						</div>
-						<div class="col-xs-3 skill" data-balloon-blunt aria-label="Git" data-balloon-pos="down">
+						<div class="col-xs-3 skill" data-balloon-blunt aria-label="Git" data-balloon-pos="down" data-aos="fade-in" data-aos-delay="50">
 							<i class="fab fa-git"></i>
 						</div>
-						<div class="col-xs-3 skill" data-balloon-blunt aria-label="JavaScript" data-balloon-pos="down">
+						<div class="col-xs-3 skill" data-balloon-blunt aria-label="JavaScript" data-balloon-pos="down" data-aos="fade-in" data-aos-delay="50">
 							<i class="fab fa-js-square"></i>
 						</div>
-						<div class="col-xs-3 skill" data-balloon-blunt aria-label="Linux" data-balloon-pos="down">
+						<div class="col-xs-3 skill" data-balloon-blunt aria-label="Linux" data-balloon-pos="down" data-aos="fade-in" data-aos-delay="100">
 							<i class="fab fa-linux"></i>
 						</div>
-						<div class="col-xs-3 skill" data-balloon-blunt aria-label="HTML5" data-balloon-pos="down">
+						<div class="col-xs-3 skill" data-balloon-blunt aria-label="HTML5" data-balloon-pos="down" data-aos="fade-in" data-aos-delay="100">
 							<i class="fab fa-html5"></i>
 						</div>
-						<div class="col-xs-3 skill" data-balloon-blunt aria-label="CSS3" data-balloon-pos="down">
+						<div class="col-xs-3 skill" data-balloon-blunt aria-label="CSS3" data-balloon-pos="down" data-aos="fade-in" data-aos-delay="100">
 							<i class="fab fa-css3"></i>
 						</div>
-						<div class="col-xs-3 skill" data-balloon-blunt aria-label="Digital Ocean" data-balloon-pos="down">
+						<div class="col-xs-3 skill" data-balloon-blunt aria-label="Digital Ocean" data-balloon-pos="down" data-aos="fade-in" data-aos-delay="100">
 							<i class="fab fa-digital-ocean"></i>
 						</div>
 					</div>
@@ -84,6 +84,7 @@
 		display: flex;
 		align-items: center;
 		text-align: center;
+		margin-top: 8vh;
 	}
 
 	.skill * {

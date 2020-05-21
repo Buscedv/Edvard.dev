@@ -2,8 +2,8 @@
 	<div class="section container-fluid" id="contact">
 		<div class="row inner">
 			<div class="col-xs-12">
-				<h2>Contact<mark>.</mark></h2>
-				<div class="line"></div>
+				<h2 data-aos="fade-in">Contact<mark>.</mark></h2>
+				<div data-aos="flip-left" data-aos-delay="100" class="line"></div>
 
 				<div class="holder">
 					<div id="social">
@@ -11,7 +11,7 @@
 						<div class="row">
 							<div class="col-sm-6 col-xs-12 social-parent">
 								<div class="social-holder">
-									<div class="row">
+									<div class="row" data-aos="fade-in" data-aos-delay="50">
 										<div class="col-xs-5">
 											<a href="https://github.com/Buscedv" target="_blank"><i class="fab fa-github"></i></a>
 										</div>
@@ -20,7 +20,7 @@
 										</div>
 									</div>
 
-									<div class="row">
+									<div class="row" data-aos="fade-in" data-aos-delay="100">
 										<div class="col-xs-5">
 											<a href="https://linkedin.com/in/edvard-busck-nielsen" target="_blank"><i class="fab fa-linkedin"></i></a>
 										</div>
@@ -29,7 +29,7 @@
 										</div>
 									</div>
 
-									<div class="row">
+									<div class="row" data-aos="fade-in" data-aos-delay="150">
 										<div class="col-xs-5">
 											<a href="mailto:edvard1807@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
 										</div>
