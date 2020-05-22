@@ -1,35 +1,42 @@
 <template>
-    <footer>
-        <p>&copy; Edvard Busck-Nielsen {{ new Date().getFullYear() }}</p>
-    </footer>
+	<footer><p v-html="'&copy; Edvard Busck-Nielsen ' + year"></p></footer>
 </template>
 
 <script>
-    export default {
-        name: 'Footer',
-        computed: {
-            copyright: function () {
-                return new Date().getFullYear();
-            }
-        }
-    }
+	export default {
+		name: 'Footer',
+		data() {
+			return {
+				year: ''
+			}
+		},
+		mounted() {
+			const date = new Date();
+			this.year = date.getFullYear();
+		}
+	}
 </script>
 
 <style scoped>
-    footer {
-        width: 100%;
-        height: 50px;
-        background-color: var(--dark-grey);
-        text-align: center;
-        padding: 2px;
-        display: flex;
-        justify-content: center;
-    }
-    
-    p {
-        margin-top: auto;
-        margin-bottom: auto;
-        color: var(--light-grey);
-        font-size: 1em !important;
-    }
+	footer {
+		width: 100%;
+		display: flex;
+		align-items: center;
+		text-align: center;
+		padding: 0;
+		margin-right: 0;
+		margin-top: 20vh;
+		padding-bottom: 1vh;
+	}
+
+	p {
+		color: var(--secondary-hover);
+		width: 100%;
+	}
+
+	@media screen and (max-width: 710px) {
+		footer p {
+			padding-bottom: 10vh;
+		}
+	}
 </style>

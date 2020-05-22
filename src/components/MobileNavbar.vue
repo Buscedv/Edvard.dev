@@ -1,5 +1,5 @@
 <template>
-	<nav class="row">
+	<nav class="row" data-aos="fade-in">
 		<div class="col-xs-3 navbar-item">
 			<a class="navbar-link" href="#"><i class="fas fa-home"></i></a>
 		</div>
@@ -35,6 +35,7 @@
 		margin-left: auto;
 		margin-right: auto;
 		background-color: var(--black);
+		z-index: 99;
 	}
 
 	.navbar-link {

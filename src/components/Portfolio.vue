@@ -1,161 +1,106 @@
 <template>
-    <div id="portfolio">
-        <h2 class="text-center">Portfolio</h2>
-        <b-container fluid>
-            <b-row class="portfolio-content" v-for="groupedPortfolioItem in groupedPortfolioItems" :key="groupedPortfolioItems.indexOf(groupedPortfolioItem)">
-                <b-col lg="4" md="6" sm="12" v-for="portfolioItem in groupedPortfolioItem" :key="groupedPortfolioItem.indexOf(portfolioItem)">
-                    <div class="portfolio-card">
-                        <h3 v-text="portfolioItem.title"></h3>
-                        <p class="text-left" v-text="portfolioItem.description"></p>
-                        <a :href="portfolioItem.link" target="_blank" rel="noopener" class="btn btn-primary">Learn More</a>
-                    </div>
-                </b-col>
-            </b-row>
-        </b-container>
-    </div>
+	<div class="section container-fluid" id="portfolio">
+		<div class="row inner">
+			<div class="col-xs-12">
+				<h2 data-aos="fade-in">Portfolio<mark>.</mark></h2>
+				<div data-aos="flip-left" data-aos-delay="50" class="line"></div>
+
+				<div class="row" id="portfolio-items">
+					<div class="col-md-3 col-sm-6 col-xs-12 portfolio-item" data-aos="fade-in" data-aos-delay="25">
+						<div class="portfolio-item-inner">
+							<h3>Enkelt</h3>
+							<p>The worlds first programming language that uses a swedish syntax.</p>
+							<a class="button" href="https://enkelt.io" target="_blank">Learn more</a>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12 portfolio-item" data-aos="fade-in" data-aos-delay="50">
+						<div class="portfolio-item-inner">
+							<h3>Berlinerfunk.fi</h3>
+							<p>Website design for the funk/jazz/rock band Berlinerfunk.</p>
+							<a class="button" href="https://berlinerfunk.fi" target="_blank">Visit</a>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12 portfolio-item" data-aos="fade-in" data-aos-delay="75">
+						<div class="portfolio-item-inner">
+							<h3>Abnex</h3>
+							<p>Abnormal Expressions, an alternative to Regular Expressions (regex).</p>
+							<a class="button" href="https://github.com/Buscedv/Abnormal-Expressions" target="_blank">Learn more</a>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12 portfolio-item" data-aos="fade-in" data-aos-delay="100">
+						<div class="portfolio-item-inner">
+							<h3>Tasks</h3>
+							<p>A tasks/to-do list web-app using Firebase Authentication & Firestore.</p>
+							<a class="button" href="https://tasks.edvard.io" target="_blank">Visit</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </template>
 
 <script>
-    export default {
-        name: 'Portfolio',
-        data: function () {
-            return {
-                portfolioItems: [
-                    {
-                        title: 'Enkelt',
-                        description: 'The worlds first programming language that uses a swedish syntax.',
-                        link: 'https://enkelt.io',
-                    },
-                    {
-                        title: 'Berlinerfunk.fi',
-                        description: 'Website design for the funk/jazz/rock band Berlinerfunk.',
-                        link: 'https://berlinerfunk.fi',
-                    },
-                    {
-                        title: 'Emilianaskoog.fi',
-                        description: 'A personal website design. Built with Vue.js, and deployed with Netlify',
-                        link: 'https://emilianaskoog.fi',
-                    },
-                    {
-                        title: 'Abnex',
-                        description: 'Abnormal Expressions (abnex) is an alternative to Regular Expressions (regex).',
-                        link: 'https://github.com/Buscedv/abnormal-expressions',
-                    },
-                    {
-                        title: 'Huffman Coding',
-                        description: 'An demonstration on how huffman compression works. Written in Python.',
-                        link: 'https://github.com/Buscedv/Huffman',
-                    },
-                    {
-                        title: 'Tasks',
-                        description: 'A tasks/to-do list web-app using Firebase Authentication & Firestore.',
-                        link: 'https://tasks.edvard.io',
-                    },
-                ]
-            }
-        },
-        computed: {
-            groupedPortfolioItems: function () {
-                const chunkSize = 3;
-                
-                let chunked = [];
-    
-                let i;
-                let portfolioItemCounter = 0;
-                
-                for (i = 0; i < Math.round(this.portfolioItems.length/chunkSize); i++) {
-                    chunked.push([])
-                }
-                
-                for (i = 0; i < chunked.length; i++) {
-                    while (chunked[i].length !== chunkSize || portfolioItemCounter === this.portfolioItems.length-1) {
-                        chunked[i].push(this.portfolioItems[portfolioItemCounter]);
-                        portfolioItemCounter++;
-                    }
-                }
-                
-                return chunked;
-            }
-        }
-    }
+	export default {
+		name: 'Portfolio',
+	}
 </script>
 
 <style scoped>
-    #portfolio {
-        width: 100%;
-        min-height: 100vh;
-        background-color: var(--dark-grey);
-        padding: 20px;
-        padding-top: 8em;
-    }
+	#portfolio-items {
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+		text-align: center;
+		margin-top: 3vh;
+	}
 
-    .portfolio-content {
-        width: 90%;
-        margin-left: auto;
-        margin-right: auto;
-        padding: 20px;
-        margin-top: 2em;
-    }
+	.portfolio-item {
+		padding: 10px;
+		width: 100%;
+		display: flex;
+		align-items: center;
+	}
 
-    .portfolio-card {
-        background-color: var(--dark-hover);
-        padding: 30px;
-        border-radius: 20px;
-        text-align: center;
-        margin: 5px;
-        border: 3px solid var(--dark-hover);
-    }
+	.portfolio-item-inner {
+		width: 100%;
+		height: 100%;
+		background-color: var(--dark);
+		border-radius: 3px;
+		padding: 0.5vw;
+		box-shadow: 1px 2px 1px var(--secondary);
+	}
 
-    .portfolio-card h3 {
-        color: var(--accent);
-    }
+	.portfolio-item-inner:hover {
+		box-shadow: 1px 2px 1px var(--secondary-hover);
+	}
 
-    .portfolio-card p {
-        color: var(--light-grey);
-    }
+	.portfolio-item h3 {
+		padding-top: 5px;
+		color: var(--accent);
+	}
 
-    .portfolio-card:hover {
-        background-color: var(--black);
-    }
+	.portfolio-item p {
+		padding: 0.4vw;
+		text-align: center;
+		color: var(--light);
+		line-height: 1.1;
+	}
 
-    @media screen and (max-width: 1500px) {
-        .portfolio-content {
-            padding: 2px;
-            width: 100%;
-        }
+	.portfolio-item .button {
+		padding-left: 2vw;
+		padding-right: 2vw;
+		padding-top: 1vh;
+		padding-bottom: 1vh;
+		background-color: var(--accent);
+		color: var(--dark);
+		border: none;
+		border-radius: 2px;
+		margin-top: 2vh;
+	}
 
-        .portfolio-card h3 {
-            font-size: 2em !important;
-            margin-bottom: 10px;
-        }
-    }
-
-    @media screen and (max-width: 575px) {
-        #portfolio {
-            padding-top: 2em;
-        }
-    }
-
-    @media screen and (max-width: 350px) {
-        #portfolio {
-            padding-left: 0;
-            padding-right: 0;
-        }
-
-        .portfolio-content {
-            padding: 0;
-        }
-
-        .portfolio-card {
-            padding: 10px;
-        }
-
-        .portfolio-card h3 {
-            font-size: 1.2em !important;
-        }
-
-        .portfolio-card p {
-            font-size: 0.8em;
-        }
-    }
+	.portfolio-item .button:hover {
+		background-color: var(--accent-hover);
+		cursor: pointer;
+	}
 </style>

@@ -1,23 +1,32 @@
 import Vue from 'vue'
 import App from './App.vue'
 
-// Bootstrap
-import BootstrapVue from 'bootstrap-vue'
-import 'bootstrap/dist/css/bootstrap.css'
-import 'bootstrap-vue/dist/bootstrap-vue.css'
-Vue.use(BootstrapVue);
+// Flexbox Grid
+import 'flexboxgrid/css/flexboxgrid.css'
 
-// Fontawesome
+// Font Awesome
+import '@fortawesome/fontawesome-free/css/all.css'
+import '@fortawesome/fontawesome-free/js/all.js'
+
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fas } from '@fortawesome/free-solid-svg-icons'
-import { fab } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-library.add(fas, fab);
-Vue.component('font-awesome-icon', FontAwesomeIcon);
+library.add(fas)
+Vue.component('font-awesome-icon', FontAwesomeIcon)
 
-// Vue
-Vue.config.productionTip = false;
+
+// Balloon.css
+import 'balloon-css/balloon.min.css';
+
+// AOS
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
+Vue.config.productionTip = false
 
 new Vue({
-    render: h => h(App),
-}).$mount('#app');
+	render: h => h(App),
+	mounted() {
+		AOS.init();
+	},
+}).$mount('#app')
