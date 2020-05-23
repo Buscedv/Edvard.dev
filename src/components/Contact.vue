@@ -41,7 +41,7 @@
 							</div>
 
 							<div class="col-sm-6 col-xs-12">
-								<form method="POST" action="#">
+								<form method="POST" action="https://formspree.io/xdowaqkv">
 									<label><p>Name</p></label><br/>
 									<input type="text" name="name"><br/>
 									<label><p>Email</p></label><br/>
