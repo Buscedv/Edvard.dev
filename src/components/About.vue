@@ -16,16 +16,16 @@
 			<div id="skills" class="col-md-6 col-sm-12">
 				<div id="skills-inner">
 					<div class="row">
-						<div class="col-xs-3 skill" data-balloon-blunt aria-label="Vue.js" data-balloon-pos="down" data-aos="fade-in" data-aos-delay="25">
+						<div class="col-xs-3 skill" data-balloon-blunt aria-label="Vue.js" data-balloon-pos="up" data-aos="fade-in" data-aos-delay="25">
 							<i class="fab fa-vuejs"></i>
 						</div>
-						<div class="col-xs-3 skill" data-balloon-blunt aria-label="Python" data-balloon-pos="down" data-aos="fade-in" data-aos-delay="25">
+						<div class="col-xs-3 skill" data-balloon-blunt aria-label="Python" data-balloon-pos="up" data-aos="fade-in" data-aos-delay="25">
 							<i class="fab fa-python"></i>
 						</div>
-						<div class="col-xs-3 skill" data-balloon-blunt aria-label="Git" data-balloon-pos="down" data-aos="fade-in" data-aos-delay="25">
+						<div class="col-xs-3 skill" data-balloon-blunt aria-label="Git" data-balloon-pos="up" data-aos="fade-in" data-aos-delay="25">
 							<i class="fab fa-git"></i>
 						</div>
-						<div class="col-xs-3 skill" data-balloon-blunt aria-label="JavaScript" data-balloon-pos="down" data-aos="fade-in" data-aos-delay="25">
+						<div class="col-xs-3 skill" data-balloon-blunt aria-label="JavaScript" data-balloon-pos="up" data-aos="fade-in" data-aos-delay="25">
 							<i class="fab fa-js-square"></i>
 						</div>
 						<div class="col-xs-3 skill" data-balloon-blunt aria-label="Linux" data-balloon-pos="down" data-aos="fade-in" data-aos-delay="50">
@@ -35,10 +35,10 @@
 							<i class="fab fa-html5"></i>
 						</div>
 						<div class="col-xs-3 skill" data-balloon-blunt aria-label="CSS3" data-balloon-pos="down" data-aos="fade-in" data-aos-delay="50">
-							<i class="fab fa-css3"></i>
+							<i class="fab fa-css3-alt"></i>
 						</div>
-						<div class="col-xs-3 skill" data-balloon-blunt aria-label="Digital Ocean" data-balloon-pos="down" data-aos="fade-in" data-aos-delay="50">
-							<i class="fab fa-digital-ocean"></i>
+						<div class="col-xs-3 skill" data-balloon-blunt aria-label="PHP" data-balloon-pos="down" data-aos="fade-in" data-aos-delay="50" id="php-logo">
+							<img src="../assets/php.svg" alt="php">
 						</div>
 					</div>
 				</div>
@@ -97,15 +97,24 @@
 		color: var(--accent);
 	}
 
+	#php-logo {
+		display: flex;
+		align-items: center;
+	}
+
+	#php-logo img {
+		width: 9vw;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
 	@media screen and (max-width: 900px) {
 		.skill * {
 			font-size: 14vw;
 		}
-	}
 
-	@media screen and (max-width: 400px) {
-		.skill * {
-			font-size: 14vw;
+		#php-logo img {
+			width: 14vw;
 		}
 	}
 </style>

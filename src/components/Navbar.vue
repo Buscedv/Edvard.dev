@@ -2,7 +2,10 @@
 	<nav data-aos="slide-down" class="row" id="nav">
 		<div class="col-xs-12" id="navbar-inner">
 			<div class="row">
-				<div class="col-xs-3 navbar-item">
+
+				<div class="col-xs-1"></div>
+
+				<div class="col-xs-2 navbar-item">
 					<div class="row navbar-row">
 						<div class="col-xs-12 navbar-item">
 							<a class="navbar-link navbar-img-icon"><img src="../assets/logo.png" alt="Edvard Busck-Nielsen"></a>
@@ -27,13 +30,22 @@
 					</div>
 				</div>
 
-				<div class="col-xs-3 navbar-item">
+				<div class="col-xs-2 navbar-item">
 					<div class="row navbar-row">
 						<div class="col-xs-12 navbar-item">
-							<a class="navbar-link navbar-img-icon"><i class="fas fa-bars"></i></a>
+							<div class="row">
+								<div class="col-xs-6">
+									<a class="navbar-link navbar-img-icon" href="https://github.com/Buscedv" target="_blank"><i class="fab fa-github"></i></a>
+								</div>
+								<div class="col-xs-6">
+									<a class="navbar-link navbar-img-icon" href="https://linkedin.com/in/edvard-busck-nielsen" target="_blank"><i class="fab fa-linkedin"></i></a>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
+
+				<div class="col-xs-1"></div>
 			</div>
 		</div>
 	</nav>

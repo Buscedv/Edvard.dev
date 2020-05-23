@@ -161,13 +161,16 @@
 
 	.edu-exp-title {
 		color: var(--accent);
-		font-size: 2vw;
+		font-size: 1.5vw;
+		padding-top: 0 !important;
+		padding-bottom: 0 !important;
 	}
 
 	.edu-exp-date {
 		color: var(--secondary-hover);
-		font-size: 1.2vw;
-		padding: 0;
+		font-size: 1vw;
+		padding-top: 0 !important;
+		padding-bottom: 0 !important;
 	}
 
 	.edu-exp-card p {
