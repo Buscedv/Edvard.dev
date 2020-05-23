@@ -8,7 +8,7 @@
 				<div class="holder">
 					<div id="social">
 
-						<div class="row">
+						<div class="row" id="contact-inner">
 							<div class="col-sm-6 col-xs-12 social-parent">
 								<div class="social-holder">
 									<div class="row" data-aos="fade-in" data-aos-delay="25">
@@ -41,15 +41,17 @@
 							</div>
 
 							<div class="col-sm-6 col-xs-12">
-								<form method="POST" action="https://formspree.io/xdowaqkv">
-									<label><p>Name</p></label><br/>
-									<input type="text" name="name"><br/>
-									<label><p>Email</p></label><br/>
-									<input type="email" name="email"><br/>
-									<label><p>Message</p></label><br/>
-									<textarea name="message" rows="5"></textarea><br/>
-									<input type="submit" value="Send" class="button">
-								</form>
+								<div id="form-area">
+									<form method="POST" action="#">
+										<label><p>Name</p></label><br/>
+										<input type="text" name="name"><br/>
+										<label><p>Email</p></label><br/>
+										<input type="email" name="email"><br/>
+										<label><p>Message</p></label><br/>
+										<textarea name="message" rows="5"></textarea><br/>
+										<input type="submit" value="Send" class="button">
+									</form>
+								</div>
 							</div>
 
 						</div>
@@ -107,6 +109,10 @@
 		align-items: center;
 	}
 
+	#contact-inner {
+		width: 100%;
+	}
+
 	#social p {
 		padding: 0;
 		width: 100%;
@@ -123,9 +129,12 @@
 		color: var(--accent-hover);
 	}
 
+	#form-area {
+		width: 100%;
+		height: 100%;
+	}
+
 	form {
-		width: 90%;
-		height: 90%;
 		background-color: var(--dark);
 		padding: 20px;
 		border-radius: 5px;

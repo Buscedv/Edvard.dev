@@ -182,6 +182,11 @@
 		margin-top: 2vh;
 		text-decoration: none;
 	}
+	
+	.section .button:hover {
+		background-color: var(--accent-hover);
+		cursor: pointer;
+	}
 
 	.line {
 		width: 6vw;
