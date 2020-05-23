@@ -16,7 +16,7 @@
 											<a href="https://github.com/Buscedv" target="_blank"><i class="fab fa-github"></i></a>
 										</div>
 										<div class="col-xs-7 label-holder">
-											<p>GitHub</p>
+											<p>@Buscedv</p>
 										</div>
 									</div>
 
@@ -34,7 +34,7 @@
 											<a href="mailto:edvard1807@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
 										</div>
 										<div class="col-xs-7 label-holder">
-											<p>E-mail</p>
+											<p>me@edvard.io</p>
 										</div>
 									</div>
 								</div>
@@ -42,7 +42,7 @@
 
 							<div class="col-sm-6 col-xs-12">
 								<div id="form-area">
-									<form method="POST" action="#">
+									<form method="POST" action="https://formspree.io/xdowaqkv">
 										<label><p>Name</p></label><br/>
 										<input type="text" name="name"><br/>
 										<label><p>Email</p></label><br/>
