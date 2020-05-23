@@ -1,5 +1,5 @@
 <template>
-	<nav class="row" data-aos="fade-in">
+	<nav class="row"lol>
 		<div class="col-xs-3 navbar-item">
 			<a class="navbar-link" href="#"><i class="fas fa-home"></i></a>
 		</div>
