@@ -31,7 +31,7 @@
 						<div class="portfolio-item-inner">
 							<h3>Tasks</h3>
 							<p>A tasks/to-do list web-app using Firebase Authentication & Firestore.</p>
-							<a class="button" href="https://tasks.edvard.io" target="_blank">Visit</a>
+							<a class="button" href="https://tasks.edvard.dev" target="_blank">Visit</a>
 						</div>
 					</div>
 				</div>
