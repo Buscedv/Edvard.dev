@@ -8,7 +8,7 @@
 				<div class="col-xs-2 navbar-item">
 					<div class="row navbar-row">
 						<div class="col-xs-12 navbar-item">
-							<a class="navbar-link navbar-img-icon"><img src="../assets/logo.svg" alt="Edvard Busck-Nielsen"></a>
+							<a class="navbar-link navbar-img-icon"><img src="../assets/logo.png" alt="Edvard Busck-Nielsen"></a>
 						</div>
 					</div>
 				</div>
@@ -114,6 +114,6 @@
 	}
 
 	.navbar-img-icon img {
-		height: 4vh;
+		height: 3vh;
 	}
 </style>
