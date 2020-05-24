@@ -31,7 +31,7 @@
 
 									<div class="row" data-aos="fade-in" data-aos-delay="75">
 										<div class="col-xs-5">
-											<a href="mailto:edvard1807@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+											<a href="mailto:me@edvard.io" target="_blank"><i class="fas fa-envelope"></i></a>
 										</div>
 										<div class="col-xs-7 label-holder">
 											<p>me@edvard.io</p>
