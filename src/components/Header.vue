@@ -32,31 +32,23 @@
 		color: var(--accent);
 	}
 
-	@media screen and (max-width: 900px) {
-		h1 {
-			font-size: 10vh;
-		}
-	}
 
 	@media screen and (max-width: 410px) {
 		header {
-			padding-left: 0.3vw;
-			padding-right: 0.3vw;
-		}
-
-		h1 {
-			font-size: 7vh;
+			padding-left: 0;
+			padding-right: 0;
 		}
 	}
 
-	@media screen and (max-width: 315px) {
-		header {
-			padding-left: 0.1vw;
-			padding-right: 0.1vw;
-		}
-
+	@media screen and (max-width: 300px) {
 		h1 {
-			font-size: 4vh;
+			font-size: 15vw;
+		}
+	}
+
+	@media screen and (max-width: 240px) {
+		h1 {
+			font-size: 10vw;
 		}
 	}
 </style>

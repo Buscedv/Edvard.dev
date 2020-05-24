@@ -113,7 +113,7 @@
 		visibility: hidden;
 	}
 
-	@media screen and (max-width: 710px) {
+	@media screen and (max-width: 950px) {
 		#mobile-navbar {
 			visibility: visible;
 		}
