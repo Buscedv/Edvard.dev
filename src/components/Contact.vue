@@ -43,18 +43,15 @@
 							<div class="col-sm-6 col-xs-12">
 								<div id="form-area">
 									<form method="POST" action="https://formspree.io/xdowaqkv">
-										<label><p>Name</p></label><br/>
-										<label>
-											<input type="text" name="name"><br/>
-										</label>
-										<label><p>Email</p></label><br/>
-										<label>
-											<input type="email" name="email"><br/>
-										</label>
-										<label><p>Message</p></label><br/>
-										<label>
-											<textarea name="message" rows="5"></textarea><br/>
-										</label>
+										<label for="name"><p>Name</p></label><br/>
+										<input type="text" name="name" id="name"><br/>
+
+										<label for="email"><p>Email</p></label><br/>
+										<input type="email" name="email" id="email"><br/>
+
+										<label for="message"><p>Message</p></label><br/>
+										<textarea name="message" rows="5" id="message"></textarea><br/>
+
 										<input type="submit" value="Send" class="button">
 									</form>
 								</div>

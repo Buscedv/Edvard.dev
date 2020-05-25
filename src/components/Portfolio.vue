@@ -12,7 +12,7 @@
 							<p>The worlds first programming language that uses a swedish syntax.</p>
 							<div class="row">
 								<div class=" col-sm-6 col-xs-12">
-									<a class="button" href="https://enkelt.io" target="_blank" rel="noopener" aria-label="Learn more">Learn more</a>
+									<a class="button" href="https://enkelt.io" target="_blank" rel="noopener" aria-label="Enkelt website">Learn more</a>
 								</div>
 								<div class=" col-sm-6 col-xs-12">
 									<a class="button" href="https://github.com/Enkelt/Enkelt" target="_blank" rel="noopener">Source code</a>
