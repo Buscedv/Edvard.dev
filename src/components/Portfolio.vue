@@ -90,11 +90,10 @@
 		background-color: var(--dark);
 		border-radius: 3px;
 		padding: 0.5vw;
-		box-shadow: 1px 2px 1px var(--secondary);
 	}
 
 	.portfolio-item-inner:hover {
-		box-shadow: 1px 2px 1px var(--secondary-hover);
+		box-shadow: 1px 2px 1px var(--secondary);
 	}
 
 	.portfolio-item h3 {

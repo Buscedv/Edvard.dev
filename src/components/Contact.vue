@@ -140,7 +140,6 @@
 		border-radius: 5px;
 		margin-left: auto;
 		margin-right: auto;
-		box-shadow: 1px 2px 1px var(--secondary);
 	}
 
 	form label p {

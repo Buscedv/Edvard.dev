@@ -6,19 +6,19 @@
 			<Navbar id="navbar"></Navbar>
 			<MobileNavbar id="mobile-navbar"></MobileNavbar>
 			<div class="row">
-				<div class="col-xs-12">
+				<div class="col-xs-12 part">
 					<Header></Header>
 				</div>
-				<div class="col-xs-12">
+				<div class="col-xs-12 part">
 					<About></About>
 				</div>
-				<div class="col-xs-12">
+				<div class="col-xs-12 part">
 					<Portfolio></Portfolio>
 				</div>
-				<div class="col-xs-12">
+				<div class="col-xs-12 part">
 					<Contact></Contact>
 				</div>
-				<div class="col-xs-12">
+				<div class="col-xs-12 part">
 					<Footer></Footer>
 				</div>
 			</div>
@@ -48,7 +48,7 @@
 		--secondary: #2D4234;
 		--secondary-hover: #5A6462;
 
-		--dark: #263238;
+		--dark: #1a222b;
 		--light: #BAB9BA;
 		--black: #0C111A;
 		--white: #E9F2F2;
