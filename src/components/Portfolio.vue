@@ -12,10 +12,10 @@
 							<p>The worlds first programming language that uses a swedish syntax.</p>
 							<div class="row">
 								<div class=" col-sm-6 col-xs-12">
-									<a class="button" href="https://enkelt.io" target="_blank">Learn more</a>
+									<a class="button" href="https://enkelt.io" target="_blank" rel="noopener" aria-label="Learn more">Learn more</a>
 								</div>
 								<div class=" col-sm-6 col-xs-12">
-									<a class="button" href="https://github.com/Enkelt/Enkelt" target="_blank">Source code</a>
+									<a class="button" href="https://github.com/Enkelt/Enkelt" target="_blank" rel="noopener">Source code</a>
 								</div>
 							</div>
 						</div>
@@ -26,7 +26,7 @@
 							<p>Website design for the funk/jazz/rock band Berlinerfunk.</p>
 							<div class="row">
 								<div class="col-xs-12">
-									<a class="button" href="https://berlinerfunk.fi" target="_blank">Visit</a>
+									<a class="button" href="https://berlinerfunk.fi" target="_blank" rel="noopener">Visit</a>
 								</div>
 							</div>
 						</div>
@@ -37,7 +37,7 @@
 							<p>Abnormal Expressions, an alternative to Regular Expressions (regex).</p>
 							<div class="row">
 								<div class="col-xs-12">
-									<a class="button" href="https://github.com/Buscedv/Abnormal-Expressions" target="_blank">Source code</a>
+									<a class="button" href="https://github.com/Buscedv/Abnormal-Expressions" target="_blank" rel="noopener">Source code</a>
 								</div>
 							</div>
 						</div>
@@ -48,10 +48,10 @@
 							<p>A tasks/to-do list web-app using Firebase Authentication & Firestore.</p>
 							<div class="row">
 								<div class=" col-sm-6 col-xs-12">
-									<a class="button" href="https://tasks.edvard.dev" target="_blank">Visit</a>
+									<a class="button" href="https://tasks.edvard.dev" target="_blank" rel="noopener">Visit</a>
 								</div>
 								<div class=" col-sm-6 col-xs-12">
-									<a class="button" href="https://github.com/Buscedv/Tasks" target="_blank">Source code</a>
+									<a class="button" href="https://github.com/Buscedv/Tasks" target="_blank" rel="noopener">Source code</a>
 								</div>
 							</div>
 						</div>

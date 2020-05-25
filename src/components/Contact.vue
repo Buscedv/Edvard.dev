@@ -13,7 +13,7 @@
 								<div class="social-holder">
 									<div class="row" data-aos="fade-in" data-aos-delay="25">
 										<div class="col-xs-5">
-											<a href="https://github.com/Buscedv" target="_blank"><i class="fab fa-github"></i></a>
+											<a aria-label="GitHub profile" href="https://github.com/Buscedv" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
 										</div>
 										<div class="col-xs-7 label-holder">
 											<p>@Buscedv</p>
@@ -22,7 +22,7 @@
 
 									<div class="row" data-aos="fade-in" data-aos-delay="50">
 										<div class="col-xs-5">
-											<a href="https://linkedin.com/in/edvard-busck-nielsen" target="_blank"><i class="fab fa-linkedin"></i></a>
+											<a aria-label="LinkedIn page" href="https://linkedin.com/in/edvard-busck-nielsen" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a>
 										</div>
 										<div class="col-xs-7 label-holder">
 											<p>LinkedIn</p>
@@ -31,7 +31,7 @@
 
 									<div class="row" data-aos="fade-in" data-aos-delay="75">
 										<div class="col-xs-5">
-											<a href="mailto:me@edvard.io" target="_blank"><i class="fas fa-envelope"></i></a>
+											<a aria-label="Email" href="mailto:me@edvard.io" target="_blank" rel="noopener"><i class="fas fa-envelope"></i></a>
 										</div>
 										<div class="col-xs-7 label-holder">
 											<p>me@edvard.io</p>
@@ -44,11 +44,17 @@
 								<div id="form-area">
 									<form method="POST" action="https://formspree.io/xdowaqkv">
 										<label><p>Name</p></label><br/>
-										<input type="text" name="name"><br/>
+										<label>
+											<input type="text" name="name"><br/>
+										</label>
 										<label><p>Email</p></label><br/>
-										<input type="email" name="email"><br/>
+										<label>
+											<input type="email" name="email"><br/>
+										</label>
 										<label><p>Message</p></label><br/>
-										<textarea name="message" rows="5"></textarea><br/>
+										<label>
+											<textarea name="message" rows="5"></textarea><br/>
+										</label>
 										<input type="submit" value="Send" class="button">
 									</form>
 								</div>

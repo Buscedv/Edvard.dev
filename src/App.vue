@@ -1,6 +1,6 @@
 <template>
 	<div id="app" class="container-fluid">
-		<a href="#" id="to-top"><font-awesome-icon :icon="['fas', 'chevron-up']"/></a>
+		<a href="#" id="to-top" aria-label="scroll to top"><font-awesome-icon :icon="['fas', 'chevron-up']"/></a>
 
 		<main>
 			<Navbar id="navbar"></Navbar>
@@ -191,7 +191,7 @@
 	.line {
 		width: 6vw;
 		height: 0.3vh;
-		background-color: var(--secondary);
+		background-color: var(--dark);
 		margin: 0;
 		padding: 0;
 	}

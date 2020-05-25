@@ -35,10 +35,10 @@
 						<div class="col-xs-12 navbar-item">
 							<div class="row">
 								<div class="col-xs-6">
-									<a class="navbar-link navbar-img-icon" href="https://github.com/Buscedv" target="_blank"><i class="fab fa-github"></i></a>
+									<a aria-label="GitHub profile" class="navbar-link navbar-img-icon" href="https://github.com/Buscedv" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
 								</div>
 								<div class="col-xs-6">
-									<a class="navbar-link navbar-img-icon" href="https://linkedin.com/in/edvard-busck-nielsen" target="_blank"><i class="fab fa-linkedin"></i></a>
+									<a aria-label="LinkedIn Page" class="navbar-link navbar-img-icon" href="https://linkedin.com/in/edvard-busck-nielsen" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a>
 								</div>
 							</div>
 						</div>
