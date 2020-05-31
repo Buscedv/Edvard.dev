@@ -56,6 +56,31 @@
 							</div>
 						</div>
 					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12 portfolio-item" data-aos="fade-in" data-aos-delay="100">
+						<div class="portfolio-item-inner">
+							<h3>Boilercrate</h3>
+							<p>A CLI tool for managing boilerplate code & project creation.</p>
+							<div class="row">
+								<div class=" col-xs-12">
+									<a class="button" href="https://github.com/Buscedv/Boilercrate" target="_blank" rel="noopener">Source code</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12 portfolio-item" data-aos="fade-in" data-aos-delay="100">
+						<div class="portfolio-item-inner">
+							<h3>Docual</h3>
+							<p>A self-hosted static frontend for markdown files (ex. GitHub READMEs).</p>
+							<div class="row">
+								<div class=" col-sm-6 col-xs-12">
+									<a class="button" href="https://docual.edvard.dev" target="_blank" rel="noopener">Visit</a>
+								</div>
+								<div class=" col-sm-6 col-xs-12">
+									<a class="button" href="https://github.com/Buscedv/Docual" target="_blank" rel="noopener">Source code</a>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -78,7 +103,9 @@
 	}
 
 	.portfolio-item {
-		padding: 10px;
+		padding: 20px;
+		padding-left: 10px;
+		padding-right: 10px;
 		width: 100%;
 		display: flex;
 		align-items: center;
