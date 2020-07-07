@@ -16,7 +16,7 @@
 </template>
 
 <script>
-	const Header = () => import('../components/Header.vue')
+	import Header from '../components/Header.vue'
 	const About = () => import('../components/About.vue')
 	const Portfolio = () => import('../components/Portfolio.vue')
 	const Contact = () => import('../components/Contact.vue')
