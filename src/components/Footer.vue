@@ -1,5 +1,35 @@
 <template>
-	<footer><p v-html="'&copy; Edvard Busck-Nielsen ' + year"></p></footer>
+	<div id="footer">
+		<div class="row footer-section" id="icons">
+			<div class="col-xs-4">
+				<a href="https://github.com/Buscedv" target="_blank"><i class="fab fa-github"></i></a>
+			</div>
+			<div class="col-xs-4">
+				<a href="https://linkedin.com/in/edvard-busck-nielsen" target="_blank"><i class="fab fa-linkedin"></i></a>
+			</div>
+			<div class="col-xs-4">
+				<a href="mailto:me@edvard.io" target="_blank"><i class="fas fa-envelope"></i></a>
+			</div>
+		</div>
+
+		<div class="row footer-section" id="links">
+			<div class="col-xs-4">
+				<a href="/privacy" target="_blank">Privacy Policy</a>
+			</div>
+			<div class="col-xs-4">
+				<a href="/cookies" target="_blank">Cookie Policy</a>
+			</div>
+			<div class="col-xs-4">
+				<a onclick="displayPreferenceModal()">Cookie Preferences</a>
+			</div>
+		</div>
+
+		<div class="row footer-section" id="copyright">
+			<div class="col-xs-12">
+				<p v-html="'&copy; Edvard Busck-Nielsen ' + year"></p>
+			</div>
+		</div>
+	</div>
 </template>
 
 <script>
@@ -18,25 +48,59 @@
 </script>
 
 <style scoped>
-	footer {
+	#footer {
 		width: 100%;
-		display: flex;
-		align-items: center;
 		text-align: center;
-		padding: 0;
-		margin-right: 0;
-		margin-top: 20vh;
-		padding-bottom: 1vh;
+		padding-top: 10vh;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
-	p {
+	.footer-section {
+		padding-top: 10px;
+		padding-bottom: 10px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#icons {
+		width: fit-content;
+	}
+
+	#icons a {
+		color: var(--accent);
+		font-size: 1.5rem;
+	}
+
+	#icons a:hover {
+		color: var(--accent-hover);
+	}
+
+	#links {
+		width: 50vw;
+	}
+
+	#links a {
 		color: var(--secondary-hover);
-		width: 100%;
+		text-decoration: none;
+	}
+
+	#links a:hover {
+		color: var(--accent);
+		text-decoration: underline;
+		cursor: pointer;
+	}
+
+	#copyright p {
+		color: var(--light);
 	}
 
 	@media screen and (max-width: 710px) {
-		footer p {
-			padding-bottom: 10vh;
+		#links {
+			width: 100%;
+		}
+		#footer {
+			padding-bottom: 8vh;
 		}
 	}
 </style>

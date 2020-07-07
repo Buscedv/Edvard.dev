@@ -5,19 +5,10 @@
 		<main>
 			<Navbar id="navbar"></Navbar>
 			<MobileNavbar id="mobile-navbar"></MobileNavbar>
+
+			<router-view></router-view>
+
 			<div class="row">
-				<div class="col-xs-12 part">
-					<Header></Header>
-				</div>
-				<div class="col-xs-12 part">
-					<About></About>
-				</div>
-				<div class="col-xs-12 part">
-					<Portfolio></Portfolio>
-				</div>
-				<div class="col-xs-12 part">
-					<Contact></Contact>
-				</div>
 				<div class="col-xs-12 part">
 					<Footer></Footer>
 				</div>
@@ -27,16 +18,12 @@
 </template>
 
 <script>
-	import Header from "./components/Header";
 	import Navbar from "./components/Navbar";
 	import MobileNavbar from "./components/MobileNavbar";
-	import About from "./components/About";
-	import Portfolio from "./components/Portfolio";
-	import Contact from "./components/Contact";
 	import Footer from "./components/Footer";
 	export default {
 		name: 'App',
-		components: {Footer, Contact, Portfolio, About, MobileNavbar, Navbar, Header},
+		components: {Footer, MobileNavbar, Navbar},
 	}
 </script>
 

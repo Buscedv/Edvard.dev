@@ -8,7 +8,7 @@
 				<div class="col-xs-2 navbar-item">
 					<div class="row navbar-row">
 						<div class="col-xs-12 navbar-item">
-							<a class="navbar-link navbar-img-icon"><img src="../assets/logo.png" alt="Edvard Busck-Nielsen"></a>
+							<a class="navbar-link navbar-img-icon" href="/"><img src="../assets/logo.png" alt="Edvard Busck-Nielsen"></a>
 						</div>
 					</div>
 				</div>
@@ -16,16 +16,16 @@
 				<div class="col-xs-6 navbar-item">
 					<div class="row navbar-row">
 						<div class="col-xs-3 navbar-item">
-							<a class="navbar-link" href="#"><p>Home</p></a>
+							<a class="navbar-link" href="/#"><p>Home</p></a>
 						</div>
 						<div class="col-xs-3 navbar-item">
-							<a class="navbar-link" href="#about"><p>About</p></a>
+							<a class="navbar-link" href="/#about"><p>About</p></a>
 						</div>
 						<div class="col-xs-3 navbar-item">
-							<a class="navbar-link" href="#portfolio"><p>Portfolio</p></a>
+							<a class="navbar-link" href="/#portfolio"><p>Portfolio</p></a>
 						</div>
 						<div class="col-xs-3 navbar-item">
-							<a class="navbar-link" href="#contact"><p>Contact</p></a>
+							<a class="navbar-link" href="/#contact"><p>Contact</p></a>
 						</div>
 					</div>
 				</div>

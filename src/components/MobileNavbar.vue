@@ -1,16 +1,16 @@
 <template>
 	<nav class="row">
 		<div class="col-xs-3 navbar-item">
-			<a class="navbar-link" href="#"><i class="fas fa-home"></i></a>
+			<a class="navbar-link" href="/#"><i class="fas fa-home"></i></a>
 		</div>
 		<div class="col-xs-3 navbar-item">
-			<a class="navbar-link" href="#about"><i class="fas fa-user"></i></a>
+			<a class="navbar-link" href="/#about"><i class="fas fa-user"></i></a>
 		</div>
 		<div class="col-xs-3 navbar-item">
-			<a class="navbar-link" href="#portfolio"><i class="fas fa-cube"></i></a>
+			<a class="navbar-link" href="/#portfolio"><i class="fas fa-cube"></i></a>
 		</div>
 		<div class="col-xs-3 navbar-item">
-			<a class="navbar-link" href="#contact"><i class="fas fa-envelope"></i></a>
+			<a class="navbar-link" href="/#contact"><i class="fas fa-envelope"></i></a>
 		</div>
 	</nav>
 </template>

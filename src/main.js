@@ -1,6 +1,9 @@
 import Vue from 'vue'
 import App from './App.vue'
 
+// Router
+import router from './router'
+
 // Flexbox Grid
 import 'flexboxgrid/css/flexboxgrid.css'
 
@@ -25,6 +28,7 @@ import 'aos/dist/aos.css'
 Vue.config.productionTip = false
 
 new Vue({
+	router,
 	render: h => h(App),
 	mounted() {
 		AOS.init();
