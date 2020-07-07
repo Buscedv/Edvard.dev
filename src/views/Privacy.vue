@@ -9,7 +9,7 @@
 <script>
 	import PrivacyPolicy from "../components/PrivacyPolicy";
 	export default {
-		name: 'Page',
+		name: 'Privacy',
 		components: {PrivacyPolicy},
 	}
 </script>

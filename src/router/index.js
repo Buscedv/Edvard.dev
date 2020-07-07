@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Privacy from "../views/Privacy";
+import Cookie from "../views/Cookie";
 
 Vue.use(VueRouter)
 
@@ -15,6 +16,11 @@ const routes = [
 		path: '/privacy',
 		name: 'Privacy',
 		component: Privacy
+	},
+	{
+		path: '/cookies',
+		name: 'Cookies',
+		component: Cookie
 	},
 ]
 

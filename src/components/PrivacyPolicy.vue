@@ -352,6 +352,9 @@
 						<br/>
 						<br/>
 						Based on the applicable laws of your country, you may have the right to request access to the personal information we collect from you, change that information, or delete it in some circumstances. To request to review, update, or delete your personal information, please visit: https://edvard.io#contact. We will respond to your request within 30 days.
+						<br/>
+						<br/>
+						This privacy policy was created using Termly’s Privacy Policy Generator.
 					</p>
 				</div>
 			</div>
