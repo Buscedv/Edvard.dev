@@ -16,10 +16,10 @@
 </template>
 
 <script>
-	import Header from "../components/Header";
-	import About from "../components/About";
-	import Portfolio from "../components/Portfolio";
-	import Contact from "../components/Contact";
+	const Header = () => import('../components/Header.vue')
+	const About = () => import('../components/About.vue')
+	const Portfolio = () => import('../components/Portfolio.vue')
+	const Contact = () => import('../components/Contact.vue')
 	export default {
 		name: 'Home',
 		components: {Contact, Portfolio, About, Header},

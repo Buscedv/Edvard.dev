@@ -1,8 +1,10 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from '../views/Home.vue'
-import Privacy from "../views/Privacy";
-import Cookie from "../views/Cookie";
+
+// Views
+const Home = () => import('../views/Home.vue')
+const Privacy = () => import('../views/Privacy.vue')
+const Cookie = () => import('../views/Cookie.vue')
 
 Vue.use(VueRouter)
 

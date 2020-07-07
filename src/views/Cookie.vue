@@ -7,7 +7,7 @@
 </template>
 
 <script>
-	import CookiePolicy from "../components/CookiePolicy";
+	const CookiePolicy = () => import('../components/CookiePolicy.vue')
 	export default {
 		name: 'Cookie',
 		components: {CookiePolicy},

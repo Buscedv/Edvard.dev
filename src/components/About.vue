@@ -53,7 +53,7 @@
 </template>
 
 <script>
-	import Resume from "./Resume";
+	const Resume = () => import('../components/Resume.vue')
 	export default {
 		name: 'About',
 		components: {Resume},

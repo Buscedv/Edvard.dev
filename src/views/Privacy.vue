@@ -7,7 +7,7 @@
 </template>
 
 <script>
-	import PrivacyPolicy from "../components/PrivacyPolicy";
+	const PrivacyPolicy = () => import('../components/PrivacyPolicy.vue')
 	export default {
 		name: 'Privacy',
 		components: {PrivacyPolicy},
