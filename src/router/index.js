@@ -2,9 +2,10 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 
 // Views
-const Home = () => import('../views/Home.vue')
-const Privacy = () => import('../views/Privacy.vue')
-const Cookie = () => import('../views/Cookie.vue')
+import Home from '../views/Home.vue'
+import Privacy from '../views/Privacy.vue'
+import Cookie from '../views/Cookie.vue'
+import FourOhFour from '../views/FourOhFour.vue'
 
 Vue.use(VueRouter)
 
@@ -23,6 +24,11 @@ const routes = [
 		path: '/cookies',
 		name: 'Cookies',
 		component: Cookie
+	},
+	{
+		path: '*',
+		name: 'FourOhFour',
+		component: FourOhFour
 	},
 ]
 

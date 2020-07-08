@@ -2,10 +2,10 @@
 	<div id="footer">
 		<div class="row footer-section" id="icons">
 			<div class="col-xs-4">
-				<a href="https://github.com/Buscedv" target="_blank"><i class="fab fa-github"></i></a>
+				<a href="https://github.com/Buscedv" rel="noopener noreferrer" target="_blank"><i class="fab fa-github"></i></a>
 			</div>
 			<div class="col-xs-4">
-				<a href="https://linkedin.com/in/edvard-busck-nielsen" target="_blank"><i class="fab fa-linkedin"></i></a>
+				<a href="https://linkedin.com/in/edvard-busck-nielsen" rel="noopener noreferrer" target="_blank"><i class="fab fa-linkedin"></i></a>
 			</div>
 			<div class="col-xs-4">
 				<a href="mailto:me@edvard.io" target="_blank"><i class="fas fa-envelope"></i></a>
@@ -14,10 +14,10 @@
 
 		<div class="row footer-section" id="links">
 			<div class="col-xs-4">
-				<a href="/privacy" target="_blank">Privacy Policy</a>
+				<a href="/privacy">Privacy Policy</a>
 			</div>
 			<div class="col-xs-4">
-				<a href="/cookies" target="_blank">Cookie Policy</a>
+				<a href="/cookies">Cookie Policy</a>
 			</div>
 			<div class="col-xs-4">
 				<a onclick="displayPreferenceModal()">Cookie Preferences</a>

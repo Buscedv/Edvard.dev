@@ -18,9 +18,9 @@
 </template>
 
 <script>
-	import Navbar from "./components/Navbar";
-	import MobileNavbar from "./components/MobileNavbar";
-	import Footer from "./components/Footer";
+	const Navbar = () => import('./components/Navbar.vue')
+	const MobileNavbar = () => import('./components/MobileNavbar.vue')
+	const Footer = () => import('./components/Footer.vue')
 	export default {
 		name: 'App',
 		components: {Footer, MobileNavbar, Navbar},
@@ -195,6 +195,10 @@
 	#to-top:hover {
 		cursor: pointer;
 		color: var(--accent);
+	}
+
+	[v-cloak] {
+		display: none;
 	}
 
 	@media screen and (max-width: 900px) {
