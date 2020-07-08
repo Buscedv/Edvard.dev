@@ -10,6 +10,11 @@
 						I'm constantly growing and I try to always have something to work on, both project-wise and my skills as a developer.
 						I have experience creating personal websites, internal tools and other web products.
 					</p>
+					<ul>
+						<li><mark>Software</mark> Development.</li>
+						<li><mark>Web</mark> Development.</li>
+						<li>Located in <mark>Helsinki</mark>.</li>
+					</ul>
 				</div>
 			</div>
 
@@ -80,6 +85,15 @@
 		align-items: center;
 	}
 
+	#main ul {
+		padding-top: 2vh;
+		padding-bottom: 2vh;
+	}
+
+	#main li mark {
+		color: var(--accent-hover);
+	}
+
 	#skills {
 		display: flex;
 		align-items: center;
@@ -109,6 +123,11 @@
 	}
 
 	@media screen and (max-width: 900px) {
+		#skills {
+			margin-top: 2vh;
+			margin-bottom: 2vh;
+		}
+
 		.skill * {
 			font-size: 14vw;
 		}

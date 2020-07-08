@@ -65,21 +65,21 @@
 		padding-right: 1vw;
 	}
 
-	h1 {
+	h1, h2, h3 {
 		font-family: 'Roboto', 'Jost', sans-serif;
+	}
+
+	h1 {
 		line-height: 1;
 		letter-spacing: 2px;
 	}
 
-	h2 {
-		font-family: 'Roboto', 'Jost', sans-serif;
+	h2, h3 {
 		color: var(--accent);
-		margin-top: 8vh;
 	}
 
-	h3 {
-		font-family: 'Roboto', 'Jost', sans-serif;
-		color: var(--accent);
+	h2 {
+		margin-top: 8vh;
 	}
 
 	h2 mark, h3, mark {
@@ -87,11 +87,11 @@
 		background: none;
 	}
 
-	a, p {
+	a, p, li {
 		font-family: 'Jost', 'Roboto', sans-serif;
 	}
 
-	p {
+	p, li {
 		letter-spacing: 0.1px;
 	}
 
@@ -134,6 +134,25 @@
 		padding-top: 3vh;
 		font-size: 1.4vw;
 		color: var(--light);
+	}
+
+	.section ul {
+		padding: 0;
+		margin: 0;
+	}
+
+	.section li {
+		list-style-type: none;
+		padding-top: 0.2vh;
+		font-size: 1.1vw;
+		color: var(--secondary-hover);
+	}
+
+	.section ul li:before {
+		content: '-';
+		padding-left: 0;
+		padding-right: 8px;
+		margin: 0;
 	}
 
 	.section h3 {
@@ -211,6 +230,10 @@
 			font-size: 5vw !important;
 		}
 
+		.section li {
+			font-size: 4.6vw !important;
+		}
+
 		.section h3 {
 			font-size: 5.5vw !important;
 		}
@@ -233,6 +256,12 @@
 
 		.section p {
 			font-size: 6.3vw !important;
+			margin-left: auto !important;
+			margin-right: auto !important;
+		}
+
+		.section li {
+			font-size: 5.9vw !important;
 			margin-left: auto !important;
 			margin-right: auto !important;
 		}

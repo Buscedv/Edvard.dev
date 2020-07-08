@@ -56,13 +56,16 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-3 col-sm-6 col-xs-12 portfolio-item" data-aos="fade-in" data-aos-delay="100">
+					<div class="col-md-3 col-sm-6 col-xs-12 portfolio-item" data-aos="fade-in" data-aos-delay="25">
 						<div class="portfolio-item-inner">
-							<h3>Boilercrate</h3>
-							<p>A CLI tool for managing boilerplate code & project creation.</p>
+							<h3>Ask</h3>
+							<p>A backend programming language that transpiles to Flask (Python).</p>
 							<div class="row">
-								<div class=" col-xs-12">
-									<a class="button" href="https://github.com/Buscedv/Boilercrate" target="_blank" rel="noopener">Source code</a>
+								<div class=" col-sm-6 col-xs-12">
+									<a class="button" href="https://ask.edvard.dev" target="_blank" rel="noopener">Documentation</a>
+								</div>
+								<div class=" col-sm-6 col-xs-12">
+									<a class="button" href="https://github.com/Buscedv/Ask" target="_blank" rel="noopener">Source code</a>
 								</div>
 							</div>
 						</div>
@@ -81,16 +84,13 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-3 col-sm-6 col-xs-12 portfolio-item" data-aos="fade-in" data-aos-delay="25">
+					<div class="col-md-3 col-sm-6 col-xs-12 portfolio-item" data-aos="fade-in" data-aos-delay="100">
 						<div class="portfolio-item-inner">
-							<h3>Ask</h3>
-							<p>A backend programming language that transpiles to Flask (Python).</p>
+							<h3>Boilercrate</h3>
+							<p>A CLI tool for managing boilerplate code & project creation.</p>
 							<div class="row">
-								<div class=" col-sm-6 col-xs-12">
-									<a class="button" href="https://ask.edvard.dev" target="_blank" rel="noopener">Documentation</a>
-								</div>
-								<div class=" col-sm-6 col-xs-12">
-									<a class="button" href="https://github.com/Buscedv/Ask" target="_blank" rel="noopener">Source code</a>
+								<div class=" col-xs-12">
+									<a class="button" href="https://github.com/Buscedv/Boilercrate" target="_blank" rel="noopener">Source code</a>
 								</div>
 							</div>
 						</div>
@@ -134,7 +134,7 @@
 	}
 
 	.portfolio-item-inner:hover {
-		box-shadow: 1px 2px 1px var(--secondary);
+		box-shadow: 3px 3px 1px var(--secondary);
 	}
 
 	.portfolio-item h3 {
@@ -147,6 +147,7 @@
 		text-align: center;
 		color: var(--light);
 		line-height: 1.1;
+		margin-bottom: 2vh;
 	}
 
 	.portfolio-item .button {
@@ -158,11 +159,17 @@
 		color: var(--dark);
 		border: none;
 		border-radius: 2px;
-		margin-top: 2vh;
 	}
 
 	.portfolio-item .button:hover {
 		background-color: var(--accent-hover);
 		cursor: pointer;
+	}
+
+	@media screen and (max-width: 900px) {
+		.portfolio-item .button {
+			width: 80%;
+			margin-bottom: 2vh;
+		}
 	}
 </style>

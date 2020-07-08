@@ -13,25 +13,25 @@
 								<div class="social-holder">
 									<div class="row" data-aos="fade-in" data-aos-delay="25">
 										<div class="col-xs-5">
-											<a aria-label="GitHub profile" href="https://github.com/Buscedv" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
+											<a aria-label="GitHub profile" href="https://github.com/Buscedv" target="_blank" rel="noreferrer noopener"><i class="fab fa-github"></i></a>
 										</div>
 										<div class="col-xs-7 label-holder">
-											<p>@Buscedv</p>
+											<p><a href="https://github.com/Buscedv" target="_blank" rel="noreferrer noopener">@Buscedv</a></p>
 										</div>
 									</div>
 
 									<div class="row" data-aos="fade-in" data-aos-delay="50">
 										<div class="col-xs-5">
-											<a aria-label="LinkedIn page" href="https://linkedin.com/in/edvard-busck-nielsen" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a>
+											<a aria-label="LinkedIn page" href="https://linkedin.com/in/edvard-busck-nielsen" target="_blank" rel="noreferrer noopener"><i class="fab fa-linkedin"></i></a>
 										</div>
 										<div class="col-xs-7 label-holder">
-											<p>LinkedIn</p>
+											<p><a href="https://linkedin.com/in/edvard-busck-nielsen" target="_blank" rel="noreferrer noopener">LinkedIn</a></p>
 										</div>
 									</div>
 
 									<div class="row" data-aos="fade-in" data-aos-delay="75">
 										<div class="col-xs-5">
-											<a aria-label="Email" href="mailto:me@edvard.io" target="_blank" rel="noopener"><i class="fas fa-envelope"></i></a>
+											<a aria-label="Email" href="mailto:me@edvard.io"><i class="fas fa-envelope"></i></a>
 										</div>
 										<div class="col-xs-7 label-holder">
 											<p>me@edvard.io</p>
@@ -126,10 +126,17 @@
 		font-size: 5vw;
 		padding-left: 5px;
 		padding-right: 5px;
+		text-decoration: none;
 	}
 
-	#social a:hover {
+	#social a:hover, #social p:hover a {
 		color: var(--accent-hover);
+	}
+
+	#social p a {
+		color: inherit;
+		font-size: inherit;
+		padding: inherit;
 	}
 
 	#form-area {
@@ -145,11 +152,16 @@
 		margin-right: auto;
 	}
 
-	form label p {
-		color: var(--light);
+	form br {
+		content: '';
 	}
 
-	form textarea, input {
+	form label p {
+		color: var(--light);
+
+	}
+
+	form textarea, form input {
 		padding: 5px;
 		font-size: 1.3em;
 		width: 80%;
@@ -157,7 +169,7 @@
 		color: var(--dark);
 		border: none;
 		border-radius: 5px;
-		margin-bottom: 5px;
+		outline: none !important;
 	}
 
 	form .button {
