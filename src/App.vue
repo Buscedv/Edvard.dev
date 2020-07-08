@@ -144,7 +144,7 @@
 	.section li {
 		list-style-type: none;
 		padding-top: 0.2vh;
-		font-size: 1.1vw;
+		font-size: 1.3vw;
 		color: var(--secondary-hover);
 	}
 
@@ -231,7 +231,7 @@
 		}
 
 		.section li {
-			font-size: 4.6vw !important;
+			font-size: 4.9vw !important;
 		}
 
 		.section h3 {
@@ -261,7 +261,7 @@
 		}
 
 		.section li {
-			font-size: 5.9vw !important;
+			font-size: 6.2vw !important;
 			margin-left: auto !important;
 			margin-right: auto !important;
 		}
