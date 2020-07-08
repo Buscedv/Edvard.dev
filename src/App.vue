@@ -197,10 +197,6 @@
 		color: var(--accent);
 	}
 
-	[v-cloak] {
-		display: none;
-	}
-
 	@media screen and (max-width: 900px) {
 		main {
 			padding-left: 0;
