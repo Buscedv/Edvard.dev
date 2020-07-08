@@ -1,7 +1,7 @@
 <template>
 	<div id="resume">
 		<div id="open-btn" @click="toggle()">
-			<p>Resume</p>
+			<p>Resumé</p>
 			<font-awesome-icon :icon="['fas', chevron]"/>
 		</div>
 		<div data-aos="fade-in" data-aos-duration="500" id="resume-content" v-if="resume">
