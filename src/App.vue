@@ -10,12 +10,12 @@
 
 			<div class="row">
 				<div class="col-xs-12 part">
-					<Footer></Footer>
+					<Footer @openConsentBanner="openConsentBanner()"></Footer>
 				</div>
 			</div>
 		</main>
 
-		<cookie-law theme="custom" @accept="enableCookies" @close="disableCookies">
+		<cookie-law theme="custom" @accept="enableCookies" ref="cookie">
 			<div slot-scope="props">
 				<div class="row">
 					<div class="col-sm-12 col-xs-12">
@@ -28,7 +28,7 @@
 								<button class="skew button" @click="props.accept">Accept</button>
 							</div>
 							<div class="col-xs-6">
-								<button class="skew button" @click="props.close">Decline</button>
+								<button class="skew button" @click="disableCookies">Decline</button>
 							</div>
 						</div>
 					</div>
@@ -49,14 +49,16 @@
 		components: {Footer, MobileNavbar, Navbar},
 		methods: {
 			enableCookies() {
-				this.$cookie.set('disable_cookies_edvard_io', false, 30)
 				this.$ga.enable();
 			},
 
 			disableCookies() {
-				this.$cookie.set('disable_cookies_edvard_io', true, 30)
+				this.$refs.cookie.setDeclined();
 				this.$ga.disable();
-			}
+			},
+			openConsentBanner() {
+				this.$refs.cookie.isOpen = true;
+			},
 		}
 	}
 </script>

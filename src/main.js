@@ -29,27 +29,28 @@ import 'aos/dist/aos.css'
 const VueCookie = require('vue-cookie');
 Vue.use(VueCookie);
 
+// Cookie Law
+import CookieLaw from 'vue-cookie-law'
+Vue.component('cookie-law', CookieLaw)
+Vue.use(CookieLaw)
+
 // Vue (Google) Analytics
 import VueAnalytics from 'vue-analytics';
 Vue.use(VueAnalytics, {
 	id: 'UA-123148803-2',
 	disabled: () => {
-		const isDisabled= VueCookie.get('disable_cookies_edvard_io');
-		if (String(isDisabled) === 'true') {
-			return true;
-		} else if (String(isDisabled) === 'false') {
-			return false;
-		} else {
-			console.log('it is null')
-			return false
+		const areCookiesDisabled = String(localStorage.getItem(CookieLaw.props.storageName.default))
+		switch (areCookiesDisabled) {
+			case 'true':
+				return false
+			case 'false':
+				return true
+			default:
+				return false
 		}
 	},
 	router
 })
-
-// Cookie Law
-import CookieLaw from 'vue-cookie-law'
-Vue.component('cookie-law', CookieLaw)
 
 Vue.config.productionTip = false
 

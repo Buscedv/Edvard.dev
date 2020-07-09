@@ -20,7 +20,7 @@
 				<a href="/cookies">Cookie Policy</a>
 			</div>
 			<div class="col-xs-4">
-				<a onclick="displayPreferenceModal()">Cookie Preferences</a>
+				<a @click="$emit('openConsentBanner')">Cookie Preferences</a>
 			</div>
 		</div>
 
@@ -43,7 +43,7 @@
 		mounted() {
 			const date = new Date();
 			this.year = date.getFullYear();
-		}
+		},
 	}
 </script>
 
