@@ -25,10 +25,6 @@ import 'balloon-css/balloon.min.css';
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
-// Vue Cookies
-const VueCookie = require('vue-cookie');
-Vue.use(VueCookie);
-
 // Cookie Law
 import CookieLaw from 'vue-cookie-law'
 Vue.component('cookie-law', CookieLaw)
