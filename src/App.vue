@@ -15,7 +15,7 @@
 			</div>
 		</main>
 
-		<cookie-law theme="custom" @accept="enableCookies" ref="cookie">
+		<cookie-law theme="custom" @accept="enableCookies" @decline="disableCookies" ref="cookie">
 			<div slot-scope="props">
 				<div class="row">
 					<div class="col-sm-12 col-xs-12">
@@ -28,7 +28,7 @@
 								<button class="skew button" @click="props.accept">Accept</button>
 							</div>
 							<div class="col-xs-6">
-								<button class="skew button" @click="disableCookies">Decline</button>
+								<button class="skew button" @click="props.decline">Decline</button>
 							</div>
 						</div>
 					</div>
@@ -53,7 +53,6 @@
 			},
 
 			disableCookies() {
-				this.$refs.cookie.setDeclined();
 				this.$ga.disable();
 			},
 			openConsentBanner() {
