@@ -10,10 +10,32 @@
 
 			<div class="row">
 				<div class="col-xs-12 part">
-					<Footer></Footer>
+					<Footer @openConsentBanner="openConsentBanner()"></Footer>
 				</div>
 			</div>
 		</main>
+
+		<cookie-law theme="custom" @accept="enableCookies" ref="cookie">
+			<div slot-scope="props">
+				<div class="row">
+					<div class="col-sm-12 col-xs-12">
+						<p class="mobile-text">We use cookies to analyze website traffic. By clicking "Accept" you consent to our <a href="/cookies" target="_blank">Cookie Policy</a>.</p>
+						<p class="text">We use cookies to analyze website traffic. By clicking "Accept" you consent to our <a href="/cookies" target="_blank">Cookie Policy</a>. You can change your preferences at any time by clicking "Cookie Preferences" in the footer.</p>
+					</div>
+					<div class="col-sm-12 col-xs-12">
+						<div class="row" id="consent-button-row">
+							<div class="col-xs-6">
+								<button class="skew button" @click="props.accept">Accept</button>
+							</div>
+							<div class="col-xs-6">
+								<button class="skew button" @click="disableCookies">Decline</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</cookie-law>
+
 	</div>
 </template>
 
@@ -21,9 +43,23 @@
 	const Navbar = () => import('./components/Navbar.vue')
 	const MobileNavbar = () => import('./components/MobileNavbar.vue')
 	const Footer = () => import('./components/Footer.vue')
+
 	export default {
 		name: 'App',
 		components: {Footer, MobileNavbar, Navbar},
+		methods: {
+			enableCookies() {
+				this.$ga.enable();
+			},
+
+			disableCookies() {
+				this.$refs.cookie.setDeclined();
+				this.$ga.disable();
+			},
+			openConsentBanner() {
+				this.$refs.cookie.isOpen = true;
+			},
+		}
 	}
 </script>
 
@@ -58,11 +94,16 @@
 
 	#app {
 		background-color: var(--black);
+		padding-left: 0;
+		padding-right: 0;
 	}
 
 	main {
-		padding-left: 1vw;
-		padding-right: 1vw;
+		padding-left: 5vw !important;
+		padding-right: 5vw !important;
+		margin-left: 4vw;
+		margin-right: 4vw;
+		overflow-x: hidden;
 	}
 
 	h1, h2, h3 {
@@ -160,8 +201,8 @@
 		padding-bottom: 5px;
 	}
 
-	.section .button {
-		font-size: 1vw;
+	.button {
+		font-size: .8vw;
 		-webkit-appearance: button;
 		-webkit-writing-mode: horizontal-tb !important;
 		text-rendering: auto;
@@ -189,7 +230,7 @@
 		text-decoration: none;
 	}
 	
-	.section .button:hover {
+	.button:hover {
 		background-color: var(--accent-hover);
 		cursor: pointer;
 	}
@@ -216,6 +257,50 @@
 		color: var(--accent);
 	}
 
+	/* Cookie Law Custom Theme */
+	.Cookie--custom {
+		max-width: 35vw;
+		background-color: #1a222b;
+		margin: 30px;
+		margin-bottom: 5vh;
+		border-radius: 5px;
+		box-sizing: border-box;
+		padding: 35px;
+		box-shadow: 0 0 40px 0 rgba(0, 0, 0, .25);
+		color: var(--light);
+		font-family: 'Roboto', 'Jost', sans-serif;
+		line-height: 1.5;
+		letter-spacing: 1px;
+		left: auto !important;
+	}
+
+	.Cookie--custom .mobile-text {
+		display: none;
+	}
+
+	.Cookie--custom a {
+		color: var(--accent-hover);
+	}
+
+	.Cookie--custom a:hover {
+		color: var(--accent);
+	}
+
+	#consent-button-row {
+		width: fit-content;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	@media screen and (max-width: 950px) {
+		.Cookie--custom {
+			margin-bottom: 7vh;
+			height: fit-content;
+			padding-top: 10px;
+			padding-bottom: 10px;
+		}
+	}
+
 	@media screen and (max-width: 900px) {
 		main {
 			padding-left: 0;
@@ -238,12 +323,31 @@
 			font-size: 5.5vw !important;
 		}
 
-		.section .button {
-			font-size: 4vw !important;
+		.button {
+			font-size: 2.5vw !important;
+			margin-bottom: 2vh;
 		}
 
 		#to-top {
 			display: none;
+		}
+	}
+
+	@media screen and (max-width: 700px) {
+		.Cookie--custom {
+			max-width: 100vw;
+			border-radius: 0;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		.Cookie--custom:first-child {
+			margin: 0 !important;
+		}
+
+		.button {
+			font-size: 4vw !important;
+			margin-bottom: 2vh;
 		}
 	}
 
@@ -270,8 +374,29 @@
 			font-size: 6.5vw !important;
 		}
 
-		.section .button {
-			font-size: 3vw !important;
+		.button {
+			font-size: 5vw !important;
+		}
+
+		.Cookie--custom {
+			padding-top: 0;
+			padding-bottom: 0;
+			padding-left: 8px;
+			padding-right: 8px;
+		}
+
+		.Cookie--custom .button {
+			width: 100%;
+			padding-left: 1rem;
+			padding-right: 1rem;
+		}
+
+		.Cookie--custom .mobile-text {
+			display: block;
+		}
+
+		.Cookie--custom .text {
+			display: none;
 		}
 	}
 </style>
