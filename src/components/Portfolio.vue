@@ -169,7 +169,7 @@
 	@media screen and (max-width: 900px) {
 		.portfolio-item .button {
 			width: 80%;
-			margin-bottom: 2vh;
 		}
+
 	}
 </style>
