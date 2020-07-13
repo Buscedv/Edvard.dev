@@ -9,7 +9,7 @@
 					<br/>
 					<br/>
 					<br/>
-					This Cookie Policy explains how Edvard.io ("Company", "we", "us", and "our") uses cookies and similar technologies to recognize you when you visit our websites at https://edvard.io, ("Websites"). It explains what these technologies are and why we use them, as well as your rights to control our use of them.
+					This Cookie Policy explains how Edvard.dev ("Company", "we", "us", and "our") uses cookies and similar technologies to recognize you when you visit our websites at https://edvard.dev, ("Websites"). It explains what these technologies are and why we use them, as well as your rights to control our use of them.
 					<br/>
 					<br/>
 					In some cases we may use cookies to collect personal information, or that becomes personal information if we combine it with other information.
@@ -21,7 +21,7 @@
 					Cookies are small data files that are placed on your computer or mobile device when you visit a website. Cookies are widely used by website owners in order to make their websites work, or to work more efficiently, as well as to provide reporting information.
 					<br/>
 					<br/>
-					Cookies set by the website owner (in this case, Edvard.io) are called "first party cookies". Cookies set by parties other than the website owner are called "third party cookies". Third party cookies enable third party features or functionality to be provided on or through the website (e.g. like advertising, interactive content and analytics). The parties that set these third party cookies can recognize your computer both when it visits the website in question and also when it visits certain other websites.
+					Cookies set by the website owner (in this case, Edvard.dev) are called "first party cookies". Cookies set by parties other than the website owner are called "third party cookies". Third party cookies enable third party features or functionality to be provided on or through the website (e.g. like advertising, interactive content and analytics). The parties that set these third party cookies can recognize your computer both when it visits the website in question and also when it visits certain other websites.
 					<br/>
 					<br/>
 					Why do we use cookies?
@@ -79,7 +79,7 @@
 					<br/>
 					Purpose:It records a particular ID used to come up with data about website usage by the user. It is a HTTP cookie that expires after 2 years.
 					<br/>
-					Provider:.edvard.io
+					Provider:.edvard.dev
 					<br/>
 					Service:Google Analytics View Service Privacy Policy
 					<br/>
@@ -93,7 +93,7 @@
 					<br/>
 					Purpose:Keeps an entry of unique ID which is then used to come up with statistical data on website usage by visitors. It is a HTTP cookie type and expires after a browsing session.
 					<br/>
-					Provider:.edvard.io
+					Provider:.edvard.dev
 					<br/>
 					Service:Google Analytics View Service Privacy Policy
 					<br/>
@@ -107,7 +107,7 @@
 					<br/>
 					Purpose:Enables Google Analytics regulate the rate of requesting. It is a HTTP cookie type that lasts for a session.
 					<br/>
-					Provider:.edvard.io
+					Provider:.edvard.dev
 					<br/>
 					Service:Google Analytics View Service Privacy Policy
 					<br/>
@@ -155,10 +155,10 @@
 					Where can I get further information?
 					<br/>
 					<br/>
-					If you have any questions about our use of cookies or other technologies, please email us at me@edvard.io or by post to:
+					If you have any questions about our use of cookies or other technologies, please email us at me@edvard.dev or by post to:
 					<br/>
 					<br/>
-					Edvard.io
+					Edvard.dev
 					<br/>
 					__________
 					<br/>

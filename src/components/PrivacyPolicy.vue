@@ -9,10 +9,10 @@
 					<br>
 					<br>
 
-					Thank you for choosing to be part of our community at Edvard.io (“Company”, “we”, “us”, or “our”). We are committed to protecting your personal information and your right to privacy. If you have any questions or concerns about this privacy notice, or our practices with regards to your personal information, please contact us at me@edvard.io.
+					Thank you for choosing to be part of our community at Edvard.dev (“Company”, “we”, “us”, or “our”). We are committed to protecting your personal information and your right to privacy. If you have any questions or concerns about this privacy notice, or our practices with regards to your personal information, please contact us at me@edvard.dev.
 					<br/>
 					<br/>
-					When you visit our website https://edvard.io (the "Website"), and more generally, use any of our services (the "Services", which include the Website), we appreciate that you are trusting us with your personal information. We take your privacy very seriously. In this privacy notice, we seek to explain to you in the clearest way possible what information we collect, how we use it and what rights you have in relation to it. We hope you take some time to read through it carefully, as it is important. If there are any terms in this privacy notice that you do not agree with, please discontinue use of our Services immediately.
+					When you visit our website https://edvard.dev (the "Website"), and more generally, use any of our services (the "Services", which include the Website), we appreciate that you are trusting us with your personal information. We take your privacy very seriously. In this privacy notice, we seek to explain to you in the clearest way possible what information we collect, how we use it and what rights you have in relation to it. We hope you take some time to read through it carefully, as it is important. If there are any terms in this privacy notice that you do not agree with, please discontinue use of our Services immediately.
 					<br/>
 					<br/>
 					This privacy notice applies to all information collected through our Services (which, as described above, includes our Website), as well as any related services, sales, marketing or events.
@@ -257,7 +257,7 @@
 					In Short:  We do not knowingly collect data from or market to children under 18 years of age.
 					<br/>
 					<br/>
-					We do not knowingly solicit data from or market to children under 18 years of age. By using the Website, you represent that you are at least 18 or that you are the parent or guardian of such a minor and consent to such minor dependent’s use of the Website. If we learn that personal information from users less than 18 years of age has been collected, we will deactivate the account and take reasonable measures to promptly delete such data from our records. If you become aware of any data we may have collected from children under age 18, please contact us at me@edvard.io.
+					We do not knowingly solicit data from or market to children under 18 years of age. By using the Website, you represent that you are at least 18 or that you are the parent or guardian of such a minor and consent to such minor dependent’s use of the Website. If we learn that personal information from users less than 18 years of age has been collected, we will deactivate the account and take reasonable measures to promptly delete such data from our records. If you become aware of any data we may have collected from children under age 18, please contact us at me@edvard.dev.
 					<br/>
 					<br/>
 					<br/>
@@ -333,10 +333,10 @@
 					14. HOW CAN YOU CONTACT US ABOUT THIS NOTICE?
 					<br/>
 					<br/>
-					If you have questions or comments about this notice, you may email us at me@edvard.io or by post to:
+					If you have questions or comments about this notice, you may email us at me@edvard.dev or by post to:
 					<br/>
 					<br/>
-					Edvard.io
+					Edvard.dev
 					<br>
 					__________
 					<br>
@@ -350,7 +350,7 @@
 					HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM YOU?
 					<br/>
 					<br/>
-					Based on the applicable laws of your country, you may have the right to request access to the personal information we collect from you, change that information, or delete it in some circumstances. To request to review, update, or delete your personal information, please visit: https://edvard.io#contact. We will respond to your request within 30 days.
+					Based on the applicable laws of your country, you may have the right to request access to the personal information we collect from you, change that information, or delete it in some circumstances. To request to review, update, or delete your personal information, please visit: https://edvard.dev#contact. We will respond to your request within 30 days.
 					<br/>
 					<br/>
 					This privacy policy was created using Termly’s Privacy Policy Generator.

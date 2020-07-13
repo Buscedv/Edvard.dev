@@ -31,10 +31,10 @@
 
 									<div class="row" data-aos="fade-in" data-aos-delay="75">
 										<div class="col-xs-5">
-											<a aria-label="Email" href="mailto:me@edvard.io"><i class="fas fa-envelope"></i></a>
+											<a aria-label="Email" href="mailto:me@edvard.dev"><i class="fas fa-envelope"></i></a>
 										</div>
 										<div class="col-xs-7 label-holder">
-											<p>me@edvard.io</p>
+											<p>me@edvard.dev</p>
 										</div>
 									</div>
 								</div>

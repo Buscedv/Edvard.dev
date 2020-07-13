@@ -8,7 +8,7 @@
 				<a href="https://linkedin.com/in/edvard-busck-nielsen" rel="noopener noreferrer" target="_blank"><i class="fab fa-linkedin"></i></a>
 			</div>
 			<div class="col-xs-4">
-				<a href="mailto:me@edvard.io" target="_blank"><i class="fas fa-envelope"></i></a>
+				<a href="mailto:me@edvard.dev" target="_blank"><i class="fas fa-envelope"></i></a>
 			</div>
 		</div>
 
