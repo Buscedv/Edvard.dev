@@ -22,6 +22,16 @@
 
 # Old paths to new domain:
 [[redirects]]
+  from = "https://edvard.io/"
+  to = "https://edvard.dev/"
+  status = 301
+  force = false
+[[redirects]]
+  from = "https://edvard.io/"
+  to = "https://edvard.dev/"
+  status = 301
+  force = false
+[[redirects]]
   from = "https://edvard.io/cookies"
   to = "https://edvard.dev/cookies"
   status = 301
