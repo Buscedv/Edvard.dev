@@ -5,27 +5,12 @@
   status = 301
   force = false
 [[redirects]]
-  from = "http://edvard.io"
-  to = "https://edvard.dev"
-  status = 301
-  force = false
-[[redirects]]
   from = "https://edvard.netlify.app"
-  to = "https://edvard.dev"
-  status = 301
-  force = false
-[[redirects]]
-  from = "http://edvard.netlify.app"
   to = "https://edvard.dev"
   status = 301
   force = false
 
 # Old paths to new domain:
-[[redirects]]
-  from = "https://edvard.io/"
-  to = "https://edvard.dev/"
-  status = 301
-  force = false
 [[redirects]]
   from = "https://edvard.io/"
   to = "https://edvard.dev/"
@@ -41,20 +26,10 @@
   to = "https://edvard.dev/privacy"
   status = 301
   force = false
-[[redirects]]
-  from = "http://edvard.io/cookies"
-  to = "https://edvard.dev/cookies"
-  status = 301
-  force = false
-[[redirects]]
-  from = "http://edvard.io/privacy"
-  to = "https://edvard.dev/privacy"
-  status = 301
-  force = false
 
 # Vue router history mode:
 [[redirects]]
-  from = "/*"
+  from = "https://edvard.dev/*"
   to = "/"
   status = 200
   force = false
