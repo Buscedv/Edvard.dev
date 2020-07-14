@@ -1,3 +1,4 @@
+# Alternative domains to main domain
 [[redirects]]
   from = "https://edvard.io"
   to = "https://edvard.dev"
@@ -8,7 +9,8 @@
   to = "https://edvard.dev"
   status = 301
   force = false
-# Old paths to new domain
+
+# Old paths to new domain:
 [[redirects]]
   from = "https://edvard.io/cookies"
   to = "https://edvard.dev/cookies"
@@ -18,4 +20,11 @@
   from = "https://edvard.io/privacy"
   to = "https://edvard.dev/privacy"
   status = 301
+  force = false
+
+# Vue router history mode:
+[[redirects]]
+  from = "/*"
+  to = "/"
+  status = 200
   force = false
