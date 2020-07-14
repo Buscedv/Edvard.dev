@@ -1,3 +1,4 @@
-User-agent: *
-Disallow: /cookies/
-Disallow: /privacy/
+User-agent: Googlebot
+Disallow: /cookies
+User-agent: Googlebot
+Disallow: /privacy
