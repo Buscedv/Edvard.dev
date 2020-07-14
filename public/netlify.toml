@@ -5,7 +5,17 @@
   status = 301
   force = false
 [[redirects]]
+  from = "http://edvard.io"
+  to = "https://edvard.dev"
+  status = 301
+  force = false
+[[redirects]]
   from = "https://edvard.netlify.app"
+  to = "https://edvard.dev"
+  status = 301
+  force = false
+[[redirects]]
+  from = "http://edvard.netlify.app"
   to = "https://edvard.dev"
   status = 301
   force = false
@@ -18,6 +28,16 @@
   force = false
 [[redirects]]
   from = "https://edvard.io/privacy"
+  to = "https://edvard.dev/privacy"
+  status = 301
+  force = false
+[[redirects]]
+  from = "http://edvard.io/cookies"
+  to = "https://edvard.dev/cookies"
+  status = 301
+  force = false
+[[redirects]]
+  from = "http://edvard.io/privacy"
   to = "https://edvard.dev/privacy"
   status = 301
   force = false
