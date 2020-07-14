@@ -1,7 +1,2 @@
-/*	/	200
-https://edvard.io	https://edvard.dev	301
-https://edvard.io/	https://edvard.dev/	301
-https://edvard.io/*	https://edvard.dev/:splat	301
-https://edvard.netlify.app	https://edvard.dev	301
-https://edvard.netlify.app/	https://edvard.dev/	301
-https://edvard.netlify.app/*	https://edvard.dev/:splat	301
+http://edvard.io/* https://edvard.dev/:splat 301!
+http://edvard.io/* https://edvard.dev/:splat 301!
