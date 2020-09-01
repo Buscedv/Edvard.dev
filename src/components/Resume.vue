@@ -9,6 +9,13 @@
 				<div class="col-md-6 col-xs-12">
 					<h3>Experience</h3>
 					<div class="edu-exp-cards">
+						<div class="edu-exp-card">
+							<div class="edu-exp-card-inner">
+								<p class="edu-exp-title">Customer Support Consultant</p>
+								<p class="edu-exp-date">May 2020 - Present</p>
+								<p class="edu-exp-description">Customer support with technical problems/questions, freelance.</p>
+							</div>
+						</div>
 
 						<div class="edu-exp-card">
 							<div class="edu-exp-card-inner">
