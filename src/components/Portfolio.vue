@@ -151,14 +151,15 @@
 	}
 
 	.portfolio-item .button {
-		padding-left: 2vw;
-		padding-right: 2vw;
-		padding-top: 1vh;
-		padding-bottom: 1vh;
+		padding-left: 1vw;
+		padding-right: 1vw;
+		padding-top: .5vh;
+		padding-bottom: .5vh;
 		background-color: var(--accent);
 		color: var(--dark);
 		border: none;
 		border-radius: 2px;
+		font-size: 1vw;
 	}
 
 	.portfolio-item .button:hover {
