@@ -9,11 +9,18 @@
 				<div class="col-md-6 col-xs-12">
 					<h3>Experience</h3>
 					<div class="edu-exp-cards">
+            <div class="edu-exp-card">
+							<div class="edu-exp-card-inner">
+								<p class="edu-exp-title">Software Engineer Trainee</p>
+								<p class="edu-exp-date">Oct 2020 - Current</p>
+								<p class="edu-exp-description">Internship at <mark>PHZ Full Stack Oy</mark>, as part of my vocational education (vocational qualification in information and communications technology), software development.</p>
+							</div>
+
 						<div class="edu-exp-card">
 							<div class="edu-exp-card-inner">
 								<p class="edu-exp-title">Customer Support Consultant</p>
 								<p class="edu-exp-date">May 2020 - Present</p>
-								<p class="edu-exp-description">Customer support with technical problems/questions, freelance.</p>
+								<p class="edu-exp-description">Customer support with technical problems/questions, freelance. <mark>KSF Media Ab</mark>.</p>
 							</div>
 						</div>
 
