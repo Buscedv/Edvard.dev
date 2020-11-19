@@ -8,6 +8,17 @@
 				<div class="row" id="portfolio-items">
 					<div class="col-md-3 col-sm-6 col-xs-12 portfolio-item" data-aos="fade-in" data-aos-delay="25">
 						<div class="portfolio-item-inner">
+							<h3>Skoog.fi</h3>
+							<p>Website design for Skoog LKV Oy. Built with Nuxt.js & Axios.</p>
+							<div class="row">
+								<div class="col-xs-12">
+									<a class="button" href="https://skoog.fi" target="_blank" rel="noopener">Visit</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12 portfolio-item" data-aos="fade-in" data-aos-delay="25">
+						<div class="portfolio-item-inner">
 							<h3>Enkelt</h3>
 							<p>The worlds first programming language that uses a swedish syntax.</p>
 							<div class="row">
@@ -27,6 +38,20 @@
 							<div class="row">
 								<div class="col-xs-12">
 									<a class="button" href="https://berlinerfunk.fi" target="_blank" rel="noopener">Visit</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12 portfolio-item" data-aos="fade-in" data-aos-delay="25">
+						<div class="portfolio-item-inner">
+							<h3>Ask</h3>
+							<p>A backend programming language that transpiles to Flask (Python).</p>
+							<div class="row">
+								<div class=" col-sm-6 col-xs-12">
+									<a class="button" href="https://ask.edvard.dev" target="_blank" rel="noopener">Documentation</a>
+								</div>
+								<div class=" col-sm-6 col-xs-12">
+									<a class="button" href="https://github.com/Buscedv/Ask" target="_blank" rel="noopener">Source code</a>
 								</div>
 							</div>
 						</div>
@@ -52,20 +77,6 @@
 								</div>
 								<div class=" col-sm-6 col-xs-12">
 									<a class="button" href="https://github.com/Buscedv/Tasks" target="_blank" rel="noopener">Source code</a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-3 col-sm-6 col-xs-12 portfolio-item" data-aos="fade-in" data-aos-delay="25">
-						<div class="portfolio-item-inner">
-							<h3>Ask</h3>
-							<p>A backend programming language that transpiles to Flask (Python).</p>
-							<div class="row">
-								<div class=" col-sm-6 col-xs-12">
-									<a class="button" href="https://ask.edvard.dev" target="_blank" rel="noopener">Documentation</a>
-								</div>
-								<div class=" col-sm-6 col-xs-12">
-									<a class="button" href="https://github.com/Buscedv/Ask" target="_blank" rel="noopener">Source code</a>
 								</div>
 							</div>
 						</div>
