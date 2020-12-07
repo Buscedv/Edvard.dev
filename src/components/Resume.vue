@@ -11,9 +11,17 @@
 					<div class="edu-exp-cards">
 						<div class="edu-exp-card">
 							<div class="edu-exp-card-inner">
+								<p class="edu-exp-title">Software Engineer</p>
+								<p class="edu-exp-date">December 2020 - Current</p>
+								<p class="edu-exp-description">Python development consultant at <mark>PHZ Full Stack Oy</mark>.</p>
+							</div>
+						</div>
+
+						<div class="edu-exp-card">
+							<div class="edu-exp-card-inner">
 								<p class="edu-exp-title">Software Engineer Trainee</p>
-								<p class="edu-exp-date">Oct 2020 - Current</p>
-								<p class="edu-exp-description">Internship at <mark>PHZ Full Stack Oy</mark>, as part of my vocational education (vocational qualification in information and communications technology), software development.</p>
+								<p class="edu-exp-date">Oct 2020 - November 2020</p>
+								<p class="edu-exp-description">Internship at <mark>PHZ Full Stack Oy</mark>, as part of my vocational education (vocational qualification in information and communications technology), software development. Developed an email crawler (Python) as well as a Vue.js web interface for interacting with it. Built various full stack applications.</p>
 							</div>
 						</div>
 
@@ -37,7 +45,7 @@
 							<div class="edu-exp-card-inner">
 								<p class="edu-exp-title">Software Engineer Trainee</p>
 								<p class="edu-exp-date">Feb 2020 - Apr 2020</p>
-								<p class="edu-exp-description">Internship at <mark>KSF Media Ab</mark> as part of my vocational education (vocational qualification in information and communications technology), software development.</p>
+								<p class="edu-exp-description">Internship at <mark>KSF Media Ab</mark> as part of my vocational education (vocational qualification in information and communications technology), software development. Built a embeddable, sortable, and searchable list solution with Google Sheets as the backend. Worked on a web dashboard for managing Firebase. Improved websites and helped out in technical support.</p>
 							</div>
 						</div>
 
