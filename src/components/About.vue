@@ -92,6 +92,8 @@
 
 	#main li mark {
 		color: var(--accent-hover);
+		font-family: 'Open Sans', 'Roboto', 'Jost', sans-serif;
+		font-weight: bold;
 	}
 
 	#skills {

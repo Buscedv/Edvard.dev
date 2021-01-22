@@ -34,7 +34,7 @@
 											<a aria-label="Email" href="mailto:me@edvard.dev"><i class="fas fa-envelope"></i></a>
 										</div>
 										<div class="col-xs-7 label-holder">
-											<p>me@edvard.dev</p>
+											<p><a href="mailto:me@edvard.dev" rel="noreferrer noopener">me@edvard.dev</a></p>
 										</div>
 									</div>
 								</div>
@@ -43,14 +43,14 @@
 							<div class="col-sm-6 col-xs-12">
 								<div id="form-area">
 									<form method="POST" action="https://formspree.io/xdowaqkv">
-										<label for="name"><p>Name</p></label><br/>
+										<p>Name</p>
 										<input type="text" name="name" id="name"><br/>
 
-										<label for="email"><p>Email</p></label><br/>
+										<p>Email</p>
 										<input type="email" name="email" id="email"><br/>
 
-										<label for="message"><p>Message</p></label><br/>
-										<textarea name="message" rows="5" id="message"></textarea><br/>
+										<p>Message</p>
+										<textarea name="message" rows="5" id="message"></textarea>
 
 										<input type="submit" value="Send" class="button">
 									</form>
@@ -147,7 +147,7 @@
 	form {
 		background-color: var(--dark);
 		padding: 20px;
-		border-radius: 5px;
+		border-radius: 20px;
 		margin-left: auto;
 		margin-right: auto;
 	}
@@ -156,20 +156,23 @@
 		content: '';
 	}
 
-	form label p {
+	form p {
 		color: var(--light);
-
+		max-width: 80%;
+		margin: 0 auto;
+		text-align: left;
 	}
 
 	form textarea, form input {
-		padding: 5px;
+		padding: 8px;
 		font-size: 1.3em;
 		width: 80%;
 		background-color: var(--light);
 		color: var(--dark);
 		border: none;
-		border-radius: 5px;
+		border-radius: 20px;
 		outline: none !important;
+		margin-bottom: 20px;
 	}
 
 	form .button {

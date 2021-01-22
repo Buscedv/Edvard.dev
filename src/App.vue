@@ -76,6 +76,18 @@
 		--white: #E9F2F2;
 	}
 
+	@font-face {
+		font-family: 'Open Sans';
+		src: url("./assets/fonts/Open_Sans/OpenSans-Bold.ttf") format("truetype");
+		font-weight: bold;
+	}
+
+	@font-face {
+		font-family: 'Open Sans';
+		src: url("./assets/fonts/Open_Sans/OpenSans-ExtraBold.ttf");
+		font-weight: 800;
+	}
+
 	html {
 		scroll-behavior: smooth;
 	}
@@ -105,8 +117,9 @@
 		overflow-x: hidden;
 	}
 
-	h1, h2, h3 {
-		font-family: 'Roboto', 'Jost', sans-serif;
+	h1, h2 {
+		font-family: 'Open Sans', 'Roboto', 'Jost', sans-serif;
+		font-weight: 800;
 	}
 
 	h1 {
@@ -125,6 +138,11 @@
 	h2 mark, h3, mark {
 		color: var(--light);
 		background: none;
+	}
+
+	h3 {
+		font-family: 'Open Sans', 'Roboto', 'Jost', sans-serif;
+		font-weight: bold;
 	}
 
 	a, p, li {
@@ -201,7 +219,6 @@
 	}
 
 	.button {
-		font-size: .8vw;
 		-webkit-appearance: button;
 		-webkit-writing-mode: horizontal-tb !important;
 		text-rendering: auto;
@@ -217,20 +234,21 @@
 		box-sizing: border-box;
 		margin: 0;
 
-		padding-left: 2vw;
-		padding-right: 2vw;
-		padding-top: 1vh;
-		padding-bottom: 1vh;
+		padding-left: 2.1vw;
+		padding-right: 2.1vw;
+		padding-top: 1.1vh;
+		padding-bottom: 1.1vh;
 		background-color: var(--accent);
-		color: var(--dark);
+		color: var(--dark) !important;
 		border: none;
-		border-radius: 2px;
+		border-radius: 20px !important;
 		margin-top: 2vh;
 		text-decoration: none;
+		font-family: 'Roboto', 'Jost', sans-serif;
 	}
 	
 	.button:hover {
-		background-color: var(--accent-hover);
+		background-color: var(--accent-hover) !important;
 		cursor: pointer;
 	}
 

@@ -1,7 +1,7 @@
 <template>
 	<div id="resume">
 		<div id="open-btn" @click="toggle()">
-			<p>Resumé</p>
+			<p>Read My Resumé</p>
 			<font-awesome-icon :icon="['fas', chevron]"/>
 		</div>
 		<div data-aos="fade-in" data-aos-duration="500" id="resume-content" v-if="resume">
@@ -13,7 +13,7 @@
 							<div class="edu-exp-card-inner">
 								<p class="edu-exp-title">Software Engineer</p>
 								<p class="edu-exp-date">December 2020 - Current</p>
-								<p class="edu-exp-description">Python development consultant at <mark>PHZ Full Stack Oy</mark>.</p>
+								<p class="edu-exp-description">Software development consultant at <mark>PHZ Full Stack Oy</mark>.</p>
 							</div>
 						</div>
 
@@ -118,7 +118,7 @@
 
 <style scoped>
 	#resume {
-		background-color: rgba(0, 0, 0, 0.2);
+		background-color: rgba(0, 0, 0, 0.1);
 		border-radius: 10px;
 	}
 
@@ -178,14 +178,15 @@
 	}
 
 	.edu-exp-card-inner:hover {
-		box-shadow: 1px 2px 1px var(--secondary);
+		box-shadow: 0 2px 1px var(--secondary);
 	}
 
 	.edu-exp-title {
 		color: var(--accent);
 		font-size: 1.5vw;
 		padding-top: 0 !important;
-		padding-bottom: 0 !important;
+		font-family: 'Open Sans', 'Roboto', 'Jost', sans-serif;
+		font-weight: bold;
 	}
 
 	.edu-exp-date {
@@ -201,7 +202,8 @@
 
 	.edu-exp-card p mark {
 		color: var(--accent);
-		font-style: italic;
+		font-family: 'Open Sans', 'Roboto', 'Jost', sans-serif;
+		font-weight: 600;
 	}
 
 	@media screen and (max-width: 900px) {
