@@ -11,8 +11,16 @@
 					<div class="edu-exp-cards">
 						<div class="edu-exp-card">
 							<div class="edu-exp-card-inner">
+								<p class="edu-exp-title">Software Engineer Trainee</p>
+								<p class="edu-exp-date">February 2020 - Current</p>
+								<p class="edu-exp-description">Internship at <mark>Supermetrics Oy</mark>, as part of my vocational education (vocational qualification in information and communications technology), software development.</p>
+							</div>
+						</div>
+
+						<div class="edu-exp-card">
+							<div class="edu-exp-card-inner">
 								<p class="edu-exp-title">Software Engineer</p>
-								<p class="edu-exp-date">December 2020 - Current</p>
+								<p class="edu-exp-date">December 2020 - January 2020</p>
 								<p class="edu-exp-description">Software development consultant at <mark>PHZ Full Stack Oy</mark>.</p>
 							</div>
 						</div>
@@ -20,7 +28,7 @@
 						<div class="edu-exp-card">
 							<div class="edu-exp-card-inner">
 								<p class="edu-exp-title">Software Engineer Trainee</p>
-								<p class="edu-exp-date">Oct 2020 - November 2020</p>
+								<p class="edu-exp-date">October 2020 - November 2020</p>
 								<p class="edu-exp-description">Internship at <mark>PHZ Full Stack Oy</mark>, as part of my vocational education (vocational qualification in information and communications technology), software development. Developed an email crawler (Python) as well as a Vue.js web interface for interacting with it. Built various full stack applications.</p>
 							</div>
 						</div>
@@ -44,7 +52,7 @@
 						<div class="edu-exp-card">
 							<div class="edu-exp-card-inner">
 								<p class="edu-exp-title">Software Engineer Trainee</p>
-								<p class="edu-exp-date">Feb 2020 - Apr 2020</p>
+								<p class="edu-exp-date">February 2020 - Apr 2020</p>
 								<p class="edu-exp-description">Internship at <mark>KSF Media Ab</mark> as part of my vocational education (vocational qualification in information and communications technology), software development. Built a embeddable, sortable, and searchable list solution with Google Sheets as the backend. Worked on a web dashboard for managing Firebase. Improved websites and helped out in technical support.</p>
 							</div>
 						</div>
@@ -52,7 +60,7 @@
 						<div class="edu-exp-card">
 							<div class="edu-exp-card-inner">
 								<p class="edu-exp-title">Summer Intern</p>
-								<p class="edu-exp-date">Jun 2019 - Jul 2019</p>
+								<p class="edu-exp-date">June 2019 - July 2019</p>
 								<p class="edu-exp-description">Assisted in product development. Worked on internal tools for the CS (customer support) team at <mark>Supermetrics Oy</mark>. <br/> Vue.js, Bootstrap, PHP & Git</p>
 							</div>
 						</div>
@@ -83,7 +91,7 @@
 					<div class="edu-exp-card">
 						<div class="edu-exp-card-inner">
 							<p class="edu-exp-title">Vocational College</p>
-							<p class="edu-exp-date">August 2019 - Present</p>
+							<p class="edu-exp-date">August 2019 - Current</p>
 							<p class="edu-exp-description">Vocational qualification in Information and Communications Technology. Studying software development. <mark>Prakticum vocational college</mark>.</p>
 						</div>
 					</div>
