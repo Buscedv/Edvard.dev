@@ -33,18 +33,6 @@
 						<div class="col-xs-3 skill" data-balloon-blunt aria-label="JavaScript" data-balloon-pos="up" data-aos="fade-in" data-aos-delay="25">
 							<i class="fab fa-js-square"></i>
 						</div>
-						<div class="col-xs-3 skill" data-balloon-blunt aria-label="Linux" data-balloon-pos="down" data-aos="fade-in" data-aos-delay="50">
-							<i class="fab fa-linux"></i>
-						</div>
-						<div class="col-xs-3 skill" data-balloon-blunt aria-label="Flask (Python)" data-balloon-pos="down" data-aos="fade-in" data-aos-delay="50">
-							<i class="fas fa-flask"></i>
-						</div>
-						<div class="col-xs-3 skill" data-balloon-blunt aria-label="HTML5" data-balloon-pos="down" data-aos="fade-in" data-aos-delay="50">
-							<i class="fab fa-html5"></i>
-						</div>
-						<div class="col-xs-3 skill" data-balloon-blunt aria-label="PHP" data-balloon-pos="down" data-aos="fade-in" data-aos-delay="50" id="php-logo">
-							<img src="../assets/php.svg" alt="php">
-						</div>
 					</div>
 				</div>
 			</div>
