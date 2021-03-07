@@ -12,10 +12,10 @@
 							<p>A backend programming language that transpiles to Flask (Python).</p>
 							<div class="row">
 								<div class=" col-sm-6 col-xs-12">
-									<a class="button" href="https://ask.edvard.dev" target="_blank" rel="noopener">Documentation</a>
+									<a class="button" href="https://ask-lang.org" target="_blank" rel="noopener">Docs</a>
 								</div>
 								<div class=" col-sm-6 col-xs-12">
-									<a class="button" href="https://github.com/Buscedv/Ask" target="_blank" rel="noopener">Source code</a>
+									<a class="button" href="https://github.com/Buscedv/Ask" target="_blank" rel="noopener">GitHub</a>
 								</div>
 							</div>
 						</div>
@@ -40,7 +40,7 @@
 									<a class="button" href="https://enkelt.io" target="_blank" rel="noopener">Visit</a>
 								</div>
 								<div class=" col-sm-6 col-xs-12">
-									<a class="button" href="https://github.com/Enkelt/Enkelt" target="_blank" rel="noopener">Source code</a>
+									<a class="button" href="https://github.com/Enkelt/Enkelt" target="_blank" rel="noopener">GitHub</a>
 								</div>
 							</div>
 						</div>
@@ -62,7 +62,7 @@
 							<p>Abnormal Expressions, an alternative to Regular Expressions (regex).</p>
 							<div class="row">
 								<div class="col-xs-12">
-									<a class="button" href="https://github.com/Buscedv/Abnormal-Expressions" target="_blank" rel="noopener">Source code</a>
+									<a class="button" href="https://github.com/Buscedv/Abnormal-Expressions" target="_blank" rel="noopener">GitHub</a>
 								</div>
 							</div>
 						</div>
@@ -76,7 +76,7 @@
 									<a class="button" href="https://tasks.edvard.dev" target="_blank" rel="noopener">Visit</a>
 								</div>
 								<div class=" col-sm-6 col-xs-12">
-									<a class="button" href="https://github.com/Buscedv/Tasks" target="_blank" rel="noopener">Source code</a>
+									<a class="button" href="https://github.com/Buscedv/Tasks" target="_blank" rel="noopener">GitHub</a>
 								</div>
 							</div>
 						</div>
@@ -90,7 +90,7 @@
 									<a class="button" href="https://docual.edvard.dev" target="_blank" rel="noopener">Visit</a>
 								</div>
 								<div class=" col-sm-6 col-xs-12">
-									<a class="button" href="https://github.com/Buscedv/Docual" target="_blank" rel="noopener">Source code</a>
+									<a class="button" href="https://github.com/Buscedv/Docual" target="_blank" rel="noopener">GitHub</a>
 								</div>
 							</div>
 						</div>
@@ -101,7 +101,7 @@
 							<p>A CLI tool for managing boilerplate code & project creation.</p>
 							<div class="row">
 								<div class=" col-xs-12">
-									<a class="button" href="https://github.com/Buscedv/Boilercrate" target="_blank" rel="noopener">Source code</a>
+									<a class="button" href="https://github.com/Buscedv/Boilercrate" target="_blank" rel="noopener">GitHub</a>
 								</div>
 							</div>
 						</div>
