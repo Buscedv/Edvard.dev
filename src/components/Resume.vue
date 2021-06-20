@@ -13,7 +13,7 @@
 							<div class="edu-exp-card-inner">
 								<p class="edu-exp-title">Software Engineer</p>
 								<p class="edu-exp-date">March 2021 - Current</p>
-								<p class="edu-exp-description">Part of the product engineering team at <mark>Supermetrics Oy</mark>. - Typescript.</p>
+								<p class="edu-exp-description">Part of the Data Studio product engineering team at <mark>Supermetrics Oy</mark>. - Typescript.</p>
 							</div>
 						</div>
 
@@ -99,8 +99,8 @@
 					<div class="edu-exp-card">
 						<div class="edu-exp-card-inner">
 							<p class="edu-exp-title">Vocational College</p>
-							<p class="edu-exp-date">August 2019 - Current</p>
-							<p class="edu-exp-description">Vocational qualification in Information and Communications Technology. Studying software development. <mark>Prakticum vocational college</mark>.</p>
+							<p class="edu-exp-date">August 2019 - June 2021</p>
+							<p class="edu-exp-description">Vocational qualification in Information and Communications Technology. <mark>Prakticum vocational college</mark>.</p>
 						</div>
 					</div>
 
