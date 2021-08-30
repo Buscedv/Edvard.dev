@@ -5,11 +5,7 @@
 				<div id="inner-main">
 					<h2 data-aos="fade-in">About Me<mark>.</mark></h2>
 					<div data-aos="flip-left" data-aos-delay="50" class="line"></div>
-					<p>
-						I enjoy learning about new things and finding solutions to different types of problems.
-						I'm constantly growing and I try to always have something to work on, both project-wise and my skills as a developer.
-						I have experience creating personal websites, internal tools and other web products.
-					</p>
+					<p>I enjoy learning about new things and finding creative solutions to interesting problems. I'm constantly growing and improving my skills as a developer, and I always try to have some sort of side-project outside of work. I have experience in both backend and frontend web development. I've also built internal tools like user & license management systems, web scrapers, and monitoring tools.</p>
 					<ul>
 						<li><mark>Software</mark> Development.</li>
 						<li><mark>Web</mark> Development.</li>

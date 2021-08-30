@@ -13,23 +13,26 @@
 							<div class="edu-exp-card-inner">
 								<p class="edu-exp-title">Software Engineer</p>
 								<p class="edu-exp-date">March 2021 - Current</p>
-								<p class="edu-exp-description">Part of the Data Studio product engineering team at <mark>Supermetrics Oy</mark>. - Typescript.</p>
+								<p class="edu-exp-description"><mark>Supermetrics Oy</mark></p>
+								<p class="edu-exp-description">Product Engineering<br />- TypeScript development (Node.js).<br />- Google Apps Script & Clasp.<br />- Frontend testing.</p>
 							</div>
 						</div>
 
 						<div class="edu-exp-card">
 							<div class="edu-exp-card-inner">
-								<p class="edu-exp-title">Software Engineer Trainee</p>
+								<p class="edu-exp-title">Software Engineer Intern</p>
 								<p class="edu-exp-date">February 2021 - March 2021</p>
-								<p class="edu-exp-description">Internship at <mark>Supermetrics Oy</mark>. Developed tests for & refactored a Typescript app, researched different APIs, documented an internal tool.</p>
+								<p class="edu-exp-description"><mark>Supermetrics Oy</mark></p>
+								<p class="edu-exp-description">- TypeScript development (Node.js).<br />- Frontend testing.<br />- Researched different APIs.<br />- Techical documentation.</p>
 							</div>
 						</div>
 
 						<div class="edu-exp-card">
 							<div class="edu-exp-card-inner">
-								<p class="edu-exp-title">Software Engineer</p>
+								<p class="edu-exp-title">Software Engineering Consultant</p>
 								<p class="edu-exp-date">December 2020 - January 2021</p>
-								<p class="edu-exp-description">Software development consultant at <mark>PHZ Full Stack Oy</mark>.</p>
+								<p class="edu-exp-description"><mark>PHZ Full Stack Oy</mark></p>
+								<p class="edu-exp-description">- Worked on various client projects.<br />- Vue.js.<br />- Python.<br />- Extreme Programming.<br />- Full-stack web development.</p>
 							</div>
 						</div>
 
@@ -37,7 +40,8 @@
 							<div class="edu-exp-card-inner">
 								<p class="edu-exp-title">Software Engineer Trainee</p>
 								<p class="edu-exp-date">October 2020 - November 2020</p>
-								<p class="edu-exp-description">Internship at <mark>PHZ Full Stack Oy</mark>. Developed an email crawler (Python) as well as a Vue.js web interface for interacting with it. Built various full stack applications.</p>
+								<p class="edu-exp-description"><mark>PHZ Full Stack Oy</mark></p>
+								<p class="edu-exp-description">- Developed an email crawler (Python) as well as a Vue.js web interface for interacting with it.<br />- Built various full-stack applications.<br /><br />- Python, + Flask & Django<br />- Vue.js<br />- Extreme programming<br />- Docker<br />- Git<br />- Marketing</p>
 							</div>
 						</div>
 
@@ -45,31 +49,26 @@
 							<div class="edu-exp-card-inner">
 								<p class="edu-exp-title">Customer Support Consultant</p>
 								<p class="edu-exp-date">May 2020 - Present</p>
-								<p class="edu-exp-description">Customer support with technical problems/questions, freelance. <mark>KSF Media Ab</mark>.</p>
+								<p class="edu-exp-description"><mark>KSF Media Ab</mark></p>
+								<p class="edu-exp-description">Customer support with technical problems/questions.</p>
 							</div>
 						</div>
 
 						<div class="edu-exp-card">
 							<div class="edu-exp-card-inner">
-								<p class="edu-exp-title">Light Entrepreneur</p>
-								<p class="edu-exp-date">April 2020 - Present</p>
-								<p class="edu-exp-description">Freelancing.</p>
-							</div>
-						</div>
-
-						<div class="edu-exp-card">
-							<div class="edu-exp-card-inner">
-								<p class="edu-exp-title">Software Engineer Trainee</p>
+								<p class="edu-exp-title">Software Engineer Intern</p>
 								<p class="edu-exp-date">February 2020 - Apr 2020</p>
-								<p class="edu-exp-description">Internship at <mark>KSF Media Ab</mark>. Built a embeddable, sortable, and searchable list solution with Google Sheets as the backend. Worked on a web dashboard for managing Firebase. Improved websites and helped out in technical support.</p>
+								<p class="edu-exp-description"><mark>KSF Media Ab</mark></p>
+								<p class="edu-exp-description">- Built an embeddable, sortable, and searchable list solution with Google Sheets as the data source.<br />- Built a dashboard for managing Firebase.<br />- Improved various websites and helped out in technical support.<br /><br />- Vue.js.<br />- Python (Flask).<br />- Firebase.<br />- Customer support.</p>
 							</div>
 						</div>
 
 						<div class="edu-exp-card">
 							<div class="edu-exp-card-inner">
-								<p class="edu-exp-title">Summer Intern</p>
+								<p class="edu-exp-title">Software Engineer Intern</p>
 								<p class="edu-exp-date">June 2019 - July 2019</p>
-								<p class="edu-exp-description">Assisted in product development. Worked on internal tools for the CS (customer support) team at <mark>Supermetrics Oy</mark>. <br/> Vue.js, Bootstrap, PHP & Git</p>
+								<p class="edu-exp-description"><mark>Supermetrics Oy</mark></p>
+								<p class="edu-exp-description">Worked on an internal tool for managing users, teams, licenses, etc.<br /><br />-Vue.js<br />-Bootstrap<br />-PHP<br />-Git</p>
 							</div>
 						</div>
 
@@ -77,17 +76,17 @@
 							<div class="edu-exp-card-inner">
 								<p class="edu-exp-title">Product Development Assistant</p>
 								<p class="edu-exp-date">February 2019 - April 2019</p>
-								<p class="edu-exp-description">Gathered API documentation. <mark>Supermetrics Oy</mark></p>
+								<p class="edu-exp-description"><mark>Supermetrics Oy</mark></p>
+								<p class="edu-exp-description">Gathered API documentation.</p>
 							</div>
 						</div>
 
 						<div class="edu-exp-card">
 							<div class="edu-exp-card-inner">
-								<p class="edu-exp-title">Trainee</p>
+								<p class="edu-exp-title">Software Engineer Trainee</p>
 								<p class="edu-exp-date">Novemeber 2018 - November 2018</p>
-								<p class="edu-exp-description">TET/PRAO (work experience program) at <mark>Supermetrics Oy</mark> <br/> <br/>
-									Python programming, API integrations, documentation and Google Dialogflow work. <br/> <br/>
-									Graded: 3/3, "Quick to start working, works well independently, managed to do more than planned, shown interest in learning new".</p>
+								<p class="edu-exp-description"><mark>Supermetrics Oy</mark></p>
+								<p classs="edu-exp-description">TET/PRAO (work practice) in the DevOps team.<br /><br />- Developed a slack bot that monitored Google Analytics quota limits. (Python).<br />- Trained a Google Dialogflow chatbot.<br />- Gathered API documentation.<br /><br />Graded: 3/3, "Quick to start working, works well independently, managed to do more than planned, shown interest in learning new".</p>
 							</div>
 						</div>
 
@@ -100,7 +99,8 @@
 						<div class="edu-exp-card-inner">
 							<p class="edu-exp-title">Vocational College</p>
 							<p class="edu-exp-date">August 2019 - June 2021</p>
-							<p class="edu-exp-description">Vocational qualification in Information and Communications Technology. <mark>Prakticum vocational college</mark>.</p>
+							<p class="edu-exp-description"><mark>Prakticum vocational college</mark></p>
+							<p class="edu-exp-description">Vocational qualification in Information and Communications Technology.</p>
 						</div>
 					</div>
 

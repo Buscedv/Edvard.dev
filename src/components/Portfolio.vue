@@ -20,17 +20,6 @@
 							</div>
 						</div>
 					</div>
-<!--					<div class="col-md-3 col-sm-6 col-xs-12 portfolio-item" data-aos="fade-in" data-aos-delay="50">-->
-<!--						<div class="portfolio-item-inner">-->
-<!--							<h3>Skoog.fi</h3>-->
-<!--							<p>Personal website design. Built with Nuxt.js and hosted on Netlify.</p>-->
-<!--							<div class="row">-->
-<!--								<div class="col-xs-12">-->
-<!--									<a class="button" href="https://berlinerfunk.fi" target="_blank" rel="noopener">Visit</a>-->
-<!--								</div>-->
-<!--							</div>-->
-<!--						</div>-->
-<!--					</div>-->
 					<div class="col-md-3 col-sm-6 col-xs-12 portfolio-item" data-aos="fade-in" data-aos-delay="25">
 						<div class="portfolio-item-inner">
 							<h3>Enkelt</h3>
