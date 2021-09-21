@@ -11,8 +11,17 @@
 					<div class="edu-exp-cards">
 						<div class="edu-exp-card">
 							<div class="edu-exp-card-inner">
-								<p class="edu-exp-title">Software Engineer</p>
-								<p class="edu-exp-date">March 2021 - Current</p>
+								<p class="edu-exp-title">Junior Software Engineer</p>
+								<p class="edu-exp-date">September 2021 - Current</p>
+								<p class="edu-exp-description"><mark>Supermetrics Oy</mark></p>
+								<p class="edu-exp-description">Product Engineering, Data Studio Team<br /><br />- TypeScript<br />- Node.js<br />- Clasp & Google Apps Script</p>
+							</div>
+						</div>
+					
+						<div class="edu-exp-card">
+							<div class="edu-exp-card-inner">
+								<p class="edu-exp-title">Software Engineer (part-time)</p>
+								<p class="edu-exp-date">March 2021 - September 2021</p>
 								<p class="edu-exp-description"><mark>Supermetrics Oy</mark></p>
 								<p class="edu-exp-description">Product Engineering<br />- TypeScript development (Node.js).<br />- Google Apps Script & Clasp.<br />- Frontend testing.</p>
 							</div>
