@@ -152,6 +152,8 @@
 		text-align: center;
 		background-color: var(--accent);
 		margin-top: 3vh;
+		padding-top: 5px;
+		padding-bottom: 5px;
 	}
 
 	#open-btn:hover {
