@@ -14,7 +14,7 @@
 								<p class="edu-exp-title">Junior Software Engineer</p>
 								<p class="edu-exp-date">September 2021 - Current</p>
 								<p class="edu-exp-description"><mark>Supermetrics Oy</mark></p>
-								<p class="edu-exp-description">Product Engineering, Data Studio Team<br /><br />- TypeScript<br />- Node.js<br />- Clasp & Google Apps Script</p>
+								<p class="edu-exp-description">Product Engineering, Data Studio Team<br />- TypeScript<br />- Node.js<br />- Clasp & Google Apps Script</p>
 							</div>
 						</div>
 					
