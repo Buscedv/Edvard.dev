@@ -1,7 +1,7 @@
 <template>
 	<div id="resume">
 		<div id="open-btn" @click="toggle()">
-			<p>Read My Resumé</p>
+			<p id="btn-text">Read My Resumé</p>
 			<font-awesome-icon :icon="['fas', chevron]"/>
 		</div>
 		<div data-aos="fade-in" data-aos-duration="500" id="resume-content" v-if="resume">
@@ -142,6 +142,9 @@
 </script>
 
 <style scoped>
+	#btn-text {
+		font-size: 1.2rem;
+	}
 	#resume {
 		background-color: rgba(0, 0, 0, 0.1);
 		border-radius: 10px;
