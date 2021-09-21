@@ -142,9 +142,6 @@
 </script>
 
 <style scoped>
-	#btn-text {
-		font-size: 1.2rem;
-	}
 	#resume {
 		background-color: rgba(0, 0, 0, 0.1);
 		border-radius: 10px;
@@ -232,6 +229,10 @@
 		color: var(--accent);
 		font-family: 'Open Sans', 'Roboto', 'Jost', sans-serif;
 		font-weight: 600;
+	}
+	
+	#btn-text {
+		font-size: 1.5rem !important;
 	}
 
 	@media screen and (max-width: 900px) {
