@@ -12,7 +12,7 @@
 							<p>A backend programming language that transpiles to Flask (Python).</p>
 							<div class="row">
 								<div class=" col-sm-6 col-xs-12">
-									<a class="button" href="https://ask-lang.org" target="_blank" rel="noopener">Docs</a>
+									<a class="button" href="https://ask.edvard.dev" target="_blank" rel="noopener">Docs</a>
 								</div>
 								<div class=" col-sm-6 col-xs-12">
 									<a class="button" href="https://github.com/Buscedv/Ask" target="_blank" rel="noopener">GitHub</a>
