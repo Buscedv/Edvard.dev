@@ -139,9 +139,10 @@ export default {
 }
 
 #typescript-logo img {
-  width: 9vw;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
+  padding-right: 0;
 }
 
 @media screen and (max-width: 900px) {
@@ -152,10 +153,6 @@ export default {
 
   .skill * {
     font-size: 14vw;
-  }
-
-  #typescript-logo img {
-    width: 14vw;
   }
 }
 </style>
