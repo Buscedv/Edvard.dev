@@ -136,6 +136,7 @@ export default {
 #typescript-logo {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 #typescript-logo img {
