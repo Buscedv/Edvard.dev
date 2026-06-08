@@ -1,7 +1,7 @@
 <template>
 	<header class="row">
 		<div class="col-sm-6 col-xs-12">
-			<h1 data-aos="fade-in" data-aos-duration="900" data-aos-delay="25"><mark>Edvard</mark><br/>"Edda"<br/><mark>Busck-Nielsen</mark>.</h1>
+      <h1 data-aos="fade-in" data-aos-duration="900" data-aos-delay="25">Edvard<br/><mark>"</mark>Edda<mark>"</mark><br/><mark>Busck</mark>-<mark>Nielsen</mark>.</h1>
 		</div>
 		<div class="col-sm-6 col-xs-12" id="logo">
 			<img data-aos="fade-in" data-aos-delay="200" src="../assets/icon.svg" alt="Edvard Busck-Nielsen" height="200vw">
