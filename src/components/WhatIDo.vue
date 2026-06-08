@@ -20,7 +20,7 @@
           </div>
           <div class="col-md-4 col-sm-6 col-xs-12 what-i-do-item" data-aos="fade-in" data-aos-delay="25">
             <div class="what-i-do-item-inner">
-              <h3>Programming</h3>
+              <h3>Programming & Coding</h3>
               <p>My professional experience is mostly in web development, but I have built many personal projects outside of the web. E.g programming languages, command line tools, and mobile apps</p>
             </div>
           </div>

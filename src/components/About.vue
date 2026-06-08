@@ -46,14 +46,14 @@
             <div class="col-xs-3 skill" data-balloon-blunt aria-label="TypeScript" data-balloon-pos="up"
                  data-aos="fade-in"
                  data-aos-delay="25">
-              <i class="fab fa-typescript"></i>
+              <img src="../assets/typescript.svg" alt="php">
             </div>
             <div class="col-xs-3 skill" data-balloon-blunt aria-label="React.js" data-balloon-pos="up"
                  data-aos="fade-in"
                  data-aos-delay="25">
               <i class="fab fa-react"></i>
             </div>
-            <div class="col-xs-3 skill" data-balloon-blunt aria-label="Git" data-balloon-pos="up" data-aos="fade-in"
+            <div class="col-xs-3 skill" data-balloon-blunt aria-label="Node.js" data-balloon-pos="up" data-aos="fade-in"
                  data-aos-delay="25">
               <i class="fab fa-node-js"></i>
             </div>
