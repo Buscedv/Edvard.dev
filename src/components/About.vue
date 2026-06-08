@@ -14,8 +14,10 @@
             business logic from a TypeScript frontend to PHP backend services, and the upgrading of the JavaScript
             runtime of a
             Google Apps Script connector. <br/><br/>
-            Outside of work I do all sorts of music and audio related things. I play weddings, parties, and other similar events. I have also done theater and musical band work.
-            I also do recording sessions, both as a session musician, and also as an audio engineer. I can also run small live sound events, and I have experience working as a festival stage hand.
+            Outside of work I do all sorts of music and audio related things. I play weddings, parties, and other
+            similar events. I have also done theater and musical band work.
+            I also do recording sessions, both as a session musician, and also as an audio engineer. I can also run
+            small live sound events, and I have experience working as a festival stage hand.
           </p>
           <ul>
             <li>
@@ -28,7 +30,9 @@
             </li>
             <li>
               <mark>Live sound</mark>
-              & <mark>Audio</mark> Engineer.
+              &
+              <mark>Audio</mark>
+              Engineer.
             </li>
             <li>Located in
               <mark>Raseborg</mark>
@@ -45,8 +49,8 @@
           <div class="row">
             <div class="col-xs-3 skill" data-balloon-blunt aria-label="TypeScript" data-balloon-pos="up"
                  data-aos="fade-in"
-                 data-aos-delay="25">
-              <img src="../assets/typescript.svg" alt="php">
+                 data-aos-delay="25" id="typescript-logo">
+              <img src="../assets/typescript.svg" alt="typescript">
             </div>
             <div class="col-xs-3 skill" data-balloon-blunt aria-label="React.js" data-balloon-pos="up"
                  data-aos="fade-in"
@@ -129,12 +133,12 @@ export default {
   color: var(--accent);
 }
 
-#php-logo {
+#typescript-logo {
   display: flex;
   align-items: center;
 }
 
-#php-logo img {
+#typescript-logo img {
   width: 9vw;
   margin-left: auto;
   margin-right: auto;
@@ -150,7 +154,7 @@ export default {
     font-size: 14vw;
   }
 
-  #php-logo img {
+  #typescript-logo img {
     width: 14vw;
   }
 }
