@@ -50,7 +50,7 @@
 										<input type="email" name="email" id="email"><br/>
 
 										<p>Message</p>
-										<textarea name="message" rows="5" id="message"></textarea>
+										<textarea name="message" rows="8" id="message"></textarea>
 
 										<input type="submit" value="Send" class="button">
 									</form>

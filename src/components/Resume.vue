@@ -9,12 +9,21 @@
 				<div class="col-md-6 col-xs-12">
 					<h3>Experience</h3>
 					<div class="edu-exp-cards">
+            <div class="edu-exp-card">
+              <div class="edu-exp-card-inner">
+                <p class="edu-exp-title">Software Engineer</p>
+                <p class="edu-exp-date">September 2023 - July 2026</p>
+                <p class="edu-exp-description"><mark>Supermetrics Oy</mark></p>
+                <p class="edu-exp-description">Product Engineering, Destinations Team<br />- TypeScript<br />- Node.js<br />- Clasp & Google Apps Script</p>
+              </div>
+            </div>
+
 						<div class="edu-exp-card">
 							<div class="edu-exp-card-inner">
 								<p class="edu-exp-title">Junior Software Engineer</p>
-								<p class="edu-exp-date">September 2021 - Current</p>
+								<p class="edu-exp-date">September 2021 - September 2023</p>
 								<p class="edu-exp-description"><mark>Supermetrics Oy</mark></p>
-								<p class="edu-exp-description">Product Engineering, Data Studio Team<br />- TypeScript<br />- Node.js<br />- Clasp & Google Apps Script</p>
+								<p class="edu-exp-description">Product Engineering, Data Studio & Destinations Team<br />- TypeScript<br />- Node.js<br />- Clasp & Google Apps Script</p>
 							</div>
 						</div>
 					
@@ -32,7 +41,7 @@
 								<p class="edu-exp-title">Software Engineer Intern</p>
 								<p class="edu-exp-date">February 2021 - March 2021</p>
 								<p class="edu-exp-description"><mark>Supermetrics Oy</mark></p>
-								<p class="edu-exp-description">- TypeScript development (Node.js).<br />- Frontend testing.<br />- Researched different APIs.<br />- Techical documentation.</p>
+								<p class="edu-exp-description">- TypeScript development (Node.js).<br />- Frontend testing.<br />- Researched different APIs.<br />- Technical documentation.</p>
 							</div>
 						</div>
 

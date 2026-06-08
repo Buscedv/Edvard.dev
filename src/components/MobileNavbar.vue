@@ -7,7 +7,7 @@
 			<a class="navbar-link" href="/#about"><i class="fas fa-user"></i></a>
 		</div>
 		<div class="col-xs-3 navbar-item">
-			<a class="navbar-link" href="/#portfolio"><i class="fas fa-cube"></i></a>
+			<a class="navbar-link" href="/#what-i-do"><i class="fas fa-cube"></i></a>
 		</div>
 		<div class="col-xs-3 navbar-item">
 			<a class="navbar-link" href="/#contact"><i class="fas fa-envelope"></i></a>

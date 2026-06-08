@@ -7,7 +7,7 @@
 			<About></About>
 		</div>
 		<div class="col-xs-12 part">
-			<Portfolio></Portfolio>
+			<WhatIDo></WhatIDo>
 		</div>
 		<div class="col-xs-12 part">
 			<Contact></Contact>
@@ -16,12 +16,12 @@
 </template>
 
 <script>
-	const Header = () => import('../components/Header.vue')
+  const Header = () => import('../components/Header.vue')
 	const About = () => import('../components/About.vue')
-	const Portfolio = () => import('../components/Portfolio.vue')
+	const WhatIDo = () => import('../components/./WhatIDo')
 	const Contact = () => import('../components/Contact.vue')
 	export default {
 		name: 'Home',
-		components: {Contact, Portfolio, About, Header},
+		components: {WhatIDo, Contact, About, Header},
 	}
 </script>

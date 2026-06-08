@@ -22,7 +22,7 @@
 							<a class="navbar-link" href="/#about"><p>About</p></a>
 						</div>
 						<div class="col-xs-3 navbar-item">
-							<a class="navbar-link" href="/#portfolio"><p>Portfolio</p></a>
+							<a class="navbar-link" href="/#what-i-do"><p>What I Do</p></a>
 						</div>
 						<div class="col-xs-3 navbar-item">
 							<a class="navbar-link" href="/#contact"><p>Contact</p></a>
